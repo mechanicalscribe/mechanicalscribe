@@ -1,0 +1,16 @@
+{% include header.html %}
+<article class="main">
+	<div class="posts">
+	{% for post in site.categories[page.category] %}
+		<h2><a href="{{ post.url }}">{{ post.title}}</a></h2>
+        <div class="boilerplate">
+        	<span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+        	{% if post.github %}
+        	<span class="pipe">|</span><a class="github" href="{{ post.github }}" target="_blank">Source Code</a></span>
+        	{% endif %}
+        </div>
+		<p class="excerpt">{{ post.excerpt | markdownify }}</p>
+    {% endfor %}
+    </div>
+</article>
+{% include footer.html %}

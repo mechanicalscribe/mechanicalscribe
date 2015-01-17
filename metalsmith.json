@@ -1,0 +1,41 @@
+{
+  "source": "src",
+  "destination": "site",
+  "metadata": {
+    "title": "Mechanical Scribe",
+    "description": "Infrequent posts by Chris Wilson"
+  },
+  "plugins": {
+    "metalsmith-ignore": [
+      "**/.DS_Store"
+    ],
+    "metalsmith-less": {},    
+    "metalsmith-versioned-posts": {
+      "directories": ["_posts"],
+      "override": false
+    },
+    "metalsmith-markdown": {
+      "directories": [".", "_posts"],
+      "ignore": ["README.md"]
+    },
+    "metalsmith-excerpts": {},
+    "metalsmith-permalinks": {
+      "pattern": "/:collection/:slug",
+      "delete_after_moving": true
+    },
+    "metalsmith-collections": {
+      "notes": {
+        "sortBy": "date",
+        "reverse": true
+      },
+      "music": {
+        "sortBy": "date",
+        "reverse": true
+      }
+    },
+    "metalsmith-templates": {
+      "engine": "swig",
+      "directory": "layouts"
+    }
+  }
+}

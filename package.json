@@ -1,0 +1,34 @@
+{
+  "name": "mechanicalscribe",
+  "version": "0.0.1",
+  "description": "Infrequent posts by Chris Wilson",
+  "main": "index.js",
+  "dependencies": {
+    "metalsmith": "^0.2.3",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-less": "^1.0.2",
+    "metalsmith-versioned-posts": "^0.0.2",
+    "metalsmith-markdown": "git+ssh://git@github.com:mechanicalscribe/metalsmith-markdown.git",
+    "metalsmith-excerpts": "^1.0.0",
+    "metalsmith-permalinks": "git+ssh://git@github.com:mechanicalscribe/metalsmith-permalinks.git",
+    "metalsmith-collections": "^0.6.0",
+    "metalsmith-templates": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mechanicalscribe/mechanicalscribe.git"
+  },
+  "keywords": [
+    "metalsmith"
+  ],
+  "author": "Chris Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mechanicalscribe/mechanicalscribe/issues"
+  },
+  "homepage": "https://github.com/mechanicalscribe/mechanicalscribe"
+}
