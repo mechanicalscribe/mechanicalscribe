@@ -5,14 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "metalsmith": "^0.2.3",
+    "metalsmith-collections": "^0.6.0",
+    "metalsmith-excerpts": "^1.0.0",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-less": "^1.0.2",
-    "metalsmith-versioned-posts": "^0.0.2",
     "metalsmith-markdown": "git+ssh://git@github.com:mechanicalscribe/metalsmith-markdown.git",
-    "metalsmith-excerpts": "^1.0.0",
     "metalsmith-permalinks": "git+ssh://git@github.com:mechanicalscribe/metalsmith-permalinks.git",
-    "metalsmith-collections": "^0.6.0",
-    "metalsmith-templates": "^0.1.0"
+    "metalsmith-templates": "git+ssh://git@github.com:mechanicalscribe/metalsmith-templates.git",
+    "metalsmith-versioned-posts": "^0.0.2",
+    "swig": "^1.4.2"
   },
   "devDependencies": {},
   "scripts": {
