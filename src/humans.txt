@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris Wilson -- author -- @chriswilsondc
+
+# THANKS
+
+    Mike Bostock
+
+# TECHNOLOGY COLOPHON
+
+    Javascript CSS3, HTML5

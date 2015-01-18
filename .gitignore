@@ -1,8 +1,7 @@
+.DS_Store
+
 # Dependency directory
 node_modules
 
 # built site
 site
-src
-
-.DS_Store
