@@ -27,11 +27,13 @@
     "metalsmith-collections": {
       "notes": {
         "sortBy": "date",
-        "reverse": true
+        "reverse": true,
+        "landing_page_layout": "category"
       },
       "music": {
         "sortBy": "date",
-        "reverse": true
+        "reverse": true,
+        "landing_page_layout": "category"
       }
     },
     "metalsmith-templates": {
