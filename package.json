@@ -6,6 +6,7 @@
   "dependencies": {
     "metalsmith": "^0.2.3",
     "metalsmith-collections": "^0.6.0",
+    "metalsmith-drafts": "0.0.1",
     "metalsmith-excerpts": "^1.0.0",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-less": "^1.0.2",

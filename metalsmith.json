@@ -9,6 +9,7 @@
     "metalsmith-ignore": [
       "**/.DS_Store"
     ],
+    "metalsmith-drafts": {},    
     "metalsmith-less": {},    
     "metalsmith-versioned-posts": {
       "directories": ["_posts"],
