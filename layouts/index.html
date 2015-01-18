@@ -49,12 +49,10 @@
                   <a href="{{ post.path }}">{{ post.title }}<span class="pipe">|</span><span class="date">{{post.date | date('F j, Y') }}</span></a>
                 </li>
                 {% endfor %}
-                <!--
                 <li class="divider"></li>
                 <li>                  
                   <a href="/notes">All notes</a>
                 </li>
-                -->
               </ul>
             </li>
             <li class="dropdown">
@@ -67,6 +65,10 @@
                   <a href="{{ post.path }}">{{ post.title }}</a>
                 </li>
               {% endfor %}
+                <li class="divider"></li>
+                <li>                  
+                  <a href="/music">All music</a>
+                </li>
               </ul>
             </li>
             <li class="dropdown">

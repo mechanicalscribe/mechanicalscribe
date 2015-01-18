@@ -1,16 +1,20 @@
-{% include header.html %}
+{% extends 'index.html' %}
+
+{% block content %}
+
 <article class="main">
-	<div class="posts">
-	{% for post in site.categories[page.category] %}
-		<h2><a href="{{ post.url }}">{{ post.title}}</a></h2>
+    <div class="posts">
+    {% for post in collection %}
+        <h2><a href="{{ post.path }}">{{ post.title}}</a></h2>
         <div class="boilerplate">
-        	<span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
-        	{% if post.github %}
-        	<span class="pipe">|</span><a class="github" href="{{ post.github }}" target="_blank">Source Code</a></span>
-        	{% endif %}
+            <span class="date">{{ post.date|date('F j, Y') }}</span>
+            {% if post.github %}
+            <span class="pipe">|</span><a class="github" href="{{ post.github }}" target="_blank">Source Code</a></span>
+            {% endif %}
         </div>
-		<p class="excerpt">{{ post.excerpt | markdownify }}</p>
+        <div class="excerpt">{{ post.excerpt|safe }}</div>
     {% endfor %}
     </div>
 </article>
-{% include footer.html %}
+
+{% endblock %}
