@@ -18,3 +18,7 @@ Build:
 Deploy:
 
 	aws s3 sync site s3://mechanicalscribe.com
+
+New post:
+
+	node lib/post.js --type=note --slug=url-of-my-new-post
