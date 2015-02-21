@@ -247,6 +247,7 @@ article {
             margin: 0 10px 15px 0;
         }
     }
+
     .youtube {
         position: relative;
         padding-bottom: 10%;
@@ -275,18 +276,26 @@ article {
         }
     }
 
-    .scribd {
-        max-width: @standard;
-        margin: 0 auto;
-        .scribd_iframe_embed {
-            width: 100%;
-            height: @standard;
+    .music {
+        .scribd {
+            max-width: @standard;
+            margin: 0 auto;
+            .scribd_iframe_embed {
+                width: 100%;
+                height: @standard;
+            }
         }
+
+        .score_container {
+            text-align: center;
+        }
+
     }
 
-    .score_container {
+    .vextab-container {
         text-align: center;
     }
+
 }
 
 a {
@@ -363,6 +372,8 @@ aside.versions {
         }
     }
 }
+
+
 
 footer {
     //border-top: 1px solid #CCC;

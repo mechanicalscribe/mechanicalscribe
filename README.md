@@ -15,6 +15,10 @@ Build:
 
 	./node_modules/metalsmith/bin/metalsmith
 
+Preview:
+
+	pushd site; python -m SimpleHTTPServer 8080; popd
+
 Deploy:
 
 	aws s3 sync site s3://mechanicalscribe.com
