@@ -21,7 +21,9 @@ Preview:
 
 Deploy:
 
-	aws s3 sync site s3://mechanicalscribe.com
+	aws s3 sync site s3://mechanicalscribe.com --profile scribe
+
+(Requires `sudo pip install awscli` one time)
 
 New post:
 

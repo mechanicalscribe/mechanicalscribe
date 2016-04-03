@@ -3,6 +3,8 @@
 # Dependency directory
 node_modules
 
+*/.bowerrc
+
 # built site
 site
 src/_posts

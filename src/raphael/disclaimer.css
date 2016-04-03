@@ -1,0 +1,15 @@
+#explanation {
+	border: 3px solid #00a9a6;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+#explanation img {
+	height: 118px;
+}
+
+#explanation h3 {
+	margin: 0;
+	padding: 0;
+}
