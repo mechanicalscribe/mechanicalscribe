@@ -4,27 +4,29 @@
   "description": "Infrequent posts by Chris Wilson",
   "main": "index.js",
   "dependencies": {
-    "metalsmith": "^2.2.0",
+    "debug": "^2.6.3",
+    "metalsmith": "2.3.0",
     "metalsmith-collections": "git+ssh://git@github.com:mechanicalscribe/metalsmith-collections.git",
     "metalsmith-debug": "1.1.0",
     "metalsmith-drafts": "0.0.1",
-    "metalsmith-excerpts": "^1.0.0",
-    "metalsmith-ignore": "^0.1.2",
-    "metalsmith-less": "^2.0.0",
+    "metalsmith-excerpts": "1.2.0",
+    "metalsmith-ignore": "0.1.2",
+    "metalsmith-less": "2.0.0",
     "metalsmith-markdown": "git+ssh://git@github.com:mechanicalscribe/metalsmith-markdown.git",
+    "metalsmith-mathjax": "0.0.7",
     "metalsmith-permalinks": "git+ssh://git@github.com:mechanicalscribe/metalsmith-permalinks.git",
+    "metalsmith-publish": "github:mechanicalscribe/metalsmith-publish",
     "metalsmith-templates": "git+ssh://git@github.com:mechanicalscribe/metalsmith-templates.git",
     "metalsmith-versioned-posts": "git+ssh://git@github.com:wilson428/metalsmith-versioned-posts.git",
-    "minimist": "^1.1.0",
-    "moment": "^2.9.0",
-    "swig": "^1.4.2"
+    "moment": "2.17.1",
+    "swig": "1.4.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/metalsmith/bin/metalsmith",
+    "build": "node build.js",
     "preview": "pushd site; python -m SimpleHTTPServer 8080; popd",
-    "deploy": "aws s3 sync site s3://mechanicalscribe.com --exclude='*DS_Store/*' --profile scribe"
+    "deploy": "aws s3 sync build s3://mechanicalscribe.com --exclude='*DS_Store/*' --exclude='node_modules' --profile scribe"
   },
   "repository": {
     "type": "git",

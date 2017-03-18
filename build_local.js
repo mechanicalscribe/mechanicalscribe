@@ -4,7 +4,7 @@ var debug = require('debug');
 Metalsmith(__dirname)
 	.use(require("metalsmith-less")({}))
 	.use(require("metalsmith-ignore")([ "**/.**", "**/**.less" ]))
-	.use(require("metalsmith-publish")({
+	.use(require("../metalsmith-publish/lib")({
 		directories: ["_posts"],
       	articles: {
         	draft: false,
@@ -12,22 +12,22 @@ Metalsmith(__dirname)
         	future: false
       	}				
 	}))
-	.use(require("metalsmith-versioned-posts")({
+	.use(require("../metalsmith-versioned-posts")({
 		"directories": ["_posts"],
 		"override": false
 	}))
-	.use(require("metalsmith-markdown")({
+	.use(require("../metalsmith-markdown/lib")({
 		"directories": [".", "_posts"],
 		"ignore": ["README.md"]
 	}))
 	.use(require("metalsmith-excerpts")({}))
-	.use(require("metalsmith-permalinks")({
+	.use(require("../metalsmith-permalinks/lib")({
 		"directories": ["_posts"],
 		"pattern": ":collection/:slug",
 		"delete_after_moving": true
 	}))
-	.use(require("metalsmith-mathjax")())
-	.use(require("metalsmith-collections")({
+	.use(require("../metalsmith-mathjax")())
+	.use(require("../metalsmith-collections/lib")({
 		"notes": {
 			"sortBy": "date",
 			"reverse": true,
