@@ -13,11 +13,11 @@ Install:
 
 Build:
 
-	./node_modules/metalsmith/bin/metalsmith
+	node build.js
 
 Preview:
 
-	pushd site; python -m SimpleHTTPServer 8080; popd
+	pushd build; python -m SimpleHTTPServer 8080; popd
 
 Deploy:
 
