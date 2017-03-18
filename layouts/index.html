@@ -47,7 +47,7 @@
               <ul class="dropdown-menu">
                 {% for post in collections.notes %}
                 <li>                  
-                  <a href="{{ post.path }}">{{ post.title }}<span class="pipe">|</span><span class="date">{{post.date | date('F j, Y') }}</span></a>
+                  <a href="/{{ post.path }}">{{ post.title }}<span class="pipe">|</span><span class="date">{{post.date | date('F j, Y') }}</span></a>
                 </li>
                 {% endfor %}
                 <li class="divider"></li>
@@ -63,7 +63,7 @@
               <ul class="dropdown-menu">
               {% for post in collections.music %}
                 <li>
-                  <a href="{{ post.path }}">{{ post.title }}</a>
+                  <a href="/{{ post.path }}">{{ post.title }}</a>
                 </li>
               {% endfor %}
                 <li class="divider"></li>
@@ -85,7 +85,7 @@
                 </li>
               </ul>
             </li>
-            <li><a href="/about">About</a></li>
+            <li><a href="/about.html">About</a></li>
           </ul>
         </div>
       </div>                            
