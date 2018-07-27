@@ -25,7 +25,7 @@ title: About
         </table>
     </div>
     <div class="text">
-        <p><strong>About Chris Wilson:</strong> I'm the interactive graphics editor at Time, where I write data-driven stories and produce interactive visualizations. I have a degree in English and am largely a self-taught coder, which is why most of the stuff on this site doesn't work. </p>
+        <p><strong>About Chris Wilson:</strong> I'm the Director of Data Journalism at Time, where I write [data-driven stories and produce interactive visualizations](http://time.com/author/chris-wilson/). I have a degree in English and am largely a self-taught coder. </p>
         <p>If you're interested in learning how to make things that do work, I highly recommend O'Reilly's <em><a href="http://shop.oreilly.com/product/0636920029601.do">RaphaelJS: Graphics and Visualization on the Web</a></em>, since I wrote it.</p>
         <p>I live in Washington, D.C. Feel free to contact me about anything you see here.</p>
     </div>    

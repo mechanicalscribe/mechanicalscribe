@@ -173,6 +173,7 @@ article {
     .thing {
         margin: 15px auto;
         padding: 10px 0;
+        text-align: center;
         //border-top: 1px solid #CCC;
         //border-bottom: 1px solid #CCC;
         //text-align: center;
@@ -180,7 +181,16 @@ article {
         table {
             margin: 5px auto;
         }
-    }
+
+        > div,table,video,img,iframe {
+            display: inline-block;
+            width: 100%;
+        }
+
+        svg {
+            width: 100%;
+        }
+    }   
 
     .embed {
         text-align: center;
@@ -220,6 +230,26 @@ article {
     pre {
         max-width: 640px;
         margin: 10px auto;
+    }
+
+    table {
+        max-width: 900px;
+        margin: 15px auto;
+
+        tr:nth-child(2n) {
+            background-color: #f6f8fa;
+        }
+
+        td {
+            padding: 6px 13px;
+            border: 1px solid #dfe2e5;
+        }
+
+        th {
+            padding: 6px 13px;
+            border: 1px solid #dfe2e5;
+            font-weight: 700;
+        }
     }
 
     .boilerplate {
