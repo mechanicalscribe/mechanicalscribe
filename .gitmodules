@@ -4,3 +4,6 @@
 [submodule "plugins/metalsmith-mathjax"]
 	path = plugins/metalsmith-mathjax
 	url = git@github.com:mechanicalscribe/metalsmith-mathjax.git
+[submodule "plugins/metalsmith-markdown"]
+	path = plugins/metalsmith-markdown
+	url = git@github.com:mechanicalscribe/metalsmith-markdown.git
