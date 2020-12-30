@@ -14,7 +14,7 @@ src/js
 src/img
 src/demos
 
-plugins/metalsmith-permalinks2/
+plugins/**2
 
 canopybirds
 

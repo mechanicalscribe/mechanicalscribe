@@ -1,3 +1,6 @@
 [submodule "plugins/metalsmith-permalinks"]
 	path = plugins/metalsmith-permalinks
 	url = git@github.com:mechanicalscribe/metalsmith-permalinks.git
+[submodule "plugins/metalsmith-mathjax"]
+	path = plugins/metalsmith-mathjax
+	url = git@github.com:mechanicalscribe/metalsmith-mathjax.git
