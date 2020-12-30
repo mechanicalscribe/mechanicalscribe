@@ -1,0 +1,3 @@
+[submodule "plugins/metalsmith-permalinks"]
+	path = plugins/metalsmith-permalinks
+	url = git@github.com:mechanicalscribe/metalsmith-permalinks.git
