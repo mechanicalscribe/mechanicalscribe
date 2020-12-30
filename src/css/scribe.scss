@@ -1,12 +1,14 @@
 /*this is the css page for mechanicalscribe.com*/
 
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Bitter:ital,wght@0,400;0,700;1,400&family=Cutive+Mono&display=swap');
+
 /* colors */
-@green: #00A30F;
-@blue: #0063c7;
-@tomato: #F66;
+$green: #00A30F;
+$blue: #0063c7;
+$tomato: #F66;
 
 /* widths */
-@standard: 750px;
+$standard: 750px;
 
 body {
     font-family: 'Bitter', Georgia,serif;
@@ -14,10 +16,10 @@ body {
     background-color: #FFF;    
 
     a {
-        color: @blue;
+        color: $blue;
     }    
     a:link {
-        color: @blue;
+        color: $blue;
     }    
 
 }
@@ -36,7 +38,7 @@ header {
         border-radius: 7px;
         -moz-border-radius: 7px;
         width: 100%;
-        max-width: @standard;
+        max-width: $standard;
         margin: 0px auto;        
         padding: 0 25px;
 
@@ -62,7 +64,7 @@ header {
             }
 
             .nav-pills > li > a {
-                color: @blue;
+                color: $blue;
                 padding: 5px 13px 3px 13px;
                 @media (max-width: 600px) {
                     padding: 5px 10px 3px 10px;
@@ -71,7 +73,7 @@ header {
 
             .nav-pills > li.active > a {
                 color: #FFF;
-                background-color: @blue;
+                background-color: $blue;
             }
 
             @media (min-width: 600px) {
@@ -91,12 +93,12 @@ header {
             }
 
             ul.nav {
-                border-top: 2px solid @blue;
+                border-top: 2px solid $blue;
                 padding-top: 4px;
             }
 
             ul.dropdown-menu > li .date {
-                color: @tomato;
+                color: $tomato;
                 font-size: 12px;
             }
         }
@@ -108,7 +110,7 @@ article {
 
     p,h1,h2,h3,ul,ol,.boilerplate,iframe {
         color: #333;
-        max-width: @standard - 10;
+        max-width: $standard - 10;
         margin: 3px auto;
         font-size: 16px;
         line-height: 28px;
@@ -140,14 +142,14 @@ article {
     p {
         margin: 10px auto;        
         img {
-            max-width: @standard - 10;
+            max-width: $standard - 10;
         }
     }
 
     blockquote {
         font-family: 'Arial', sans-serif;
         color: #999;
-        max-width: @standard - 50;
+        max-width: $standard - 50;
         margin: 10px auto;
         font-size: 16px;
         line-height: 24px;
@@ -256,7 +258,7 @@ article {
         color: #CCC;    
 
         .date {
-            color: @tomato;    
+            color: $tomato;    
             margin-bottom: 8px;
         }
 
@@ -267,7 +269,7 @@ article {
 
     .details {
         strong {
-            color: @green;
+            color: $green;
         }
         line-height: 20px;
     }
@@ -301,7 +303,7 @@ article.music {
         position: relative;
         padding-bottom: 10%;
         padding-top: 30px; height: 0; overflow: hidden;
-        max-width: @standard;
+        max-width: $standard;
         margin: 0px auto;     
         iframe,object,embed {
             position: absolute;
@@ -326,11 +328,11 @@ article.music {
     }
 
     .scribd {
-        max-width: @standard;
+        max-width: $standard;
         margin: 0 auto;
         .scribd_iframe_embed {
             width: 100%;
-            height: @standard;
+            height: $standard;
         }
     }
 
@@ -404,7 +406,7 @@ aside.versions {
         float: right; 
         margin-left: 10px; 
         .mug {
-            width: 125px;
+            width: 180px;
             margin-right: 10px;
         }
 

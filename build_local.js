@@ -1,33 +1,34 @@
-var Metalsmith = require('metalsmith');
-var debug = require('debug');
+const Metalsmith = require('metalsmith');
+const debug = require('debug');
+const swig = require('jstransformer')(require('jstransformer-swig'))
+const rimraf = require("rimraf");
+
+const SOURCE_DIR="./test";
+const BUILD_DIR="./build";
 
 Metalsmith(__dirname)
-	.use(require("metalsmith-less")({}))
-	.use(require("metalsmith-ignore")([ "**/.**", "**/**.less" ]))
-	.use(require("../metalsmith-publish/lib")({
-		directories: ["_posts"],
-      	articles: {
-        	draft: false,
-        	private: false,
-        	future: false
-      	}				
-	}))
-	.use(require("../metalsmith-versioned-posts")({
-		"directories": ["_posts"],
-		"override": false
-	}))
-	.use(require("../metalsmith-markdown/lib")({
+	.metadata({
+	    sitename: "Mechanical Scribe",
+    	siteurl: "http://mechanicalscribe.com/",
+	    description: "Infrequenct posts by Chris Wilson. This site does not use cookies."
+  	})
+  	.source(SOURCE_DIR)            // source directory
+  	.destination('./build')     // destination directory
+  	.clean(true)                // clean destination before	
+	.use(require("metalsmith-ignore")([ ".DS_Store", "**/.DS_Store", "**/**.less" ]))
+	.use(require("@metalsmith/drafts")())	
+	.use(require("metalsmith-sass")({}))
+	.use(require("./plugins/metalsmith-markdown/lib")({
 		"directories": [".", "_posts"],
 		"ignore": ["README.md"]
 	}))
-	.use(require("metalsmith-excerpts")({}))
-	.use(require("../metalsmith-permalinks/lib")({
-		"directories": ["_posts"],
-		"pattern": ":collection/:slug",
-		"delete_after_moving": true
+	.use(require("metalsmith-layouts")({
+		"directory": "layouts/swig",
+		"pattern": "*.html",
+		"default": "index.swig"
 	}))
-	.use(require("../metalsmith-mathjax")())
-	.use(require("../metalsmith-collections/lib")({
+	.use(require("metalsmith-excerpts")({}))
+	.use(require("metalsmith-collections")({
 		"notes": {
 			"sortBy": "date",
 			"reverse": true,
@@ -39,10 +40,32 @@ Metalsmith(__dirname)
 			"landing_page_layout": "category"
 		}
 	}))
-	.use(require("metalsmith-templates")({
-		"engine": "swig",
-		"directory": "layouts"
+	// .use(require("./plugins/metalsmith-versioned-posts")({
+	// 	"directories": ["_posts"],
+	// 	"override": false
+	// }))
+	.use(require("./plugins/metalsmith-permalinks/lib")({
+		fileFilter: /_posts\/.*?\/draft/,
+		customSlug: data => data.slug || data.path.split(/\//g)[1],
+		"delete_after_moving": true,
+		relative: false,
+		linksets: [
+			{
+				match: { collection: 'notes' },
+				pattern: ":collection/:slug",
+				relative: true
+			},
+			{
+				match: { collection: 'music' },
+				pattern: ":collection/:slug",
+				relative: true
+			}
+		]
 	}))
+	// .use(require("./plugins/metalsmith-mathjax")())
 	.build(function(err) {
 		if (err) throw err;
+		rimraf(BUILD_DIR + "/_posts", function() {
+			console.log("Build complete");
+		})
 	});

@@ -1,7 +1,17 @@
 var Metalsmith = require('metalsmith');
 var debug = require('debug');
 
+console.log(__dirname);
+
 Metalsmith(__dirname)
+	.metadata({
+	    sitename: "Mechanical Scribe",
+    	siteurl: "http://mechanicalscribe.com/",
+	    description: "Infrequenct posts by Chris Wilson"
+  	})
+	.source('src')            // source directory
+  	.destination('build')     // destination directory
+  	.clean(true) 
 	.use(require("metalsmith-less")({}))
 	.use(require("metalsmith-ignore")([ "**/.**", "**/**.less" ]))
 	.use(require("metalsmith-publish")({
@@ -44,5 +54,5 @@ Metalsmith(__dirname)
 		"directory": "layouts"
 	}))
 	.build(function(err) {
-		if (err) throw err;
+		if (err) console.log(err);
 	});

@@ -1,31 +1,30 @@
 {
   "name": "mechanicalscribe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Infrequent posts by Chris Wilson",
   "main": "index.js",
   "dependencies": {
-    "debug": "^2.6.3",
-    "metalsmith": "2.3.0",
-    "metalsmith-collections": "git+ssh://git@github.com:mechanicalscribe/metalsmith-collections.git",
-    "metalsmith-debug": "1.1.0",
-    "metalsmith-drafts": "0.0.1",
-    "metalsmith-excerpts": "1.2.0",
-    "metalsmith-ignore": "0.1.2",
-    "metalsmith-less": "2.0.0",
-    "metalsmith-markdown": "git+ssh://git@github.com:mechanicalscribe/metalsmith-markdown.git",
-    "metalsmith-mathjax": "0.0.7",
-    "metalsmith-permalinks": "git+ssh://git@github.com:mechanicalscribe/metalsmith-permalinks.git",
-    "metalsmith-publish": "github:mechanicalscribe/metalsmith-publish",
-    "metalsmith-templates": "git+ssh://git@github.com:mechanicalscribe/metalsmith-templates.git",
-    "metalsmith-versioned-posts": "git+ssh://git@github.com:wilson428/metalsmith-versioned-posts.git",
-    "moment": "2.17.1",
-    "swig": "1.4.2"
+    "@metalsmith/default-values": "^3.0.2",
+    "@metalsmith/drafts": "^1.0.0",
+    "@metalsmith/permalinks": "^2.2.0",
+    "@metalsmith/rss": "^1.0.1",
+    "jstransformer": "^1.0.0",
+    "jstransformer-swig": "^1.0.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-excerpts": "^1.4.1",
+    "metalsmith-ignore": "^1.0.0",
+    "metalsmith-layouts": "^2.3.1",
+    "metalsmith-sass": "^1.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodegit": "^0.27.0",
+    "swig": "^1.4.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.js",
-    "preview": "pushd site; python -m SimpleHTTPServer 8080; popd",
+    "preview": "pushd build; python -m SimpleHTTPServer 8080; popd",
     "deploy": "aws s3 sync build s3://mechanicalscribe.com --exclude='*DS_Store/*' --exclude='node_modules' --profile scribe"
   },
   "repository": {

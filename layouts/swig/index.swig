@@ -11,7 +11,7 @@
   
     <link rel="stylesheet" href="/js/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/scribe.css">
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Bitter:400,700|Cutive+Mono:400' rel='stylesheet' type='text/css'>
+
     {% for style in css %}         
     <link rel="stylesheet" href="{{ style }}">
     {% endfor %}
@@ -37,7 +37,7 @@
           <img src="/img/site/scribe-banner-800.png" />
         </a>
         <div class="navbar">
-          <div class="kicker">Infrequent posts by Chris Wilson</div>
+          <div class="kicker">Infrequent posts by Chris Wilson. This site does not use cookies.</div>
           <ul class="nav nav-pills">
             <li><a class="menu" href="/">Home</a></li>
             <li class="dropdown">
@@ -47,12 +47,12 @@
               <ul class="dropdown-menu">
                 {% for post in collections.notes %}
                 <li>                  
-                  <a href="/{{ post.path }}">{{ post.title }}<span class="pipe">|</span><span class="date">{{post.date | date('F j, Y') }}</span></a>
+                  <a href="/{{ post.permalink }}">{{ post.title }}<span class="pipe">|</span><span class="date">{{ post.date | date('F j, Y') }}</span></a>
                 </li>
                 {% endfor %}
                 <li class="divider"></li>
                 <li>                  
-                  <a href="/notes">All notes</a>
+                  <a href="/notes/index.html">All notes</a>
                 </li>
               </ul>
             </li>
@@ -63,12 +63,12 @@
               <ul class="dropdown-menu">
               {% for post in collections.music %}
                 <li>
-                  <a href="/{{ post.path }}">{{ post.title }}</a>
+                  <a href="/{{ post.permalink }}">{{ post.title }}</a>
                 </li>
               {% endfor %}
                 <li class="divider"></li>
                 <li>                  
-                  <a href="/music">All music</a>
+                  <a href="/music/index.html">All music</a>
                 </li>
               </ul>
             </li>

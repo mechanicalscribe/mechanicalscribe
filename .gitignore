@@ -12,5 +12,10 @@ src/_posts
 src/_posts/whats-hypermedia
 src/js
 src/img
+src/demos
+
+plugins/metalsmith-permalinks2/
 
 canopybirds
+
+test

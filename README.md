@@ -13,15 +13,15 @@ Install:
 
 Build:
 
-	node build.js
+	node build_local.js
 
 Preview:
 
-	pushd build; python -m SimpleHTTPServer 8080; popd
+	PORT=4433 serve build
 
 Deploy:
 
-	aws s3 sync site s3://mechanicalscribe.com --profile scribe
+	aws s3 sync build s3://mechanicalscribe.com --profile scribe
 
 (Requires `sudo pip install awscli` one time)
 
