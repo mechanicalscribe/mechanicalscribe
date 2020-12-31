@@ -18,6 +18,10 @@ Metalsmith(__dirname)
 	.use(require("metalsmith-ignore")([ ".DS_Store", "**/.DS_Store", "**/**.less" ]))
 	.use(require("@metalsmith/drafts")())	
 	.use(require("metalsmith-sass")({}))
+	.use(require("./plugins/metalsmith-versioned-posts")({
+		"directories": ["_posts"],
+		"override": false
+	}))
 	.use(require("./plugins/metalsmith-markdown/lib")({
 		"directories": [".", "_posts"],
 		"ignore": ["README.md"]
@@ -35,10 +39,6 @@ Metalsmith(__dirname)
 			"landing_page_layout": "category"
 		}
 	}))
-	// .use(require("./plugins/metalsmith-versioned-posts")({
-	// 	"directories": ["_posts"],
-	// 	"override": false
-	// }))
 	.use(require("./plugins/metalsmith-permalinks/lib")({
 		fileFilter: /_posts\/.*?\/draft/,
 		customSlug: data => data.slug || data.path.split(/\//g)[1],
@@ -57,7 +57,7 @@ Metalsmith(__dirname)
 			}
 		]
 	}))
-	// .use(require("./plugins/metalsmith-mathjax")())
+	.use(require("./plugins/metalsmith-mathjax")())
 	.use(require("metalsmith-layouts")({
 		"directory": "layouts/swig",
 		"pattern": [ "*.html", "**/*.html" ],
