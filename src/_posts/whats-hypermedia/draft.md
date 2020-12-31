@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: note.swig
 title: What's 'Hypermedia'?
 author: Chris Wilson
 collection: notes

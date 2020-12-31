@@ -1,4 +1,4 @@
-{% extends 'index.swif' %}
+{% extends 'index.swig' %}
 
 {% block title %}{% parent %} | {{ title }} {% endblock %}
 

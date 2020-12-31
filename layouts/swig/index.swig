@@ -63,7 +63,7 @@
               <ul class="dropdown-menu">
               {% for post in collections.music %}
                 <li>
-                  <a href="/{{ post.permalink }}">{{ post.title }}</a>
+                  <a href="/{{ post.path }}">{{ post.title }}</a>
                 </li>
               {% endfor %}
                 <li class="divider"></li>

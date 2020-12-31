@@ -60,7 +60,7 @@ Metalsmith(__dirname)
 	// .use(require("./plugins/metalsmith-mathjax")())
 	.use(require("metalsmith-layouts")({
 		"directory": "layouts/swig",
-		"pattern": "*.html",
+		"pattern": [ "*.html", "**/*.html" ],
 		"default": "index.swig"
 	}))
 	.build(function(err) {
