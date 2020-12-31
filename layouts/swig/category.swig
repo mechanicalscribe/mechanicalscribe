@@ -4,8 +4,8 @@
 
 <article class="main">
     <div class="posts">
-    {% for post in collections.notes %}
-        <h2><a href="{{ post.path }}">{{ post.title}}</a></h2>
+    {% for post in collection %}
+        <h2><a href="/{{ post.path }}">{{ post.title }}</a></h2>
         <div class="boilerplate">
             <span class="date">{{ post.date|date('F j, Y') }}</span>
             {% if post.github %}

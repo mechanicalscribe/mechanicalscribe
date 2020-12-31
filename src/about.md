@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: false
 ---
 <div class="aboutme">    
     <div class="contact_and_photo">

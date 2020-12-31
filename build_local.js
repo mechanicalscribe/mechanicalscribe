@@ -3,7 +3,7 @@ const debug = require('debug');
 const swig = require('jstransformer')(require('jstransformer-swig'))
 const rimraf = require("rimraf");
 
-const SOURCE_DIR="./test";
+const SOURCE_DIR="./src";
 const BUILD_DIR="./build";
 
 Metalsmith(__dirname)
@@ -21,11 +21,6 @@ Metalsmith(__dirname)
 	.use(require("./plugins/metalsmith-markdown/lib")({
 		"directories": [".", "_posts"],
 		"ignore": ["README.md"]
-	}))
-	.use(require("metalsmith-layouts")({
-		"directory": "layouts/swig",
-		"pattern": "*.html",
-		"default": "index.swig"
 	}))
 	.use(require("metalsmith-excerpts")({}))
 	.use(require("metalsmith-collections")({
@@ -63,6 +58,11 @@ Metalsmith(__dirname)
 		]
 	}))
 	// .use(require("./plugins/metalsmith-mathjax")())
+	.use(require("metalsmith-layouts")({
+		"directory": "layouts/swig",
+		"pattern": "*.html",
+		"default": "index.swig"
+	}))
 	.build(function(err) {
 		if (err) throw err;
 		rimraf(BUILD_DIR + "/_posts", function() {

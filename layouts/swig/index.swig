@@ -47,7 +47,7 @@
               <ul class="dropdown-menu">
                 {% for post in collections.notes %}
                 <li>                  
-                  <a href="/{{ post.permalink }}">{{ post.title }}<span class="pipe">|</span><span class="date">{{ post.date | date('F j, Y') }}</span></a>
+                  <a href="/{{ post.path }}">{{ post.title }}<span class="pipe">|</span><span class="date">{{ post.date | date('F j, Y') }}</span></a>
                 </li>
                 {% endfor %}
                 <li class="divider"></li>
