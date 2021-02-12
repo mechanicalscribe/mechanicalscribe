@@ -1,6 +1,7 @@
 ---
 layout: note.swig
 title: What's 'Hypermedia'?
+menu: What's 'Hypermedia'?
 author: Chris Wilson
 collection: notes
 date: 2011-11-20

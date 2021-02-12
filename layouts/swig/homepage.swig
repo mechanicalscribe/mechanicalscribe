@@ -7,7 +7,7 @@
     {% for post in collections.notes %}
         <h2><a href="{{ post.path }}">{{ post.title}}</a></h2>
         <div class="boilerplate">
-            <span class="date">{{ post.date|date('F j, Y') }}</span>
+            <date class="date">{{ post.date|date('F j, Y') }}</date>
             {% if post.github %}
             <span class="pipe">|</span><a class="github" href="{{ post.github }}" target="_blank">Source Code</a></span>
             {% endif %}

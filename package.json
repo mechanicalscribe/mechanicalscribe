@@ -1,13 +1,13 @@
 {
   "name": "mechanicalscribe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Infrequent posts by Chris Wilson",
   "main": "index.js",
   "dependencies": {
     "@metalsmith/default-values": "^3.0.2",
     "@metalsmith/drafts": "^1.0.0",
-    "@metalsmith/permalinks": "^2.2.0",
     "@metalsmith/rss": "^1.0.1",
+    "bootstrap": "^4.6.0",
     "jstransformer": "^1.0.0",
     "jstransformer-swig": "^1.0.0",
     "metalsmith": "^2.3.0",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "nodegit": "^0.27.0",
-    "swig": "^1.4.2"
+    "swig": "^0.14.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

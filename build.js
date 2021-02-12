@@ -1,43 +1,55 @@
-var Metalsmith = require('metalsmith');
-var debug = require('debug');
+const Metalsmith = require('metalsmith');
+const debug = require('debug');
+const swig = require('jstransformer')(require('jstransformer-swig'))
+const rimraf = require("rimraf");
 
-console.log(__dirname);
+const SOURCE_DIR="./src";
+const BUILD_DIR="./build";
+
+// THIRD-PARTY LIBRARIES
+const MS = {
+	IGNORE: require("metalsmith-ignore"),
+	DRAFTS: require("@metalsmith/drafts"),
+	SASS: require("metalsmith-sass"),
+	EXCERPTS: require("metalsmith-excerpts"),
+	COLLECTIONS: require("metalsmith-collections"),
+	LAYOUTS: require("metalsmith-layouts")
+}
+
+// FORKED PLUGINS
+const FORKED = {
+	MARKDOWN: require("./plugins/metalsmith-markdown/lib"),
+	PERMALINKS: require("./plugins/metalsmith-permalinks/lib"),
+	MATHJAX: require("./plugins/metalsmith-mathjax")
+}
+
+// Original Plugins
+const ORIGINAL = {
+	VERSIONED: require("./plugins/metalsmith-versioned-posts")
+}
 
 Metalsmith(__dirname)
 	.metadata({
 	    sitename: "Mechanical Scribe",
     	siteurl: "http://mechanicalscribe.com/",
-	    description: "Infrequenct posts by Chris Wilson"
+	    description: "Infrequenct posts by Chris Wilson. This site does not use cookies."
   	})
-	.source('src')            // source directory
-  	.destination('build')     // destination directory
-  	.clean(true) 
-	.use(require("metalsmith-less")({}))
-	.use(require("metalsmith-ignore")([ "**/.**", "**/**.less" ]))
-	.use(require("metalsmith-publish")({
-		directories: ["_posts"],
-      	articles: {
-        	draft: false,
-        	private: false,
-        	future: false
-      	}				
-	}))
-	.use(require("metalsmith-versioned-posts")({
+  	.source(SOURCE_DIR)            // source directory
+  	.destination('./build')     // destination directory
+  	.clean(true)                // clean destination before	
+	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less" ]))
+	.use(MS.DRAFTS())	
+	.use(MS.SASS({}))
+	.use(ORIGINAL.VERSIONED({
 		"directories": ["_posts"],
 		"override": false
 	}))
-	.use(require("metalsmith-markdown")({
+	.use(FORKED.MARKDOWN({
 		"directories": [".", "_posts"],
 		"ignore": ["README.md"]
 	}))
-	.use(require("metalsmith-excerpts")({}))
-	.use(require("metalsmith-permalinks")({
-		"directories": ["_posts"],
-		"pattern": ":collection/:slug",
-		"delete_after_moving": true
-	}))
-	.use(require("metalsmith-mathjax")())
-	.use(require("metalsmith-collections")({
+	.use(MS.EXCERPTS({}))
+	.use(MS.COLLECTIONS({
 		"notes": {
 			"sortBy": "date",
 			"reverse": true,
@@ -49,10 +61,33 @@ Metalsmith(__dirname)
 			"landing_page_layout": "category"
 		}
 	}))
-	.use(require("metalsmith-templates")({
-		"engine": "swig",
-		"directory": "layouts"
+	.use(FORKED.PERMALINKS({
+		fileFilter: /_posts\/.*?\/draft/,
+		customSlug: data => data.slug || data.path.split(/\//g)[1],
+		"delete_after_moving": true,
+		relative: false,
+		linksets: [
+			{
+				match: { collection: 'notes' },
+				pattern: ":collection/:slug",
+				relative: true
+			},
+			{
+				match: { collection: 'music' },
+				pattern: ":collection/:slug",
+				relative: true
+			}
+		]
+	}))
+	.use(FORKED.MATHJAX())
+	.use(MS.LAYOUTS({
+		"directory": "layouts/swig",
+		"pattern": [ "*.html", "**/*.html" ],
+		"default": "index.swig"
 	}))
 	.build(function(err) {
-		if (err) console.log(err);
+		if (err) throw err;
+		rimraf(BUILD_DIR + "/_posts", function() {
+			console.log("Build complete");
+		})
 	});

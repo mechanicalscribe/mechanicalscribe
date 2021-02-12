@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page.swig
 title: About
 permalink: false
 ---
