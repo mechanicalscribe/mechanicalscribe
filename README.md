@@ -28,3 +28,12 @@ Deploy:
 New post:
 
 	node lib/post.js --type=note --slug=url-of-my-new-post
+
+Invalidate cache:
+
+	aws cloudfront create-invalidation --profile scribe --distribution-id EF2VD0B3J24S8 --paths /error.html
+
+Setting up URL Mapping:
+
+	node build # gets sitemap
+	node lib/getPermalinks.js

@@ -7,3 +7,6 @@
 [submodule "plugins/metalsmith-markdown"]
 	path = plugins/metalsmith-markdown
 	url = git@github.com:mechanicalscribe/metalsmith-markdown.git
+[submodule "plugins/metalsmith-mapsite"]
+	path = plugins/metalsmith-mapsite
+	url = git@github.com:mechanicalscribe/metalsmith-mapsite.git

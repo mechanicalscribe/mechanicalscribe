@@ -27,7 +27,12 @@
     </style>
     {% endif %}
 
-    {{ extrahead }}
+    {% if extrahead_scripts %}
+      {% for extrahead_script in extrahead_scripts %}
+        <script src="{{ extrahead_script }}"></script>
+      {% endfor %}
+    {% endif %}
+
     <!--<script src="/js/vendor/modernizr/modernizr.min.js"></script>-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,11 +41,8 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-JSLT21CBJ3');
     </script>
-
-
   </head>
   <body>
     <header>

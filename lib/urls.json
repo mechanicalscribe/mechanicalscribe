@@ -1,0 +1,158 @@
+{
+  "https://mechanicalscribe.com/resume/index.html": {
+    "priority": "0.3",
+    "changefreq": "monthly"
+  },
+  "https://mechanicalscribe.com/404.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/about.html": {
+    "priority": "0.3",
+    "changefreq": "monthly"
+  },
+  "https://mechanicalscribe.com/error.html": {
+    "priority": "0.3",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/index.html": {
+    "priority": "1.0",
+    "changefreq": "weekly"
+  },
+  "https://mechanicalscribe.com/portfolio.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/dataviz-phillies-birthday-cake/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/music/modern-jazz-quartet-air-g-string/index.html": {
+    "priority": "0.7",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/raspberry-pi-time-lapse-images/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/whats-hypermedia/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/music/shostakovich-piano-concerto-2-andante-solo-piano/index.html": {
+    "priority": "0.7",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/wikipedia-music-transcriptions/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/binify-d3-topojson-tutorial/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/javascript-metronome-open-source/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/normalizing-musical-intervals/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/recreating-the-boston-marathon/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/benghazi-emails-interactive-inbox/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/wikipedia-edits-republican-primary/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/natural-language-processing-jay-carney/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/fix-dropbox-conflicts-automatically/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/algae-growth-visualization/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/joy-of-screen-scraping/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/pascals-triangle-paths/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/scraping-netflix-category-data/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/rendering-exported-musical-scores-browser/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/stages-of-developer-grief-bargaining/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/prerendering-mathjax-in-metalsmith/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/visualizing-random-walks-with-canvas/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/orthagonal-functions/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/versioned-posts-in-metalsmith/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/topojson-mesh-vs-merge/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/visualizing-rhapsody-in-blue/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/html-is-data-visualization/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/mapping-washington-dc-capital-bikeshare-data/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/less-for-node-browserify-with-lessify/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/synesthesia-test-results/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/most-common-two-letter-combinations/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/sentences-that-use-every-letter/index.html": {
+    "priority": "0.6",
+    "changefreq": "yearly"
+  }
+}

@@ -6,6 +6,8 @@ const rimraf = require("rimraf");
 const SOURCE_DIR="./src";
 const BUILD_DIR="./build";
 
+const SITEMAP_OVERRIDES = require("./sitemap_overrides.json");
+
 // THIRD-PARTY LIBRARIES
 const MS = {
 	IGNORE: require("metalsmith-ignore"),
@@ -20,7 +22,8 @@ const MS = {
 const FORKED = {
 	MARKDOWN: require("./plugins/metalsmith-markdown/lib"),
 	PERMALINKS: require("./plugins/metalsmith-permalinks/lib"),
-	MATHJAX: require("./plugins/metalsmith-mathjax")
+	MATHJAX: require("./plugins/metalsmith-mathjax"),
+	SITEMAP: require("./plugins/metalsmith-mapsite")
 }
 
 // Original Plugins
@@ -30,13 +33,13 @@ const ORIGINAL = {
 
 Metalsmith(__dirname)
 	.metadata({
-	    sitename: "Mechanical Scribe",
-    	siteurl: "http://mechanicalscribe.com/",
-	    description: "Infrequenct posts by Chris Wilson. This site does not use cookies."
+		sitename: "Mechanical Scribe",
+		siteurl: "http://mechanicalscribe.com/",
+		description: "Infrequenct posts by Chris Wilson. This site does not use cookies."
   	})
-  	.source(SOURCE_DIR)            // source directory
-  	.destination('./build')     // destination directory
-  	.clean(true)                // clean destination before	
+  	.source(SOURCE_DIR)			// source directory
+  	.destination('./build')		// destination directory
+  	.clean(true)				// clean destination before	
 	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less" ]))
 	.use(MS.DRAFTS())	
 	.use(MS.SASS({}))
@@ -85,9 +88,19 @@ Metalsmith(__dirname)
 		"pattern": [ "*.html", "**/*.html" ],
 		"default": "index.swig"
 	}))
+	.use(FORKED.SITEMAP({
+		hostname: 'https://mechanicalscribe.com',
+		pattern: [ "*.html", "*/*.html", "*/*/*.html" ],
+		omitPattern: [ "demos/**", "canopybirds/**" ],
+		changefreq: 'yearly',
+		priority: 0.64,
+		overrides: SITEMAP_OVERRIDES,
+		lastmod: true,
+		beautify: false
+	}))
 	.build(function(err) {
 		if (err) throw err;
 		rimraf(BUILD_DIR + "/_posts", function() {
 			console.log("Build complete");
-		})
+		});
 	});
