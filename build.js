@@ -8,6 +8,16 @@ const BUILD_DIR="./build";
 
 const SITEMAP_OVERRIDES = require("./sitemap_overrides.json");
 
+const CATEGORIES = [
+	'notes',
+	'music',
+	'clips',
+	'articles',
+	'portfolio',
+	'ideas',
+	'coding'
+];
+
 // THIRD-PARTY LIBRARIES
 const MS = {
 	IGNORE: require("metalsmith-ignore"),
@@ -41,7 +51,7 @@ Metalsmith(__dirname)
   	.destination('./build')		// destination directory
   	.clean(true)				// clean destination before	
 	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less" ]))
-	.use(MS.DRAFTS())	
+	// .use(MS.DRAFTS())
 	.use(MS.SASS({}))
 	.use(ORIGINAL.VERSIONED({
 		"directories": ["_posts"],
@@ -66,17 +76,13 @@ Metalsmith(__dirname)
 	}))
 	.use(FORKED.PERMALINKS({
 		fileFilter: /_posts\/.*?\/draft/,
-		customSlug: data => data.slug || data.path.split(/\//g)[1],
+		ignoreFilter: /_posts\/(_drafts|_archive)\/.*/,
+		customSlug: data => data.slug || data.path.split(/\//g)[2],
 		"delete_after_moving": true,
 		relative: false,
 		linksets: [
 			{
-				match: { collection: 'notes' },
-				pattern: ":collection/:slug",
-				relative: true
-			},
-			{
-				match: { collection: 'music' },
+				match: { collection: CATEGORIES.join("|") },
 				pattern: ":collection/:slug",
 				relative: true
 			}
