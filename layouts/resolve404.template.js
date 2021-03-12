@@ -1,28 +1,17 @@
 const URLS = $URLS;
 
-const CATEGORIES = [
-	'notes',
-	'music',
-	'clips',
-	'articles',
-	'portfolio',
-	'ideas'
-];
-
 const SLUGS = {};
 
-
 function parseURL(path) {
-	const pieces = path.split(/\/+/g);
+	let pieces = path.split(/\/+/g);
+	pieces = pieces.filter(d => d !== "");
 
 	let category = null;
 	let slug = null;
 
-	if (pieces.length >= 2 && CATEGORIES.indexOf(pieces[1]) !== -1) {
-		category = pieces[1];
-		if (pieces.length >= 3) {
-			slug = pieces[2];
-		}
+	if (pieces.length === 3) {
+		category = pieces[0];
+		slug = pieces[1];
 	}
 
 	return {
@@ -32,21 +21,20 @@ function parseURL(path) {
 	}
 }
 
-const PAGES = URLS.map(url => {
+const PAGES = URLS.map(d => new URL(d.toLowerCase()).pathname)
 
-	url = new URL(url.toLowerCase()).pathname;
-
-	let parsed = parseURL(url);
+const PARSED = PAGES.map(d => {
+	let parsed = parseURL(d)
 
 	if (parsed.slug) {
-		SLUGS[parsed.slug] = url;
+		SLUGS[parsed.slug] = d;
 	}
 
 	return parsed;
 });
 
-console.log(SLUGS);
-
+console.log(PAGES);
+console.log(PARSED);
 
 // https://gist.github.com/andrei-m/982927
 const getEditDistance = function(a, b) {
@@ -84,25 +72,22 @@ const getEditDistance = function(a, b) {
 	return matrix[b.length][a.length];
 };
 
-const resolveURL = function(badURL) {
+const resolveURL = function(originalURL) {
 
-	badURL = new URL(badURL.toLowerCase()).pathname;
+	let badURL = new URL(originalURL.toLowerCase()).pathname;
 
+	// first, see if it's missing `index.html` and whether that fixes it
 	if (badURL.slice(-4) !== "html") {
 		badURL += "/index.html";
-	}
-
-	// first, see if adding `index.html` fixed it
-	for (let c = 0; c < PAGES.length; c += 1) {
-		let page = PAGES[c];
-
-		if (page.path === badURL) {
+		badURL = badURL.replace("//", "/");
+		const index = PAGES.indexOf(badURL);
+		if (index !== -1) {
 			return {
-				url: page.path,
-				badURL: badURL,
+				url: PAGES[index],
+				badURL: originalURL,
 				confidence: 10,
-				type: "exact"
-			}
+				type: "missing index.html"
+			}			
 		}
 	}
 
@@ -112,24 +97,24 @@ const resolveURL = function(badURL) {
 	if (SLUGS[parsedBadURL.slug]) {
 		return {
 			url: SLUGS[parsedBadURL.slug],
-			badURL: badURL,
+			badURL: originalURL,
 			confidence: 8,
 			type: "slug matches"
-		}
+		}		
 	}
 
 	// then try edit distance
 	for (let c = 0; c < PAGES.length; c += 1) {
 		let page = PAGES[c];
 
-		let editDistance = getEditDistance(page.path, badURL);
+		let editDistance = getEditDistance(page, badURL);
 
 		if (editDistance <= 2) {
 			return {
-				url: "https://mechanicalscribe.com" + page.path,
-				badURL: badURL,
+				url: page,
+				badURL: originalURL,
 				confidence: 6,
-				type: "editDistance",
+				type: "edit distance",
 				editDistance: editDistance
 			}
 		}
@@ -141,10 +126,14 @@ const resolveURL = function(badURL) {
 function runTests() {
 	let tests = [
 		'https://mechanicalscribe.com/notes/visualizing-rhapsody-in-blue',
+		'https://mechanicalscribe.com/coding/fix-dropbox-conflicts-automatically/',
 		'https://mechanicalscribe.com/NOTES/visualizing-rhapsody-in-blue/index.html',
 		'https://www.mechanicalscribe.com/clips/wikipedia-edits-republican-primary/index.html',
+		'https://localhost:4433/coding2/fix-dropbox-conflicts-automatically/index.html',
 		'https://mechanicalscribe.com/about2.html',
-		'https://mechanicalscribe.com'
+		'https://mechanicalscribe.com',
+		'https://mechanicalscribe.com/index.html',
+		'https://mechanicalscribe.com/index2.html'
 	];
 
 	tests.forEach(test => {
@@ -171,6 +160,8 @@ const redirectPage = function() {
 		return;
 	}
 
+	resolution.url = window.origin + resolution.url;
+
 	if (resolution.url === "https://mechanicalscribe.com/index.html") {
 		resolution.url = "https://mechanicalscribe.com";
 	}
@@ -180,4 +171,5 @@ const redirectPage = function() {
 	}, 100);
 }
 
+// runTests();
 redirectPage();

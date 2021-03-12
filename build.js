@@ -76,7 +76,7 @@ Metalsmith(__dirname)
 	}))
 	.use(FORKED.PERMALINKS({
 		fileFilter: /_posts\/.*?\/draft/,
-		ignoreFilter: /_posts\/(_drafts|_archive)\/.*/,
+		ignoreFilter: /_posts\/(_drafts|_archive)\/.*/, // can be an array
 		customSlug: data => data.slug || data.path.split(/\//g)[2],
 		"delete_after_moving": true,
 		relative: false,

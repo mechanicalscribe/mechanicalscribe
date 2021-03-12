@@ -13,7 +13,7 @@ Install:
 
 Build:
 
-	node build_local.js
+	node build.js
 
 Preview:
 

@@ -22,13 +22,12 @@
   },
   "devDependencies": {
     "nodegit": "^0.27.0",
-    "serve-handler": "^6.1.3",
     "swig": "^0.14.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.js",
-    "serve": "node lib/runServer.js",
+    "serve": "PORT=4433 serve build",
     "deploy": "aws s3 sync build s3://mechanicalscribe.com --exclude='*DS_Store/*' --exclude='node_modules' --profile scribe"
   },
   "repository": {
