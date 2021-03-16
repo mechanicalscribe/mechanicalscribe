@@ -8,7 +8,8 @@ node_modules
 # built site
 site
 build
-src/_posts
+src/_posts/*
+src/_portfolio
 !src/_posts/whats-hypermedia
 
 src/js

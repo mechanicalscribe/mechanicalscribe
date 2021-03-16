@@ -11,14 +11,6 @@
     "priority": 0.3,
     "changefreq": "monthly"
   },
-  "music/modern-jazz-quartet-air-g-string/index.html": {
-    "priority": 0.7,
-    "changefreq": "yearly"
-  },
-  "music/shostakovich-piano-concerto-2-andante-solo-piano/index.html": {
-    "priority": 0.7,
-    "changefreq": "yearly"
-  },
   "error.html": {
     "priority": 0.3,
     "changefreq": "yearly"

@@ -10,3 +10,6 @@
 [submodule "plugins/metalsmith-mapsite"]
 	path = plugins/metalsmith-mapsite
 	url = git@github.com:mechanicalscribe/metalsmith-mapsite.git
+[submodule "plugins/metalsmith-collections"]
+	path = plugins/metalsmith-collections
+	url = git@github.com:mechanicalscribe/metalsmith-collections.git
