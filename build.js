@@ -64,7 +64,15 @@ Metalsmith(__dirname)
 		filter: /_posts\/.*draft.md/,
 		sortBy: 'date',
 		reverse: true,
-		landing_page_layout: "collection.swig"
+		landing_page_layout: "collection.swig",
+		metadata: {
+			notes: { category_title: "Notes" },
+			music: { category_title: "Transcriptions" },
+			coding: { category_title: "Coding Tips" },
+			archive: { category_title: "Archive" },
+			posts: { category_title: "All Posts" }
+		},
+		order: [ 'notes', 'music', 'coding' ]
 	}))
 	.use(FORKED.MARKDOWN({
 		"directories": [".", "_posts"],
@@ -116,6 +124,8 @@ Metalsmith(__dirname)
 	.build(function(err) {
 		if (err) throw err;
 		rimraf(BUILD_DIR + "/_posts", function() {
-			console.log("Build complete");
+			rimraf(BUILD_DIR + "/_portfolio", function() {
+				console.log("Build complete");
+			});
 		});
 	});

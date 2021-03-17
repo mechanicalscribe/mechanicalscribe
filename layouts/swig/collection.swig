@@ -3,6 +3,7 @@
 {% block content %}
 
 <article class="main">
+    <h1>{{ collection.category_title }}</h1>
     <div class="posts">
     {% for post in collection %}
         <h2><a href="/{{ post.path }}">{{ post.title }}</a></h2>

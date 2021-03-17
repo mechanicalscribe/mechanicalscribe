@@ -57,21 +57,20 @@
               <a class="nav-link show" href="/">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/notes" role="button" aria-haspopup="true" aria-expanded="false">Notes</a>
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/notes" role="button" aria-haspopup="true" aria-expanded="false">Posts</a>
               <div class="dropdown-menu">
-                {% for post in collections.notes %}
-                <a class="dropdown-item" href="/{{ post.path }}">{{ post.menu }}<span class="date_span"><span class="pipe">|</span><date>{{ post.date | date('F j, Y') }}</date></span></a>
+                {% for collection_key in collections_order %}                
+                
+                  <div class="dropdown-subheader">
+                    RECENT <span class='category-head'>{{ collections[collection_key].category_title }}</span>
+                    <span class="view-all"><a class="dropdown-landing-page" href="/{{ collection_key }}/index.html">View All</a></span>
+                  </div>
+                  {% for post in collections[collection_key].top5 %}
+                  <a class="dropdown-item" href="/{{ post.path }}">{{ post.menu | safe }}<span class="date_span"><span class="pipe">|</span><date>{{ post.date | date('F j, Y') }}</date></span></a>
+                  {% endfor %}
+                  
+                  <div class="dropdown-divider"></div>
                 {% endfor %}
-                <a class="dropdown-item category-all" href="/notes/index.html">All Notes</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/music" role="button" aria-haspopup="true" aria-expanded="false">Music</a>
-              <div class="dropdown-menu">
-                {% for post in collections.music %}
-                <a class="dropdown-item" href="/{{ post.path }}">{{ post.title }}</a>
-                {% endfor %}
-                <a class="dropdown-item category-all" href="/music/index.html">All Music</a>
               </div>
             </li>
             <li class="nav-item dropdown">
