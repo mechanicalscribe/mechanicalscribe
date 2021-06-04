@@ -14,7 +14,7 @@ const CATEGORIES = [
 	'clips',
 	'articles',
 	'portfolio',
-	'archive',
+	'clips',
 	'ideas',
 	'coding'
 ];
@@ -40,7 +40,16 @@ const FORKED = {
 
 // Original Plugins
 const ORIGINAL = {
-	VERSIONED: require("./plugins/metalsmith-versioned-posts")
+	VERSIONED: require("./plugins/metalsmith-versioned-posts"),
+	BIBLIOGRAPHY: require("./plugins/metalsmith-bibliography")
+}
+
+const genericPlugin = function(f) {
+  return function(files, metalsmith, done) {
+  	setImmediate(done);
+  	f();
+  	done();
+  }
 }
 
 Metalsmith(__dirname)
@@ -52,7 +61,7 @@ Metalsmith(__dirname)
   	.source(SOURCE_DIR)			// source directory
   	.destination('./build')		// destination directory
   	.clean(true)				// clean destination before	
-	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less" ]))
+	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less", "_posts/_archive/**" ]))
 	.use(MS.DRAFTS())
 	.use(MS.SASS({}))
 	.use(ORIGINAL.VERSIONED({
@@ -70,9 +79,10 @@ Metalsmith(__dirname)
 			music: { category_title: "Transcriptions" },
 			coding: { category_title: "Coding Tips" },
 			archive: { category_title: "Archive" },
+			clips: { category_title: "Clips" },
 			posts: { category_title: "All Posts" }
 		},
-		order: [ 'notes', 'music', 'coding' ]
+		order: [ 'notes', 'music', 'clips', 'coding' ]
 	}))
 	.use(FORKED.MARKDOWN({
 		"directories": [".", "_posts"],
@@ -94,6 +104,10 @@ Metalsmith(__dirname)
 		]
 	}))
 	.use(FORKED.MATHJAX())
+	.use(ORIGINAL.BIBLIOGRAPHY({
+		fileFilter: new RegExp("^(" + CATEGORIES.join("|") + ")\/.*?\/index.html$", "i"),
+		externalTarget: "_blank"
+	}))
 	.use(MS.LAYOUTS({
 		"directory": "layouts/swig",
 		"pattern": [ "*.html", "**/*.html" ],
@@ -103,6 +117,7 @@ Metalsmith(__dirname)
 		hostname: 'https://mechanicalscribe.com',
 		pattern: [ "*.html", "*/*.html", "*/*/*.html" ],
 		omitPattern: [ "demos/**", "canopybirds/**" ],
+		beautify: true,
 		page_types: {
 			default: {
 				priority: 0.64,
