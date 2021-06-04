@@ -1,33 +1,21 @@
 ---
 layout: page.swig
 title: About
-permalink: false
 ---
+
 <div class="aboutme">    
-    <div class="contact_and_photo">
+    <div class="photo">
         <img class="mug" src="/img/site/new_headshot_small.jpg" />
-        <table class="contactinfo">
-            <tr>
-                <td style="width: 30px"><img style="height: 24px" src="/img/site/icon_email.png" /></td>
-                <td><a href="mailto:christopher.e.wilson@gmail.com">Email</a></td>
-            </tr>
-            <tr>
-                <td><img style="height: 24px" src="/img/site/icon_twitter.png" /></td>
-                <td><a href="http://twitter.com/#!/chriswilsondc">Twitter</a></td>
-            </tr>
-            <tr>
-                <td><img style="height: 24px" src="/img/site/icon_git.png" /></td>
-                <td><a href="https://github.com/mechanicalscribe">GitHub</a></td>
-            </tr>
-            <tr>
-                <td><img style="height: 24px" src="/img/site/icon_so.png" /></td>
-                <td><a href="http://stackoverflow.com/users/1779735/chris-wilson">Stack Overflow</a></td>
-            </tr>
-        </table>
     </div>
     <div class="text">
         <p><strong>About Chris Wilson:</strong> I'm the Director of Data Journalism at Time, where I write <a href="http://time.com/author/chris-wilson/" target="_blank">data-driven stories and produce interactive visualizations</a>. I have a degree in English and am largely a self-taught coder. </p>
         <p>If you're interested in learning how to make things that do work, I highly recommend O'Reilly's <em><a href="http://shop.oreilly.com/product/0636920029601.do">RaphaelJS: Graphics and Visualization on the Web</a></em>, since I wrote it.</p>
         <p>I live in Washington, D.C. Feel free to contact me about anything you see here.</p>
-    </div>    
+    </div>
+    <div class="contactinfo">
+        <a href="mailto:wilson@mechanicalscribe.com" target="_blank"><img src="/img/site/icon-email-black.png" /></a>
+        <a href="https://twitter.com/chriswilsondc" target="_blank"><img src="/img/site/icon-twitter-black.png" /></a>
+        <a href="https://github.com/wilson428" target="_blank"><img src="/img/site/icon-github-black.png" /></a>
+        <a href="http://stackoverflow.com/users/1779735/chris-wilson" target="_blank"><img src="/img/site/icon-stackoverflow-black.png" /></a>
+    </div>
 </div>

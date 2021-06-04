@@ -3,8 +3,28 @@
     "priority": "0.3",
     "changefreq": "monthly"
   },
-  "https://mechanicalscribe.com/404.html": {
+  "https://mechanicalscribe.com/posts/index.html": {
     "priority": "0.6",
+    "changefreq": "weekly"
+  },
+  "https://mechanicalscribe.com/music/index.html": {
+    "priority": "0.6",
+    "changefreq": "weekly"
+  },
+  "https://mechanicalscribe.com/coding/index.html": {
+    "priority": "0.6",
+    "changefreq": "weekly"
+  },
+  "https://mechanicalscribe.com/archive/index.html": {
+    "priority": "0.6",
+    "changefreq": "weekly"
+  },
+  "https://mechanicalscribe.com/notes/index.html": {
+    "priority": "0.6",
+    "changefreq": "weekly"
+  },
+  "https://mechanicalscribe.com/404.html": {
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/about.html": {
@@ -20,103 +40,115 @@
     "changefreq": "weekly"
   },
   "https://mechanicalscribe.com/portfolio.html": {
-    "priority": "0.6",
-    "changefreq": "yearly"
-  },
-  "https://mechanicalscribe.com/music/modern-jazz-quartet-air-g-string/index.html": {
-    "priority": "0.7",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/music/shostakovich-piano-concerto-2-andante-solo-piano/index.html": {
-    "priority": "0.7",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
-  "https://mechanicalscribe.com/coding/prerendering-mathjax-in-metalsmith/index.html": {
-    "priority": "0.6",
+  "https://mechanicalscribe.com/music/modern-jazz-quartet-air-g-string/index.html": {
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/coding/binify-d3-topojson-tutorial/index.html": {
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/coding/fix-dropbox-conflicts-automatically/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/coding/rendering-exported-musical-scores-browser/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/coding/prerendering-mathjax-in-metalsmith/index.html": {
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/coding/versioned-posts-in-metalsmith/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/archive/topojson-mesh-vs-merge/index.html": {
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/archive/less-for-node-browserify-with-lessify/index.html": {
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/dataviz-phillies-birthday-cake/index.html": {
-    "priority": "0.6",
-    "changefreq": "yearly"
-  },
-  "https://mechanicalscribe.com/notes/raspberry-pi-time-lapse-images/index.html": {
-    "priority": "0.6",
-    "changefreq": "yearly"
-  },
-  "https://mechanicalscribe.com/notes/whats-hypermedia/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/wikipedia-music-transcriptions/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/whats-hypermedia/index.html": {
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/raspberry-pi-time-lapse-images/index.html": {
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/normalizing-musical-intervals/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/algae-growth-visualization/index.html": {
-    "priority": "0.6",
-    "changefreq": "yearly"
-  },
-  "https://mechanicalscribe.com/notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/joy-of-screen-scraping/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html": {
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/orthagonal-functions/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/pascals-triangle-paths/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/scraping-netflix-category-data/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/stages-of-developer-grief-bargaining/index.html": {
-    "priority": "0.6",
-    "changefreq": "yearly"
-  },
-  "https://mechanicalscribe.com/notes/visualizing-rhapsody-in-blue/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/visualizing-random-walks-with-canvas/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
+    "changefreq": "yearly"
+  },
+  "https://mechanicalscribe.com/notes/visualizing-rhapsody-in-blue/index.html": {
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/html-is-data-visualization/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/synesthesia-test-results/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/most-common-two-letter-combinations/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   },
   "https://mechanicalscribe.com/notes/sentences-that-use-every-letter/index.html": {
-    "priority": "0.6",
+    "priority": "0.5",
     "changefreq": "yearly"
   }
 }

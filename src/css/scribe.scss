@@ -131,7 +131,12 @@ header {
 				span.view-all {
 					position: absolute;
 					right: 20px;
-					text-transform: none;
+					font-size: 0.9em;
+					top: 3px;
+
+					a:link,a:visited {
+						color: #999;
+					}
 				}
 			}
 
@@ -169,13 +174,19 @@ header {
 
 article {
 	margin: 15px 10px 5px 10px;
+	text-align: center;
 
-	p,h1,h2,h3,ul,ol,.boilerplate,iframe,.category-thumb {
+	p,h1,h2,h3,ul,ol,code,pre,.boilerplate,iframe,img,.category-thumb,.interactive {
 		color: #333;
 		max-width: $standard - 10;
 		margin: 3px auto;
 		font-size: 16px;
 		line-height: 28px;
+		text-align: left;
+	}
+
+	code {
+		text-align: left;
 	}
 
 	.excerpt > p {
@@ -191,7 +202,6 @@ article {
 		position: relative;
 		width: 100%;
 		height:0;
-		// set padding yourself
 
 		.wrappee {
 			position: absolute;
@@ -215,9 +225,7 @@ article {
 		margin: 10px auto;
 		font-size: 16px;
 		line-height: 24px;
-		//border-top: 1px solid #CCC;
 		border-bottom: 3px solid #CCC;
-		//border-left: 1px solid #CCC;
 		padding: 2px 20px 10px 20px;
 		background-color: #EEE;
 	}
@@ -283,6 +291,10 @@ article {
 		@media (max-width: $break-point) {
 			font-size: 24px;
 		}
+	}
+
+	.collection_posts h2 {
+		margin: 20px auto 0 auto;		
 	}
 
 	.category-thumb {
@@ -380,6 +392,15 @@ article {
 }
 
 article.music {
+
+	embed {
+		color: #333;
+		max-width: $standard - 10;
+		margin: 3px auto;
+		font-size: 16px;
+		line-height: 28px;
+	}
+
 	.youtube {
 		position: relative;
 		padding-bottom: 10%;
@@ -395,16 +416,10 @@ article.music {
 	}
 
 	.youtube_audio {
-		height:40px;
 		position: relative;
-		overflow:hidden;
+		width: 300px;
 
 		.inner {
-			width: 300px;
-			top: -270px; 
-			margin-left: -150px;		   
-			left: 50%;
-			position: absolute;
 		}
 	}
 
@@ -465,14 +480,18 @@ aside.versions {
 	padding-top: 10px;
 
 	.version {
-		margin-left: 15px; 
+		margin-left: 10px; 
+
 		.date {
-			width: 150px;
+			width: 20%;
 			display: inline-block;
+			vertical-align: top;
 		}
 
 		.message {
+			vertical-align: top;
 			display: inline-block;
+			width: 75%;
 			color: #808080;
 		}
 	}
@@ -486,23 +505,41 @@ aside.versions {
 		overflow: hidden;
 	}
 
-	.contact_and_photo {
+	.photo {
 		float: right; 
 		margin-left: 10px; 
 		.mug {
 			width: 180px;
 			margin-right: 10px;
 		}
+	}
 
-		.contactinfo {
-			margin-top: 10px;
+
+	.contactinfo {
+		margin-top: 10px;
+
+		a > img {
+			width: 64px;
+			height: 64px;
+			cursor: pointer;
 		}
 	}
+	
 }
 
 
 
 footer {
-	//border-top: 1px solid #CCC;
 	margin: 10px 0 20px 0;
+
+	#referring_note {
+		color: #333;
+		font-size: 0.9em;
+		max-width: $standard - 10;
+		margin: 50px auto 0 auto;
+
+		code {
+			color: #666;
+		}
+	}
 }
