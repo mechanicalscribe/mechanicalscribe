@@ -33,9 +33,6 @@ const PARSED = PAGES.map(d => {
 	return parsed;
 });
 
-console.log(PAGES);
-console.log(PARSED);
-
 // https://gist.github.com/andrei-m/982927
 const getEditDistance = function(a, b) {
 	if (a.length === 0) return b.length; 
@@ -76,11 +73,27 @@ const resolveURL = function(originalURL) {
 
 	let badURL = new URL(originalURL.toLowerCase()).pathname;
 
-	// first, see if it's missing `index.html` and whether that fixes it
+
+
+	// first, see if it's missing `.html` and whether that fixes it
+	let testURL = (badURL + ".html").replace("/.", ".");
+
+	let index = PAGES.indexOf(testURL);
+
+	if (index !== -1) {
+		return {
+			url: PAGES[index],
+			badURL: originalURL,
+			confidence: 10,
+			type: "missing .html"
+		}			
+	}
+
+	// then see if it's missing `index.html` and whether that fixes it
 	if (badURL.slice(-4) !== "html") {
 		badURL += "/index.html";
 		badURL = badURL.replace("//", "/");
-		const index = PAGES.indexOf(badURL);
+		index = PAGES.indexOf(badURL);
 		if (index !== -1) {
 			return {
 				url: PAGES[index],
@@ -149,6 +162,9 @@ function runTests() {
 }
 
 const redirectPage = function() {
+	let article = document.querySelector("article");
+	article.style.display = "none";
+
 	if (typeof window === 'undefined') {
 		return;
 	}
@@ -156,7 +172,8 @@ const redirectPage = function() {
 	let resolution = resolveURL(window.location.href);
 
 	if (!resolution) {
-		console.log("Couldn't resolve URL");
+		console.log("Couldn't resolve URL", window.location.href);
+		article.style.display = "block";
 		return;
 	}
 
@@ -167,9 +184,12 @@ const redirectPage = function() {
 	}
 
 	setTimeout(function() { 
-		window.location.replace(resolution.url);
+		window.location.replace(resolution.url + "#redirect");
 	}, 100);
 }
 
 // runTests();
-redirectPage();
+
+document.addEventListener("DOMContentLoaded", function() {
+	redirectPage();
+});

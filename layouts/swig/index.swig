@@ -90,9 +90,18 @@
       </div>                            
     </header>               
     {% block content %}{% endblock %}
-    <footer>&nbsp;</footer>
+    <footer>
+      <div id="referring_note"></div>
+    </footer>
 
+    <script>
+// note referral
 
+if (window.location.hash == "#redirect") {
+  let redirectNote = document.getElementById("referring_note");
+  redirectNote.innerHTML = `<strong>Note:</strong> Some of the URLs on Mechanical Scribe have changed. You were redirected to this page from <code>${ document.referrer }</code> because we guessed it's what you were looking for.`
+}
+    </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.5.1/jquery.min.js"><\/script>')</script>
     <script src="/js/vendor/bootstrap-4.6.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -25,9 +25,9 @@ Deploy:
 
 (Requires `sudo pip install awscli` one time)
 
-New post:
+New post (deprecated):
 
-	node lib/post.js --type=note --slug=url-of-my-new-post
+	node lib/newPost.js --collection=note --slug=url-of-my-new-post
 
 Invalidate cache:
 
