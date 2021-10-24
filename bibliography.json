@@ -1,97 +1,74 @@
 {
-  "coding/fix-dropbox-conflicts-automatically/index.html": [
+  "clips/solar-eclipse-simulation/index.html": [
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files",
-      "site": "stackoverflow.com",
-      "anchorText": "Stack Overflow",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://time.com/4850807/total-solar-eclipse-where-see/",
+      "site": "time.com",
+      "anchorText": "by our calculation",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "https://github.com/rswgnu",
-      "site": "github.com",
-      "anchorText": "@rswgnu",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://time.com/4882923/total-solar-eclipse-map-places-view/",
+      "site": "time.com",
+      "anchorText": "here",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "https://gist.github.com/wilson428/40c0b8bf7ecba5a301f6",
-      "site": "gist.github.com",
-      "anchorText": "the original script",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://threejs.org/",
+      "site": "threejs.org",
+      "anchorText": "THREE.js",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L12",
-      "site": "gist.github.com",
-      "anchorText": "12",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://naif.jpl.nasa.gov/naif/toolkit.html",
+      "site": "naif.jpl.nasa.gov",
+      "anchorText": "SPICE",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L15",
-      "site": "gist.github.com",
-      "anchorText": "15",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://spiceypy.readthedocs.io/en/v4.0.1/installation.html",
+      "site": "spiceypy.readthedocs.io",
+      "anchorText": "SpiceyPy",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L18",
-      "site": "gist.github.com",
-      "anchorText": "18",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://spiceypy.readthedocs.io/en/v4.0.1/exampleone.html",
+      "site": "spiceypy.readthedocs.io",
+      "anchorText": "great tutorial",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L21",
-      "site": "gist.github.com",
-      "anchorText": "21",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://image.gsfc.nasa.gov/poetry/venus/q89.html",
+      "site": "image.gsfc.nasa.gov",
+      "anchorText": "8.3 minutes",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
-      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e",
-      "site": "gist.github.com",
-      "anchorText": "Robert's improved Gist is here",
-      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
-    }
-  ],
-  "coding/prerendering-mathjax-in-metalsmith/index.html": [
-    {
-      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
-      "href": "https://www.mathjax.org/",
-      "site": "www.mathjax.org",
-      "anchorText": "MathJax",
-      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://astronomy.stackexchange.com/",
+      "site": "astronomy.stackexchange.com",
+      "anchorText": "StackExchange astronomy channel",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
-      "href": "https://www.sharelatex.com/learn/Mathematical_expressions",
-      "site": "www.sharelatex.com",
-      "anchorText": "LaTeX",
-      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://en.wikipedia.org/wiki/OpenGL",
+      "site": "en.wikipedia.org",
+      "anchorText": "OpenGL",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     },
     {
-      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
-      "href": "https://github.com/wilson428/metalsmith-mathjax",
-      "site": "github.com",
-      "anchorText": "simple plugin",
-      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
-    },
-    {
-      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
-      "href": "https://www.npmjs.com/package/MathJax-node",
-      "site": "www.npmjs.com",
-      "anchorText": "MathJax-node",
-      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
-    },
-    {
-      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
-      "href": "https://www.npmjs.com/package/jsdom",
-      "site": "www.npmjs.com",
-      "anchorText": "jsdom",
-      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
+      "page": "clips/solar-eclipse-simulation/index.html",
+      "href": "https://threejs.org/docs/#api/en/materials/ShaderMaterial",
+      "site": "threejs.org",
+      "anchorText": "ShaderMaterial",
+      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
     }
   ],
   "coding/rendering-exported-musical-scores-browser/index.html": [
@@ -152,6 +129,50 @@
       "parentElement": "The <a href=\"http://mechanicalscribe.com/music/\">transcriptions</a> I&#39;ve posted on Mechanical Scribe were generated by a Windows-only program called <a target=\"_blank\" href=\"http://www.mozart.co.uk/\">Mozart</a>. I can&#39;t stand the way the embedded PDFs look on the page, and would much prefer to render the scores directly. Fortunately, there is a fantastic, actively developing project called <a target=\"_blank\" href=\"http://www.vexflow.com/\">VexFlow</a> that is capable of doing just this."
     }
   ],
+  "coding/versioned-posts-in-metalsmith/index.html": [
+    {
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "http://jekyllrb.com/",
+      "site": "jekyllrb.com",
+      "anchorText": "Jekyll",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+    },
+    {
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "http://www.metalsmith.io/",
+      "site": "www.metalsmith.io",
+      "anchorText": "Metalsmith",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+    },
+    {
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/jsvine/gekyll",
+      "site": "github.com",
+      "anchorText": "Gekyll",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+    },
+    {
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/wilson428/metalsmith-versioned-posts",
+      "site": "github.com",
+      "anchorText": "metalsmith plugin",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+    },
+    {
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/wilson428/metalsmith-versioned-posts/blob/master/index.js",
+      "site": "github.com",
+      "anchorText": "here",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+    },
+    {
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/wilson428/metalsmith-versioned-posts/issues",
+      "site": "github.com",
+      "anchorText": "issues",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+    }
+  ],
   "coding/topojson-mesh-vs-merge/index.html": [
     {
       "page": "coding/topojson-mesh-vs-merge/index.html",
@@ -196,48 +217,99 @@
       "parentElement": "I use the immortal Mike Bostock&#39;s <a target=\"_blank\" href=\"https://github.com/topojson/topojson\">TopoJSON</a> for every map I make at TIME. Whenever we&#39;re looking at geographies more granular than states&mdash;usually counties, congressional districts or <a target=\"_blank\" href=\"https://usa.ipums.org/usa/volii/pumas10.shtml\">PUMAs</a>&mdash;I like to have state boundaries drawn over the map to help orient the viewer."
     }
   ],
-  "coding/versioned-posts-in-metalsmith/index.html": [
+  "coding/prerendering-mathjax-in-metalsmith/index.html": [
     {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "http://jekyllrb.com/",
-      "site": "jekyllrb.com",
-      "anchorText": "Jekyll",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
+      "href": "https://www.mathjax.org/",
+      "site": "www.mathjax.org",
+      "anchorText": "MathJax",
+      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
     },
     {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "http://www.metalsmith.io/",
-      "site": "www.metalsmith.io",
-      "anchorText": "Metalsmith",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
+      "href": "https://www.sharelatex.com/learn/Mathematical_expressions",
+      "site": "www.sharelatex.com",
+      "anchorText": "LaTeX",
+      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
     },
     {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/jsvine/gekyll",
+      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
+      "href": "https://github.com/wilson428/metalsmith-mathjax",
       "site": "github.com",
-      "anchorText": "Gekyll",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+      "anchorText": "simple plugin",
+      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
     },
     {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/wilson428/metalsmith-versioned-posts",
-      "site": "github.com",
-      "anchorText": "metalsmith plugin",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
+      "href": "https://www.npmjs.com/package/MathJax-node",
+      "site": "www.npmjs.com",
+      "anchorText": "MathJax-node",
+      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
     },
     {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/wilson428/metalsmith-versioned-posts/blob/master/index.js",
-      "site": "github.com",
-      "anchorText": "here",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+      "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
+      "href": "https://www.npmjs.com/package/jsdom",
+      "site": "www.npmjs.com",
+      "anchorText": "jsdom",
+      "parentElement": "I recently used <a target=\"_blank\" href=\"https://www.mathjax.org/\">MathJax</a> for the first time to dynamically render equations in a <a href=\"http://mechanicalscribe.com/notes/orthagonal-functions/\">post</a> using the <a target=\"_blank\" href=\"https://www.sharelatex.com/learn/Mathematical_expressions\">LaTeX</a> format. The MathJax documentation recommends loading the script that converts the LaTeX format to beautifully formated math equations asynchronously. It works great, but there's typically a lag where a user sees the raw, ugly LaTeX for about a second before it gets rendered."
+    }
+  ],
+  "coding/fix-dropbox-conflicts-automatically/index.html": [
+    {
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files",
+      "site": "stackoverflow.com",
+      "anchorText": "Stack Overflow",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
     },
     {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/wilson428/metalsmith-versioned-posts/issues",
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "https://github.com/rswgnu",
       "site": "github.com",
-      "anchorText": "issues",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+      "anchorText": "@rswgnu",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+    },
+    {
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "https://gist.github.com/wilson428/40c0b8bf7ecba5a301f6",
+      "site": "gist.github.com",
+      "anchorText": "the original script",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+    },
+    {
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L12",
+      "site": "gist.github.com",
+      "anchorText": "12",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+    },
+    {
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L15",
+      "site": "gist.github.com",
+      "anchorText": "15",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+    },
+    {
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L18",
+      "site": "gist.github.com",
+      "anchorText": "18",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+    },
+    {
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e#file-dropbox-fix-conflicts-L21",
+      "site": "gist.github.com",
+      "anchorText": "21",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
+    },
+    {
+      "page": "coding/fix-dropbox-conflicts-automatically/index.html",
+      "href": "https://gist.github.com/rswgnu/9d35f1972a33ca13f6be7330d2d01b7e",
+      "site": "gist.github.com",
+      "anchorText": "Robert's improved Gist is here",
+      "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
     }
   ],
   "coding/less-for-node-browserify-with-lessify/index.html": [
@@ -342,15 +414,6 @@
       "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
     }
   ],
-  "notes/whats-hypermedia/index.html": [
-    {
-      "page": "notes/whats-hypermedia/index.html",
-      "href": "http://en.wikipedia.org/wiki/Literary_Machines",
-      "site": "en.wikipedia.org",
-      "anchorText": "Literary Machines",
-      "parentElement": "Most people refer to the sort of work you see on Mechanical Scribe as &quot;interactive multimedia&quot; or &quot;interactive graphics.&quot; I&#39;ve always liked the term &quot;hypermedia&quot; for these projects. The term was coined alongside &quot;hypertext&quot; in 1963 by a man named Ted Nelson, but only one would stick. &quot;Hypertext&quot;&mdash;literally &quot;beyond text&quot;&mdash;is etched in the &#39;H&#39; and &#39;T&#39; of HTML, but you don&#39;t often hear the second term. Nelson commented on this in his book <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Literary_Machines\"><em>Literary Machines</em></a>:"
-    }
-  ],
   "notes/wikipedia-music-transcriptions/index.html": [
     {
       "page": "notes/wikipedia-music-transcriptions/index.html",
@@ -365,6 +428,15 @@
       "site": "www.schillmania.com",
       "anchorText": "SoundManager 2",
       "parentElement": "This makes me wonder if it would be possible to use the WikiMedia framework for a collaborative music transcription project. There appear to already be some impressive tools like <a target=\"_blank\" href=\"http://vexflow.com\">Vexflow</a> for rendering musical notation in Javascript. I don&#39;t know exactly how the process of editing an existing transcription would work. Ideally, the &quot;edit&quot; tab would render the notation in a manipulative form common to most notation software, with instant playback and so forth. (I recommend <a target=\"_blank\" href=\"http://www.schillmania.com/projects/soundmanager2/\">SoundManager 2</a> for JS audio.) "
+    }
+  ],
+  "notes/whats-hypermedia/index.html": [
+    {
+      "page": "notes/whats-hypermedia/index.html",
+      "href": "http://en.wikipedia.org/wiki/Literary_Machines",
+      "site": "en.wikipedia.org",
+      "anchorText": "Literary Machines",
+      "parentElement": "Most people refer to the sort of work you see on Mechanical Scribe as &quot;interactive multimedia&quot; or &quot;interactive graphics.&quot; I&#39;ve always liked the term &quot;hypermedia&quot; for these projects. The term was coined alongside &quot;hypertext&quot; in 1963 by a man named Ted Nelson, but only one would stick. &quot;Hypertext&quot;&mdash;literally &quot;beyond text&quot;&mdash;is etched in the &#39;H&#39; and &#39;T&#39; of HTML, but you don&#39;t often hear the second term. Nelson commented on this in his book <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Literary_Machines\"><em>Literary Machines</em></a>:"
     }
   ],
   "notes/normalizing-musical-intervals/index.html": [
@@ -388,22 +460,6 @@
       "site": "github.com",
       "anchorText": "Javascript metronome",
       "parentElement": "As I <a href=\"/notes/javascript-metronome-open-source/\">mentioned a few days ago</a>, I&#39;m a big fan of <a target=\"_blank\" href=\"http://soundslice.com\">Soundslice</a>, a project by Adrian Holovaty and PJ Macklin for creating interactive guitar tabs. One of the coolest features is the ability to tap out measures on the computer keyboard as a recording of the sound you&#39;re transcribing plays, thus marking out measures to then fill in with chords."
-    }
-  ],
-  "notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html": [
-    {
-      "page": "notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html",
-      "href": "http://storage.googleapis.com/books/ngrams/books/datasetsv2.html",
-      "site": "storage.googleapis.com",
-      "anchorText": "fantastic data",
-      "parentElement": "Google provides <a target=\"_blank\" href=\"http://storage.googleapis.com/books/ngrams/books/datasetsv2.html\">fantastic data</a> on the frequency of words and ngrams in all the books it has scanned, in many cases going back centuries. The only drawback is that these files are enormous. The unigrams alone are 4GB when compressed, not including numbers and punctuation."
-    },
-    {
-      "page": "notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html",
-      "href": "http://www.speech.cs.cmu.edu/cgi-bin/cmudict",
-      "site": "www.speech.cs.cmu.edu",
-      "anchorText": "CMU Pronunciation Dictionary",
-      "parentElement": "Google provides <a target=\"_blank\" href=\"http://storage.googleapis.com/books/ngrams/books/datasetsv2.html\">fantastic data</a> on the frequency of words and ngrams in all the books it has scanned, in many cases going back centuries. The only drawback is that these files are enormous. The unigrams alone are 4GB when compressed, not including numbers and punctuation."
     }
   ],
   "notes/algae-growth-visualization/index.html": [
@@ -457,6 +513,22 @@
       "parentElement": "The subreddit <a target=\"_blank\" href=\"https://www.reddit.com/r/dataisbeautiful\">/r/dataisbeautiful/</a> runs a monthly visualization contest based on a different dataset each time. The <a target=\"_blank\" href=\"https://www.reddit.com/r/dataisbeautiful/comments/7nm6ed/battle_dataviz_battle_for_the_month_of_january/\">Jan. 2018 contest</a> challenges designers to visualize the growth rates of 19 species of algae under 8 different combinations of light and temperature, for a total of 152 data points."
     }
   ],
+  "notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html": [
+    {
+      "page": "notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html",
+      "href": "http://storage.googleapis.com/books/ngrams/books/datasetsv2.html",
+      "site": "storage.googleapis.com",
+      "anchorText": "fantastic data",
+      "parentElement": "Google provides <a target=\"_blank\" href=\"http://storage.googleapis.com/books/ngrams/books/datasetsv2.html\">fantastic data</a> on the frequency of words and ngrams in all the books it has scanned, in many cases going back centuries. The only drawback is that these files are enormous. The unigrams alone are 4GB when compressed, not including numbers and punctuation."
+    },
+    {
+      "page": "notes/google-ngrams-for-cmu-pronunciation-dictionary/index.html",
+      "href": "http://www.speech.cs.cmu.edu/cgi-bin/cmudict",
+      "site": "www.speech.cs.cmu.edu",
+      "anchorText": "CMU Pronunciation Dictionary",
+      "parentElement": "Google provides <a target=\"_blank\" href=\"http://storage.googleapis.com/books/ngrams/books/datasetsv2.html\">fantastic data</a> on the frequency of words and ngrams in all the books it has scanned, in many cases going back centuries. The only drawback is that these files are enormous. The unigrams alone are 4GB when compressed, not including numbers and punctuation."
+    }
+  ],
   "notes/joy-of-screen-scraping/index.html": [
     {
       "page": "notes/joy-of-screen-scraping/index.html",
@@ -485,73 +557,6 @@
       "site": "priceonomics.com",
       "anchorText": "Priceonomics",
       "parentElement": "I was tickled pink the other day to see that over 1,000 people have downloaded the <a target=\"_blank\" href=\"https://www.npmjs.com/package/downcache\">downcache module</a> I maintain on NPM. The way it works is simple: You request a web page, just like you would with any other HTTP module in Node, and in addition to returning the page it saves a copy of the response to your machine. If you request it again, it loads the cached version instead of making another trip to the server."
-    }
-  ],
-  "notes/scraping-netflix-category-data/index.html": [
-    {
-      "page": "notes/scraping-netflix-category-data/index.html",
-      "href": "http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/",
-      "site": "www.theatlantic.com",
-      "anchorText": "delightful  exploration",
-      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
-    },
-    {
-      "page": "notes/scraping-netflix-category-data/index.html",
-      "href": "http://www.theverge.com/2013/3/8/4081336/netflix-kills-third-party-app-platform-current-apps-will-continue-to",
-      "site": "www.theverge.com",
-      "anchorText": "shut down its API",
-      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
-    },
-    {
-      "page": "notes/scraping-netflix-category-data/index.html",
-      "href": "https://gist.github.com/wilson428/8312213",
-      "site": "gist.github.com",
-      "anchorText": "here",
-      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
-    },
-    {
-      "page": "notes/scraping-netflix-category-data/index.html",
-      "href": "http://nodejs.org/",
-      "site": "nodejs.org",
-      "anchorText": "install Node",
-      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
-    },
-    {
-      "page": "notes/scraping-netflix-category-data/index.html",
-      "href": "http://git-scm.com/downloads",
-      "site": "git-scm.com",
-      "anchorText": "Git",
-      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
-    },
-    {
-      "page": "notes/scraping-netflix-category-data/index.html",
-      "href": "http://www.sqlite.org/download.html",
-      "site": "www.sqlite.org",
-      "anchorText": "installing sqlite3",
-      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
-    }
-  ],
-  "notes/pascals-triangle-paths/index.html": [
-    {
-      "page": "notes/pascals-triangle-paths/index.html",
-      "href": "https://en.wikipedia.org/wiki/Bean_machine",
-      "site": "en.wikipedia.org",
-      "anchorText": "\"bean machine\" or \"Galton board\"",
-      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
-    },
-    {
-      "page": "notes/pascals-triangle-paths/index.html",
-      "href": "https://en.wikipedia.org/wiki/Pascal%27s_triangle",
-      "site": "en.wikipedia.org",
-      "anchorText": "Pascal's Triangle",
-      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
-    },
-    {
-      "page": "notes/pascals-triangle-paths/index.html",
-      "href": "https://www.amazon.com/gp/product/B00F4F9138/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mechascrib-20&creative=9325&linkCode=as2&creativeASIN=B00F4F9138&linkId=2c01a07d9b85d56eba22950c2b26d538",
-      "site": "www.amazon.com",
-      "anchorText": "cost over $1,000 on Amazon",
-      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
     }
   ],
   "notes/stages-of-developer-grief-bargaining/index.html": [
@@ -719,6 +724,73 @@
       "site": "github.com",
       "anchorText": "detailed in the README",
       "parentElement": "George Gershwin&#39;s &quot;Rhapsody in Blue&quot; famously opens with a trilling clarinet that rockets up more than two octaves in what&#39;s known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Glissando\">&quot;glissando,&quot;</a> in which an instrument&#39;s pitch bends across a span of notes in a continuous climb or descent rather than stopping at discrete frequencies. Here&#39;s an example from the <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=9aS20ojHDHg\">Columbia Symphony Orchestra</a>, which probably sounds familiar: "
+    }
+  ],
+  "notes/pascals-triangle-paths/index.html": [
+    {
+      "page": "notes/pascals-triangle-paths/index.html",
+      "href": "https://en.wikipedia.org/wiki/Bean_machine",
+      "site": "en.wikipedia.org",
+      "anchorText": "\"bean machine\" or \"Galton board\"",
+      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+    },
+    {
+      "page": "notes/pascals-triangle-paths/index.html",
+      "href": "https://en.wikipedia.org/wiki/Pascal%27s_triangle",
+      "site": "en.wikipedia.org",
+      "anchorText": "Pascal's Triangle",
+      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+    },
+    {
+      "page": "notes/pascals-triangle-paths/index.html",
+      "href": "https://www.amazon.com/gp/product/B00F4F9138/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mechascrib-20&creative=9325&linkCode=as2&creativeASIN=B00F4F9138&linkId=2c01a07d9b85d56eba22950c2b26d538",
+      "site": "www.amazon.com",
+      "anchorText": "cost over $1,000 on Amazon",
+      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+    }
+  ],
+  "notes/scraping-netflix-category-data/index.html": [
+    {
+      "page": "notes/scraping-netflix-category-data/index.html",
+      "href": "http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/",
+      "site": "www.theatlantic.com",
+      "anchorText": "delightful  exploration",
+      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
+    },
+    {
+      "page": "notes/scraping-netflix-category-data/index.html",
+      "href": "http://www.theverge.com/2013/3/8/4081336/netflix-kills-third-party-app-platform-current-apps-will-continue-to",
+      "site": "www.theverge.com",
+      "anchorText": "shut down its API",
+      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
+    },
+    {
+      "page": "notes/scraping-netflix-category-data/index.html",
+      "href": "https://gist.github.com/wilson428/8312213",
+      "site": "gist.github.com",
+      "anchorText": "here",
+      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
+    },
+    {
+      "page": "notes/scraping-netflix-category-data/index.html",
+      "href": "http://nodejs.org/",
+      "site": "nodejs.org",
+      "anchorText": "install Node",
+      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
+    },
+    {
+      "page": "notes/scraping-netflix-category-data/index.html",
+      "href": "http://git-scm.com/downloads",
+      "site": "git-scm.com",
+      "anchorText": "Git",
+      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
+    },
+    {
+      "page": "notes/scraping-netflix-category-data/index.html",
+      "href": "http://www.sqlite.org/download.html",
+      "site": "www.sqlite.org",
+      "anchorText": "installing sqlite3",
+      "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
     }
   ],
   "notes/html-is-data-visualization/index.html": [

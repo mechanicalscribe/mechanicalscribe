@@ -29,6 +29,7 @@
     "build": "node build.js",
     "serve": "PORT=4433 serve build",
     "sandbox": "PORT=4433 serve sandbox",
+    "dev": "PORT=4433 serve src",
     "deploy": "aws s3 sync build s3://mechanicalscribe.com --exclude='*DS_Store/*' --exclude='node_modules' --profile scribe"
   },
   "repository": {

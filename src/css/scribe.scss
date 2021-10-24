@@ -273,6 +273,23 @@ article {
 		}
 	}
 
+	.clip_info {
+		text-align: center;
+		background-color: #EEE;
+		margin-bottom: 10px;
+		max-width: 520px;
+		padding: 10px;
+		border: 1px solid #CCC;
+
+		.date_time {
+			color: #808080;
+		}
+
+		a {
+			font-weight: bold;
+		}
+	}
+
 	h1 {
 		font-family: 'Bitter', Georgia,serif;
 		font-size: 30px;

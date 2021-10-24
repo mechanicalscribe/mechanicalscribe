@@ -13,3 +13,6 @@
 [submodule "plugins/metalsmith-collections"]
 	path = plugins/metalsmith-collections
 	url = git@github.com:mechanicalscribe/metalsmith-collections.git
+[submodule "src/repos/solar_eclipse"]
+	path = src/repos/solar_eclipse
+	url = git@github.com:TimeMagazine/solar_eclipse.git

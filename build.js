@@ -61,7 +61,7 @@ Metalsmith(__dirname)
   	.source(SOURCE_DIR)			// source directory
   	.destination('./build')		// destination directory
   	.clean(true)				// clean destination before	
-	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less", "_posts/_archive/**" ]))
+	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less", "_posts/_archive/**", "**/node_modules/**", "repos/*/.git*" ]))
 	.use(MS.DRAFTS())
 	.use(MS.SASS({}))
 	.use(ORIGINAL.VERSIONED({
@@ -116,7 +116,7 @@ Metalsmith(__dirname)
 	.use(FORKED.SITEMAP({
 		hostname: 'https://mechanicalscribe.com',
 		pattern: [ "*.html", "*/*.html", "*/*/*.html" ],
-		omitPattern: [ "demos/**", "canopybirds/**" ],
+		omitPattern: [ "demos/**", "canopybirds/**", "repos/**" ],
 		beautify: true,
 		page_types: {
 			default: {
