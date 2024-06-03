@@ -6,7 +6,7 @@ css:
 ---
 <div id="clips">
     <div class="headline">Featured Articles</div>
-    <div class="subhead">Here are a few clips that I hope capture the diversity of the sort of projects I work on.</div>
+    <div class="subhead">Here are a few clips that I hope capture the diversity of the sort of projects I work on</div>
     <div class="clip">
         <div class="clip_image"><a href="http://time.com/4882923/total-solar-eclipse-map-places-view/" target="_blank"><img src="img/portfolio/eclipse.png" /></a></div>
         <div class="clip_description">
@@ -24,6 +24,16 @@ css:
             <div class="clip_subtitle"><a href="http://time.com/4842635/states-map-draw-quiz/" target="_blank">TIME.com, August 7, 2017</a></div>
             <div class="clip_details">
                 I love experimenting with new technologies that people are not accustomed to see on a news website. This project, like our <a href="http://time.com/4635763/national-handwriting-day-cursive-letters/" target="_blank">"Can You Remember Cursive?" Quiz</a> and our <a href="http://time.com/3743739/company-logo-quiz/" target="_blank">Draw the Logo From Memory Quiz</a> uses a sophisticated in-house algorithm to compare how users' drawings&mdash;whether with a mouse or a finger&mdash;match the correct shape.
+            </div>
+        </div>
+    </div>
+    <div class="clip">
+        <div class="clip_image"><a href="https://time.com/5244682/earth-day-plastic-lego-skyscrapers/" target="_blank"><img src="img/portfolio/lego.png" /></a></div>
+        <div class="clip_description">
+            <div class="clip_title">See How Many LEGO Skyscrapers You Could Build With a Year's Worth of Ocean Plastic Waste</div>
+            <div class="clip_subtitle"><a href="https://time.com/5244682/earth-day-plastic-lego-skyscrapers/" target="_blank">TIME.com, April 21, 2018</a></div>
+            <div class="clip_details">
+                Sometimes, a data visualization needs only to communicate the shear scale of a topic that is either huge&mdash;the size of the federal budget, say&mdash;or vanishingly small&mdash;the odds that you'll win the lottery spring to mind. For Earth Day in 2018, which was focused on plastic waste, I wanted to visualize the scale of 8 million tons of plastic pollution. If converted to Lego, could that build the Empire State Building, completely filled in? As it turns out, it could build more than one.
             </div>
         </div>
     </div>    
@@ -44,16 +54,6 @@ css:
             <div class="clip_subtitle"><a href="http://time.com/4705099/marriage-wedding-states/" target="_blank">TIME.com, May 15, 2017</a></div>
             <div class="clip_details">
                 The data that generated this interactive was a rigorous analysis of several million Census records extracted from <a href="https://usa.ipums.org/usa/" target="_blank">IPUMS</a>, a clearinghouse for Census micro-records that allows for sophisticated analyses and cross-tabulations of several hundred variables. I have used it for many projects.
-            </div>
-        </div>
-    </div>
-    <div class="clip">
-        <div class="clip_image"><a href="http://time.com/5000130/opioid-crisis-suicide/" target="_blank"><img src="img/portfolio/opioids.png" /></a></div>
-        <div class="clip_description">
-            <div class="clip_title">The Hidden Tragedy of the Opioid Crisis</div>
-            <div class="clip_subtitle"><a href="http://time.com/5000130/opioid-crisis-suicide/" target="_blank">TIME.com, October 27, 2017</a></div>
-            <div class="clip_details">
-                While not a cheerful topic, I was proud to break this story on how the CDC irregularly classifies overdoes from opioids, using several years of granular data from the <a href="https://wonder.cdc.gov/" target="_blank">CDC WONDER database</a> combined with interviews with experts.
             </div>
         </div>
     </div>

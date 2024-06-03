@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+#resume {
+    font-family: Georgia, Arial, sans-serif
+}
+
+a {
+	color: #0063c7;
+	text-decoration: none;
+}
+
+#resume div.resume {
+	font-family:  Roboto;
+    font-size: 16px;
+    max-width: 700px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    line-height: 1.5em
+}
+
+#resume table {
+    font-family: 'Arvo', serif;
+    font-size: 12pt;
+    vertical-align: top
+}
+
+#resume div.paper {
+    height: auto
+}
+
+#resume div.me {
+    text-align: left;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 8px
+}
+
+#resume div.subhead {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CCC
+}
+
+#resume div.title {
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 0px 3px 0
+}
+
+#resume div.category {
+    overflow: auto;
+    width: 100%
+}
+
+.pub {
+	margin: 5px 0;
+}
+
+#resume div.left {
+    width: 3in;
+    float: left
+}
+
+#resume div.right {
+    width: 5in;
+    float: left
+}
+
+#resume span.position {
+    font-size: 12pt;
+    color: #000
+}
+
+#resume ul {
+    padding-top: 0;
+    margin-top: 0
+}
