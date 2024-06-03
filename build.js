@@ -21,12 +21,12 @@ const CATEGORIES = [
 
 // THIRD-PARTY LIBRARIES
 const MS = {
-	IGNORE: require("metalsmith-ignore"),
+	IGNORE: require("@metalsmith/remove"),
 	DRAFTS: require("@metalsmith/drafts"),
-	SASS: require("metalsmith-sass"),
-	EXCERPTS: require("metalsmith-excerpts"),
+	SASS: require("@metalsmith/sass"),
+	EXCERPTS: require("@metalsmith/excerpts"),
 	// COLLECTIONS: require("metalsmith-collections"),
-	LAYOUTS: require("metalsmith-layouts")
+	LAYOUTS: require("@metalsmith/layouts")
 }
 
 // FORKED PLUGINS
@@ -55,8 +55,8 @@ const genericPlugin = function(f) {
 Metalsmith(__dirname)
 	.metadata({
 		sitename: "Mechanical Scribe",
-		siteurl: "http://mechanicalscribe.com/",
-		description: "Infrequenct posts by Chris Wilson. This site does not use cookies."
+		siteurl: "https://mechanicalscribe.com/",
+		description: "Infrequent posts by Chris Wilson."
   	})
   	.source(SOURCE_DIR)			// source directory
   	.destination('./build')		// destination directory
@@ -64,10 +64,10 @@ Metalsmith(__dirname)
 	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less", "_posts/_archive/**", "**/node_modules/**", "repos/*/.git*" ]))
 	.use(MS.DRAFTS())
 	.use(MS.SASS({}))
-	.use(ORIGINAL.VERSIONED({
-		"directories": ["_posts"],
-		"override": false
-	}))
+	// .use(ORIGINAL.VERSIONED({
+	// 	"directories": ["_posts"],
+	// 	"override": false
+	// }))
 	.use(FORKED.COLLECTIONS({
 		generic: 'posts',
 		filter: /_posts\/.*draft.md/,
