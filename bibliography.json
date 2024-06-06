@@ -129,6 +129,57 @@
       "parentElement": "Using this <a target=\"_blank\" href=\"http://stackoverflow.com/questions/20723868/batch-rename-dropbox-conflict-files\">Stack Overflow</a> post as a starting point, I wrote a Bash script to find every conflicted file in a Dropbox directory and resolve it to the newer of the two files, backing up the older one. "
     }
   ],
+  "coding/less-for-node-browserify-with-lessify/index.html": [
+    {
+      "page": "coding/less-for-node-browserify-with-lessify/index.html",
+      "href": "https://www.npmjs.com/package/node-lessify",
+      "site": "www.npmjs.com",
+      "anchorText": "node-lessify",
+      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+    },
+    {
+      "page": "coding/less-for-node-browserify-with-lessify/index.html",
+      "href": "https://github.com/dxcanas",
+      "site": "github.com",
+      "anchorText": "@dxcanas",
+      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+    },
+    {
+      "page": "coding/less-for-node-browserify-with-lessify/index.html",
+      "href": "https://webpack.js.org/",
+      "site": "webpack.js.org",
+      "anchorText": "webpack",
+      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+    },
+    {
+      "page": "coding/less-for-node-browserify-with-lessify/index.html",
+      "href": "https://github.com/substack/node-browserify",
+      "site": "github.com",
+      "anchorText": "browserify",
+      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+    },
+    {
+      "page": "coding/less-for-node-browserify-with-lessify/index.html",
+      "href": "https://github.com/maxparm/node-underscorify",
+      "site": "github.com",
+      "anchorText": "node-underscorify",
+      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+    },
+    {
+      "page": "coding/less-for-node-browserify-with-lessify/index.html",
+      "href": "https://npmjs.org/package/node-lessify",
+      "site": "npmjs.org",
+      "anchorText": "node-lessify",
+      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+    },
+    {
+      "page": "coding/less-for-node-browserify-with-lessify/index.html",
+      "href": "https://github.com/wilson428/node-lessify",
+      "site": "github.com",
+      "anchorText": "repo",
+      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+    }
+  ],
   "coding/prerendering-mathjax-in-metalsmith/index.html": [
     {
       "page": "coding/prerendering-mathjax-in-metalsmith/index.html",
@@ -224,50 +275,6 @@
       "parentElement": "The <a href=\"http://mechanicalscribe.com/music/\">transcriptions</a> I&#39;ve posted on Mechanical Scribe were generated by a Windows-only program called <a target=\"_blank\" href=\"http://www.mozart.co.uk/\">Mozart</a>. I can&#39;t stand the way the embedded PDFs look on the page, and would much prefer to render the scores directly. Fortunately, there is a fantastic, actively developing project called <a target=\"_blank\" href=\"http://www.vexflow.com/\">VexFlow</a> that is capable of doing just this."
     }
   ],
-  "coding/versioned-posts-in-metalsmith/index.html": [
-    {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "http://jekyllrb.com/",
-      "site": "jekyllrb.com",
-      "anchorText": "Jekyll",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
-    },
-    {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "http://www.metalsmith.io/",
-      "site": "www.metalsmith.io",
-      "anchorText": "Metalsmith",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
-    },
-    {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/jsvine/gekyll",
-      "site": "github.com",
-      "anchorText": "Gekyll",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
-    },
-    {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/wilson428/metalsmith-versioned-posts",
-      "site": "github.com",
-      "anchorText": "metalsmith plugin",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
-    },
-    {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/wilson428/metalsmith-versioned-posts/blob/master/index.js",
-      "site": "github.com",
-      "anchorText": "here",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
-    },
-    {
-      "page": "coding/versioned-posts-in-metalsmith/index.html",
-      "href": "https://github.com/wilson428/metalsmith-versioned-posts/issues",
-      "site": "github.com",
-      "anchorText": "issues",
-      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
-    }
-  ],
   "coding/topojson-mesh-vs-merge/index.html": [
     {
       "page": "coding/topojson-mesh-vs-merge/index.html",
@@ -312,154 +319,48 @@
       "parentElement": "I use the immortal Mike Bostock&#39;s <a target=\"_blank\" href=\"https://github.com/topojson/topojson\">TopoJSON</a> for every map I make at TIME. Whenever we&#39;re looking at geographies more granular than states&mdash;usually counties, congressional districts or <a target=\"_blank\" href=\"https://usa.ipums.org/usa/volii/pumas10.shtml\">PUMAs</a>&mdash;I like to have state boundaries drawn over the map to help orient the viewer."
     }
   ],
-  "coding/less-for-node-browserify-with-lessify/index.html": [
+  "coding/versioned-posts-in-metalsmith/index.html": [
     {
-      "page": "coding/less-for-node-browserify-with-lessify/index.html",
-      "href": "https://www.npmjs.com/package/node-lessify",
-      "site": "www.npmjs.com",
-      "anchorText": "node-lessify",
-      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "http://jekyllrb.com/",
+      "site": "jekyllrb.com",
+      "anchorText": "Jekyll",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
     },
     {
-      "page": "coding/less-for-node-browserify-with-lessify/index.html",
-      "href": "https://github.com/dxcanas",
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "http://www.metalsmith.io/",
+      "site": "www.metalsmith.io",
+      "anchorText": "Metalsmith",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
+    },
+    {
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/jsvine/gekyll",
       "site": "github.com",
-      "anchorText": "@dxcanas",
-      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+      "anchorText": "Gekyll",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
     },
     {
-      "page": "coding/less-for-node-browserify-with-lessify/index.html",
-      "href": "https://webpack.js.org/",
-      "site": "webpack.js.org",
-      "anchorText": "webpack",
-      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
-    },
-    {
-      "page": "coding/less-for-node-browserify-with-lessify/index.html",
-      "href": "https://github.com/substack/node-browserify",
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/wilson428/metalsmith-versioned-posts",
       "site": "github.com",
-      "anchorText": "browserify",
-      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
+      "anchorText": "metalsmith plugin",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
     },
     {
-      "page": "coding/less-for-node-browserify-with-lessify/index.html",
-      "href": "https://github.com/maxparm/node-underscorify",
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/wilson428/metalsmith-versioned-posts/blob/master/index.js",
       "site": "github.com",
-      "anchorText": "node-underscorify",
-      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
-    },
-    {
-      "page": "coding/less-for-node-browserify-with-lessify/index.html",
-      "href": "https://npmjs.org/package/node-lessify",
-      "site": "npmjs.org",
-      "anchorText": "node-lessify",
-      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
-    },
-    {
-      "page": "coding/less-for-node-browserify-with-lessify/index.html",
-      "href": "https://github.com/wilson428/node-lessify",
-      "site": "github.com",
-      "anchorText": "repo",
-      "parentElement": "<strong>Update:</strong> Since May 2017, <a target=\"_blank\" href=\"https://www.npmjs.com/package/node-lessify\">node-lessify</a> is now being actively maintained by GitHub user <a target=\"_blank\" href=\"https://github.com/dxcanas\">@dxcanas</a>, who generously took over the project after I moved from browserify to <a target=\"_blank\" href=\"https://webpack.js.org/\">webpack</a>. I&#39;m maintaining this post for archival reasons but encourage you to start with the current documentation on NPM."
-    }
-  ],
-  "notes/raspberry-pi-time-lapse-images/index.html": [
-    {
-      "page": "notes/raspberry-pi-time-lapse-images/index.html",
-      "href": "http://www.raspberrypi.org/",
-      "site": "www.raspberrypi.org",
-      "anchorText": "$35 mini-computer",
-      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
-    },
-    {
-      "page": "notes/raspberry-pi-time-lapse-images/index.html",
-      "href": "http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307",
-      "site": "www2.technologyreview.com",
-      "anchorText": "the profile of creator Eben Upton",
-      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
-    },
-    {
-      "page": "notes/raspberry-pi-time-lapse-images/index.html",
-      "href": "http://www.raspberrypi.org/archives/3575",
-      "site": "www.raspberrypi.org",
-      "anchorText": "connected Raspberry Pis to actual cameras",
-      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
-    },
-    {
-      "page": "notes/raspberry-pi-time-lapse-images/index.html",
-      "href": "http://www.logitech.com/en-us/product/hd-webcam-c310",
-      "site": "www.logitech.com",
-      "anchorText": "very cheap HD webcam",
-      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
-    },
-    {
-      "page": "notes/raspberry-pi-time-lapse-images/index.html",
-      "href": "http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/occidentalis-v0-dot-2",
-      "site": "learn.adafruit.com",
-      "anchorText": "Occidentalis",
-      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
-    },
-    {
-      "page": "notes/raspberry-pi-time-lapse-images/index.html",
-      "href": "https://github.com/fsphil/fswebcam",
-      "site": "github.com",
-      "anchorText": "fswebcam package",
-      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
-    },
-    {
-      "page": "notes/raspberry-pi-time-lapse-images/index.html",
-      "href": "http://manpages.ubuntu.com/manpages/bionic/man1/fswebcam.1.html",
-      "site": "manpages.ubuntu.com",
       "anchorText": "here",
-      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
-    }
-  ],
-  "notes/whats-hypermedia/index.html": [
-    {
-      "page": "notes/whats-hypermedia/index.html",
-      "href": "http://en.wikipedia.org/wiki/Literary_Machines",
-      "site": "en.wikipedia.org",
-      "anchorText": "Literary Machines",
-      "parentElement": "Most people refer to the sort of work you see on Mechanical Scribe as &quot;interactive multimedia&quot; or &quot;interactive graphics.&quot; I&#39;ve always liked the term &quot;hypermedia&quot; for these projects. The term was coined alongside &quot;hypertext&quot; in 1963 by a man named Ted Nelson, but only one would stick. &quot;Hypertext&quot;&mdash;literally &quot;beyond text&quot;&mdash;is etched in the &#39;H&#39; and &#39;T&#39; of HTML, but you don&#39;t often hear the second term. Nelson commented on this in his book <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Literary_Machines\"><em>Literary Machines</em></a>:"
-    }
-  ],
-  "notes/wikipedia-music-transcriptions/index.html": [
-    {
-      "page": "notes/wikipedia-music-transcriptions/index.html",
-      "href": "http://vexflow.com",
-      "site": "vexflow.com",
-      "anchorText": "Vexflow",
-      "parentElement": "This makes me wonder if it would be possible to use the WikiMedia framework for a collaborative music transcription project. There appear to already be some impressive tools like <a target=\"_blank\" href=\"http://vexflow.com\">Vexflow</a> for rendering musical notation in Javascript. I don&#39;t know exactly how the process of editing an existing transcription would work. Ideally, the &quot;edit&quot; tab would render the notation in a manipulative form common to most notation software, with instant playback and so forth. (I recommend <a target=\"_blank\" href=\"http://www.schillmania.com/projects/soundmanager2/\">SoundManager 2</a> for JS audio.) "
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
     },
     {
-      "page": "notes/wikipedia-music-transcriptions/index.html",
-      "href": "http://www.schillmania.com/projects/soundmanager2/",
-      "site": "www.schillmania.com",
-      "anchorText": "SoundManager 2",
-      "parentElement": "This makes me wonder if it would be possible to use the WikiMedia framework for a collaborative music transcription project. There appear to already be some impressive tools like <a target=\"_blank\" href=\"http://vexflow.com\">Vexflow</a> for rendering musical notation in Javascript. I don&#39;t know exactly how the process of editing an existing transcription would work. Ideally, the &quot;edit&quot; tab would render the notation in a manipulative form common to most notation software, with instant playback and so forth. (I recommend <a target=\"_blank\" href=\"http://www.schillmania.com/projects/soundmanager2/\">SoundManager 2</a> for JS audio.) "
-    }
-  ],
-  "notes/normalizing-musical-intervals/index.html": [
-    {
-      "page": "notes/normalizing-musical-intervals/index.html",
-      "href": "http://soundslice.com",
-      "site": "soundslice.com",
-      "anchorText": "Soundslice",
-      "parentElement": "As I <a href=\"/notes/javascript-metronome-open-source/\">mentioned a few days ago</a>, I&#39;m a big fan of <a target=\"_blank\" href=\"http://soundslice.com\">Soundslice</a>, a project by Adrian Holovaty and PJ Macklin for creating interactive guitar tabs. One of the coolest features is the ability to tap out measures on the computer keyboard as a recording of the sound you&#39;re transcribing plays, thus marking out measures to then fill in with chords."
-    },
-    {
-      "page": "notes/normalizing-musical-intervals/index.html",
-      "href": "http://en.wikipedia.org/wiki/Simple_linear_regression",
-      "site": "en.wikipedia.org",
-      "anchorText": "simple linear regression",
-      "parentElement": "As I <a href=\"/notes/javascript-metronome-open-source/\">mentioned a few days ago</a>, I&#39;m a big fan of <a target=\"_blank\" href=\"http://soundslice.com\">Soundslice</a>, a project by Adrian Holovaty and PJ Macklin for creating interactive guitar tabs. One of the coolest features is the ability to tap out measures on the computer keyboard as a recording of the sound you&#39;re transcribing plays, thus marking out measures to then fill in with chords."
-    },
-    {
-      "page": "notes/normalizing-musical-intervals/index.html",
-      "href": "https://github.com/wilson428/metronome",
+      "page": "coding/versioned-posts-in-metalsmith/index.html",
+      "href": "https://github.com/wilson428/metalsmith-versioned-posts/issues",
       "site": "github.com",
-      "anchorText": "Javascript metronome",
-      "parentElement": "As I <a href=\"/notes/javascript-metronome-open-source/\">mentioned a few days ago</a>, I&#39;m a big fan of <a target=\"_blank\" href=\"http://soundslice.com\">Soundslice</a>, a project by Adrian Holovaty and PJ Macklin for creating interactive guitar tabs. One of the coolest features is the ability to tap out measures on the computer keyboard as a recording of the sound you&#39;re transcribing plays, thus marking out measures to then fill in with chords."
+      "anchorText": "issues",
+      "parentElement": "I just moved this site from <a target=\"_blank\" href=\"http://jekyllrb.com/\">Jekyll</a> over to <a target=\"_blank\" href=\"http://www.metalsmith.io/\">Metalsmith</a> since I work primarily in Node and Javascript and don&#39;t know a lick of Ruby. Which means, sadly, think I had to leave behind Jeremy Singer-Vine&#39;s peerless <a target=\"_blank\" href=\"https://github.com/jsvine/gekyll\">Gekyll</a> plugin for tracking versions of posts using Git."
     }
   ],
   "notes/algae-growth-visualization/index.html": [
@@ -529,6 +430,36 @@
       "parentElement": "Google provides <a target=\"_blank\" href=\"http://storage.googleapis.com/books/ngrams/books/datasetsv2.html\">fantastic data</a> on the frequency of words and ngrams in all the books it has scanned, in many cases going back centuries. The only drawback is that these files are enormous. The unigrams alone are 4GB when compressed, not including numbers and punctuation."
     }
   ],
+  "notes/html-is-data-visualization/index.html": [
+    {
+      "page": "notes/html-is-data-visualization/index.html",
+      "href": "http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html",
+      "site": "news.yahoo.com",
+      "anchorText": "arrange this information as an interactive inbox",
+      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
+    },
+    {
+      "page": "notes/html-is-data-visualization/index.html",
+      "href": "https://code.google.com/p/pagedown/",
+      "site": "code.google.com",
+      "anchorText": "Pagedown",
+      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
+    },
+    {
+      "page": "notes/html-is-data-visualization/index.html",
+      "href": "http://d3js.org/",
+      "site": "d3js.org",
+      "anchorText": "D3 library",
+      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
+    },
+    {
+      "page": "notes/html-is-data-visualization/index.html",
+      "href": "https://github.com/mbostock/d3/wiki/Gallery",
+      "site": "github.com",
+      "anchorText": "example of D3 in action",
+      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
+    }
+  ],
   "notes/joy-of-screen-scraping/index.html": [
     {
       "page": "notes/joy-of-screen-scraping/index.html",
@@ -557,6 +488,119 @@
       "site": "priceonomics.com",
       "anchorText": "Priceonomics",
       "parentElement": "I was tickled pink the other day to see that over 1,000 people have downloaded the <a target=\"_blank\" href=\"https://www.npmjs.com/package/downcache\">downcache module</a> I maintain on NPM. The way it works is simple: You request a web page, just like you would with any other HTTP module in Node, and in addition to returning the page it saves a copy of the response to your machine. If you request it again, it loads the cached version instead of making another trip to the server."
+    }
+  ],
+  "notes/most-common-two-letter-combinations/index.html": [
+    {
+      "page": "notes/most-common-two-letter-combinations/index.html",
+      "href": "http://wordlist.sourceforge.net/",
+      "site": "wordlist.sourceforge.net",
+      "anchorText": "Kevin's Word List page",
+      "parentElement": "I was pondering how one would make a premium gibberish generator the other day, which led to a short investigation of which pairings of letters are legal in English and how common each combination is. This diagram shows a basic heat map of letter combinations, using &#39;^&#39; to mark the beginning of a word and &#39;$&#39; to mark the end. The data here is extracted from every item in the &quot;2 of 12&quot; list of dictionary words available on <a target=\"_blank\" href=\"http://wordlist.sourceforge.net/\">Kevin&#39;s Word List page</a>."
+    },
+    {
+      "page": "notes/most-common-two-letter-combinations/index.html",
+      "href": "http://pi.math.cornell.edu/~mec/2003-2004/cryptography/subs/digraphs.html",
+      "site": "pi.math.cornell.edu",
+      "anchorText": "\"th\" usually comes out on top",
+      "parentElement": "I was pondering how one would make a premium gibberish generator the other day, which led to a short investigation of which pairings of letters are legal in English and how common each combination is. This diagram shows a basic heat map of letter combinations, using &#39;^&#39; to mark the beginning of a word and &#39;$&#39; to mark the end. The data here is extracted from every item in the &quot;2 of 12&quot; list of dictionary words available on <a target=\"_blank\" href=\"http://wordlist.sourceforge.net/\">Kevin&#39;s Word List page</a>."
+    }
+  ],
+  "notes/normalizing-musical-intervals/index.html": [
+    {
+      "page": "notes/normalizing-musical-intervals/index.html",
+      "href": "http://soundslice.com",
+      "site": "soundslice.com",
+      "anchorText": "Soundslice",
+      "parentElement": "As I <a href=\"/notes/javascript-metronome-open-source/\">mentioned a few days ago</a>, I&#39;m a big fan of <a target=\"_blank\" href=\"http://soundslice.com\">Soundslice</a>, a project by Adrian Holovaty and PJ Macklin for creating interactive guitar tabs. One of the coolest features is the ability to tap out measures on the computer keyboard as a recording of the sound you&#39;re transcribing plays, thus marking out measures to then fill in with chords."
+    },
+    {
+      "page": "notes/normalizing-musical-intervals/index.html",
+      "href": "http://en.wikipedia.org/wiki/Simple_linear_regression",
+      "site": "en.wikipedia.org",
+      "anchorText": "simple linear regression",
+      "parentElement": "As I <a href=\"/notes/javascript-metronome-open-source/\">mentioned a few days ago</a>, I&#39;m a big fan of <a target=\"_blank\" href=\"http://soundslice.com\">Soundslice</a>, a project by Adrian Holovaty and PJ Macklin for creating interactive guitar tabs. One of the coolest features is the ability to tap out measures on the computer keyboard as a recording of the sound you&#39;re transcribing plays, thus marking out measures to then fill in with chords."
+    },
+    {
+      "page": "notes/normalizing-musical-intervals/index.html",
+      "href": "https://github.com/wilson428/metronome",
+      "site": "github.com",
+      "anchorText": "Javascript metronome",
+      "parentElement": "As I <a href=\"/notes/javascript-metronome-open-source/\">mentioned a few days ago</a>, I&#39;m a big fan of <a target=\"_blank\" href=\"http://soundslice.com\">Soundslice</a>, a project by Adrian Holovaty and PJ Macklin for creating interactive guitar tabs. One of the coolest features is the ability to tap out measures on the computer keyboard as a recording of the sound you&#39;re transcribing plays, thus marking out measures to then fill in with chords."
+    }
+  ],
+  "notes/pascals-triangle-paths/index.html": [
+    {
+      "page": "notes/pascals-triangle-paths/index.html",
+      "href": "https://en.wikipedia.org/wiki/Bean_machine",
+      "site": "en.wikipedia.org",
+      "anchorText": "\"bean machine\" or \"Galton board\"",
+      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+    },
+    {
+      "page": "notes/pascals-triangle-paths/index.html",
+      "href": "https://en.wikipedia.org/wiki/Pascal%27s_triangle",
+      "site": "en.wikipedia.org",
+      "anchorText": "Pascal's Triangle",
+      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+    },
+    {
+      "page": "notes/pascals-triangle-paths/index.html",
+      "href": "https://www.amazon.com/gp/product/B00F4F9138/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mechascrib-20&creative=9325&linkCode=as2&creativeASIN=B00F4F9138&linkId=2c01a07d9b85d56eba22950c2b26d538",
+      "site": "www.amazon.com",
+      "anchorText": "cost over $1,000 on Amazon",
+      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+    }
+  ],
+  "notes/raspberry-pi-time-lapse-images/index.html": [
+    {
+      "page": "notes/raspberry-pi-time-lapse-images/index.html",
+      "href": "http://www.raspberrypi.org/",
+      "site": "www.raspberrypi.org",
+      "anchorText": "$35 mini-computer",
+      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
+    },
+    {
+      "page": "notes/raspberry-pi-time-lapse-images/index.html",
+      "href": "http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307",
+      "site": "www2.technologyreview.com",
+      "anchorText": "the profile of creator Eben Upton",
+      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
+    },
+    {
+      "page": "notes/raspberry-pi-time-lapse-images/index.html",
+      "href": "http://www.raspberrypi.org/archives/3575",
+      "site": "www.raspberrypi.org",
+      "anchorText": "connected Raspberry Pis to actual cameras",
+      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
+    },
+    {
+      "page": "notes/raspberry-pi-time-lapse-images/index.html",
+      "href": "http://www.logitech.com/en-us/product/hd-webcam-c310",
+      "site": "www.logitech.com",
+      "anchorText": "very cheap HD webcam",
+      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
+    },
+    {
+      "page": "notes/raspberry-pi-time-lapse-images/index.html",
+      "href": "http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/occidentalis-v0-dot-2",
+      "site": "learn.adafruit.com",
+      "anchorText": "Occidentalis",
+      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
+    },
+    {
+      "page": "notes/raspberry-pi-time-lapse-images/index.html",
+      "href": "https://github.com/fsphil/fswebcam",
+      "site": "github.com",
+      "anchorText": "fswebcam package",
+      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
+    },
+    {
+      "page": "notes/raspberry-pi-time-lapse-images/index.html",
+      "href": "http://manpages.ubuntu.com/manpages/bionic/man1/fswebcam.1.html",
+      "site": "manpages.ubuntu.com",
+      "anchorText": "here",
+      "parentElement": "I bought a Raspberry Pi, the <a target=\"_blank\" href=\"http://www.raspberrypi.org/\">$35 mini-computer</a> designed for tinkerers, after reading <a target=\"_blank\" href=\"http://www2.technologyreview.com/tr35/profile.aspx?TRID=1307\">the profile of creator Eben Upton</a> in last year&#39;s Tech Review 35 Under 35. It&#39;s an amazing product: A fully functional Linux box with a credit card-sized motherboard that costs less than the fees on most actual credit cards."
     }
   ],
   "notes/scraping-netflix-category-data/index.html": [
@@ -603,27 +647,117 @@
       "parentElement": "The Atlantic published a <a target=\"_blank\" href=\"http://www.theatlantic.com/technology/archive/2014/01/how-netflix-reverse-engineered-hollywood/282679/\">delightful  exploration</a> last week of Netflix&#39;s surgically precise category descriptions, which include gems like &quot;Critically-acclaimed Irreverent Crime Movies&quot; or &quot;Dramas starring Charlotte Rampling&quot; (whoever she is). Because Netflix identifies the categories with integers in the URLs, Alexis Madrigal was able to scrape each one of the 76,897 unique categories names. It&#39;s data mining at its best."
     }
   ],
-  "notes/pascals-triangle-paths/index.html": [
+  "notes/sentences-that-use-every-letter/index.html": [
     {
-      "page": "notes/pascals-triangle-paths/index.html",
-      "href": "https://en.wikipedia.org/wiki/Bean_machine",
-      "site": "en.wikipedia.org",
-      "anchorText": "\"bean machine\" or \"Galton board\"",
-      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+      "page": "notes/sentences-that-use-every-letter/index.html",
+      "href": "http://www.google.com/fonts/",
+      "site": "www.google.com",
+      "anchorText": "Google Webfonts",
+      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
     },
     {
-      "page": "notes/pascals-triangle-paths/index.html",
-      "href": "https://en.wikipedia.org/wiki/Pascal%27s_triangle",
-      "site": "en.wikipedia.org",
-      "anchorText": "Pascal's Triangle",
-      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+      "page": "notes/sentences-that-use-every-letter/index.html",
+      "href": "http://ejohn.org/blog/revised-javascript-dictionary-search/",
+      "site": "ejohn.org",
+      "anchorText": "tutorial on trie structures",
+      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
     },
     {
-      "page": "notes/pascals-triangle-paths/index.html",
-      "href": "https://www.amazon.com/gp/product/B00F4F9138/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mechascrib-20&creative=9325&linkCode=as2&creativeASIN=B00F4F9138&linkId=2c01a07d9b85d56eba22950c2b26d538",
+      "page": "notes/sentences-that-use-every-letter/index.html",
+      "href": "http://wordlist.sourceforge.net/12dicts-readme-r5.html",
+      "site": "wordlist.sourceforge.net",
+      "anchorText": "Kevin's Word List page",
+      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
+    },
+    {
+      "page": "notes/sentences-that-use-every-letter/index.html",
+      "href": "http://stackoverflow.com/questions/55210/algorithm-to-generate-anagrams",
+      "site": "stackoverflow.com",
+      "anchorText": "anagram algorithms",
+      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
+    }
+  ],
+  "notes/stages-of-developer-grief-bargaining/index.html": [
+    {
+      "page": "notes/stages-of-developer-grief-bargaining/index.html",
+      "href": "http://time.com/3703865/dating-pool/",
+      "site": "time.com",
+      "anchorText": "little app",
+      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
+    },
+    {
+      "page": "notes/stages-of-developer-grief-bargaining/index.html",
+      "href": "https://www.ipums.org/",
+      "site": "www.ipums.org",
+      "anchorText": "IPUMS project",
+      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
+    },
+    {
+      "page": "notes/stages-of-developer-grief-bargaining/index.html",
+      "href": "https://source.opennews.org/en-US/articles/case-flat-files-big-data-projects/",
+      "site": "source.opennews.org",
+      "anchorText": "prefer to work with flat files",
+      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
+    },
+    {
+      "page": "notes/stages-of-developer-grief-bargaining/index.html",
+      "href": "http://stackoverflow.com/questions/28443974/lazily-loading-an-11-mb-file-in-the-browser",
+      "site": "stackoverflow.com",
+      "anchorText": "asking for permission",
+      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
+    }
+  ],
+  "notes/synesthesia-test-results/index.html": [
+    {
+      "page": "notes/synesthesia-test-results/index.html",
+      "href": "https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mechascrib-20&creative=9325&linkCode=as2&creativeASIN=0393355640&linkId=6f375b4b66fb5687e0db43d78395ae1f",
       "site": "www.amazon.com",
-      "anchorText": "cost over $1,000 on Amazon",
-      "parentElement": "There&#39;s a wonderful math toy known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bean_machine\">&quot;bean machine&quot; or &quot;Galton board&quot;</a> that demonstrates normal distributions though a simple mechanism: A large number of small metal balls&mdash;or beans, if you prefer&mdash;are fed through an staggered lattice of metal pegs, which, when the ball collides with the peg, causes it to drop either to the left or the right. Here&#39;s a simple demonstration from Wikipedia."
+      "anchorText": "\"What Do You Care What Other People Think?\"",
+      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
+    },
+    {
+      "page": "notes/synesthesia-test-results/index.html",
+      "href": "https://www.discovermagazine.com/mind/do-you-see-what-they-see",
+      "site": "www.discovermagazine.com",
+      "anchorText": "article in Discover",
+      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
+    },
+    {
+      "page": "notes/synesthesia-test-results/index.html",
+      "href": "http://en.wikipedia.org/wiki/Grapheme%E2%80%93color_synesthesia",
+      "site": "en.wikipedia.org",
+      "anchorText": "grapheme–color synesthesia",
+      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
+    },
+    {
+      "page": "notes/synesthesia-test-results/index.html",
+      "href": "http://www.eaglemanlab.net/",
+      "site": "www.eaglemanlab.net",
+      "anchorText": "David Eagleman",
+      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
+    }
+  ],
+  "notes/visualizing-random-walks-with-canvas/index.html": [
+    {
+      "page": "notes/visualizing-random-walks-with-canvas/index.html",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "site": "developer.mozilla.org",
+      "anchorText": "Canvas",
+      "parentElement": "I don&#39;t use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">Canvas</a> all that often on the client since SVG-based tools&mdash;mainly <a target=\"_blank\" href=\"https://d3js.org/\">D3</a>&mdash;are better suited for editorial data visualization. But I was thinking about random walks recently, which involve drawing thousands of dots and refreshing them several times a second, and figured it would be an interesting use case for Canvas&#39;s capabilities. Here&#39;s a little line that start&#39;s out with 10,000 points and updates 10 times a second, drawing 100 new random points and shedding the oldest 100. (Green is the newest, red is the oldest.)"
+    },
+    {
+      "page": "notes/visualizing-random-walks-with-canvas/index.html",
+      "href": "https://d3js.org/",
+      "site": "d3js.org",
+      "anchorText": "D3",
+      "parentElement": "I don&#39;t use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">Canvas</a> all that often on the client since SVG-based tools&mdash;mainly <a target=\"_blank\" href=\"https://d3js.org/\">D3</a>&mdash;are better suited for editorial data visualization. But I was thinking about random walks recently, which involve drawing thousands of dots and refreshing them several times a second, and figured it would be an interesting use case for Canvas&#39;s capabilities. Here&#39;s a little line that start&#39;s out with 10,000 points and updates 10 times a second, drawing 100 new random points and shedding the oldest 100. (Green is the newest, red is the oldest.)"
+    },
+    {
+      "page": "notes/visualizing-random-walks-with-canvas/index.html",
+      "href": "https://github.com/mechanicalscribe/random-walks",
+      "site": "github.com",
+      "anchorText": "code is here",
+      "parentElement": "I don&#39;t use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">Canvas</a> all that often on the client since SVG-based tools&mdash;mainly <a target=\"_blank\" href=\"https://d3js.org/\">D3</a>&mdash;are better suited for editorial data visualization. But I was thinking about random walks recently, which involve drawing thousands of dots and refreshing them several times a second, and figured it would be an interesting use case for Canvas&#39;s capabilities. Here&#39;s a little line that start&#39;s out with 10,000 points and updates 10 times a second, drawing 100 new random points and shedding the oldest 100. (Green is the newest, red is the oldest.)"
     }
   ],
   "notes/visualizing-rhapsody-in-blue/index.html": [
@@ -740,163 +874,29 @@
       "parentElement": "George Gershwin&#39;s &quot;Rhapsody in Blue&quot; famously opens with a trilling clarinet that rockets up more than two octaves in what&#39;s known as a <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Glissando\">&quot;glissando,&quot;</a> in which an instrument&#39;s pitch bends across a span of notes in a continuous climb or descent rather than stopping at discrete frequencies. Here&#39;s an example from the <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=9aS20ojHDHg\">Columbia Symphony Orchestra</a>, which probably sounds familiar: "
     }
   ],
-  "notes/visualizing-random-walks-with-canvas/index.html": [
+  "notes/whats-hypermedia/index.html": [
     {
-      "page": "notes/visualizing-random-walks-with-canvas/index.html",
-      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
-      "site": "developer.mozilla.org",
-      "anchorText": "Canvas",
-      "parentElement": "I don&#39;t use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">Canvas</a> all that often on the client since SVG-based tools&mdash;mainly <a target=\"_blank\" href=\"https://d3js.org/\">D3</a>&mdash;are better suited for editorial data visualization. But I was thinking about random walks recently, which involve drawing thousands of dots and refreshing them several times a second, and figured it would be an interesting use case for Canvas&#39;s capabilities. Here&#39;s a little line that start&#39;s out with 10,000 points and updates 10 times a second, drawing 100 new random points and shedding the oldest 100. (Green is the newest, red is the oldest.)"
-    },
-    {
-      "page": "notes/visualizing-random-walks-with-canvas/index.html",
-      "href": "https://d3js.org/",
-      "site": "d3js.org",
-      "anchorText": "D3",
-      "parentElement": "I don&#39;t use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">Canvas</a> all that often on the client since SVG-based tools&mdash;mainly <a target=\"_blank\" href=\"https://d3js.org/\">D3</a>&mdash;are better suited for editorial data visualization. But I was thinking about random walks recently, which involve drawing thousands of dots and refreshing them several times a second, and figured it would be an interesting use case for Canvas&#39;s capabilities. Here&#39;s a little line that start&#39;s out with 10,000 points and updates 10 times a second, drawing 100 new random points and shedding the oldest 100. (Green is the newest, red is the oldest.)"
-    },
-    {
-      "page": "notes/visualizing-random-walks-with-canvas/index.html",
-      "href": "https://github.com/mechanicalscribe/random-walks",
-      "site": "github.com",
-      "anchorText": "code is here",
-      "parentElement": "I don&#39;t use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">Canvas</a> all that often on the client since SVG-based tools&mdash;mainly <a target=\"_blank\" href=\"https://d3js.org/\">D3</a>&mdash;are better suited for editorial data visualization. But I was thinking about random walks recently, which involve drawing thousands of dots and refreshing them several times a second, and figured it would be an interesting use case for Canvas&#39;s capabilities. Here&#39;s a little line that start&#39;s out with 10,000 points and updates 10 times a second, drawing 100 new random points and shedding the oldest 100. (Green is the newest, red is the oldest.)"
-    }
-  ],
-  "notes/stages-of-developer-grief-bargaining/index.html": [
-    {
-      "page": "notes/stages-of-developer-grief-bargaining/index.html",
-      "href": "http://time.com/3703865/dating-pool/",
-      "site": "time.com",
-      "anchorText": "little app",
-      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
-    },
-    {
-      "page": "notes/stages-of-developer-grief-bargaining/index.html",
-      "href": "https://www.ipums.org/",
-      "site": "www.ipums.org",
-      "anchorText": "IPUMS project",
-      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
-    },
-    {
-      "page": "notes/stages-of-developer-grief-bargaining/index.html",
-      "href": "https://source.opennews.org/en-US/articles/case-flat-files-big-data-projects/",
-      "site": "source.opennews.org",
-      "anchorText": "prefer to work with flat files",
-      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
-    },
-    {
-      "page": "notes/stages-of-developer-grief-bargaining/index.html",
-      "href": "http://stackoverflow.com/questions/28443974/lazily-loading-an-11-mb-file-in-the-browser",
-      "site": "stackoverflow.com",
-      "anchorText": "asking for permission",
-      "parentElement": "A few weeks ago, we published a <a target=\"_blank\" href=\"http://time.com/3703865/dating-pool/\">little app</a> on Time.com that uses unit-level Census data to show you how many single people in your city meet your dating standards. Using about 15 million records from the <a target=\"_blank\" href=\"https://www.ipums.org/\">IPUMS project</a>, we asked the user for his or her preference in education, income and other demographic questions and estimated what percent of the population matched those criteria."
-    }
-  ],
-  "notes/html-is-data-visualization/index.html": [
-    {
-      "page": "notes/html-is-data-visualization/index.html",
-      "href": "http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html",
-      "site": "news.yahoo.com",
-      "anchorText": "arrange this information as an interactive inbox",
-      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
-    },
-    {
-      "page": "notes/html-is-data-visualization/index.html",
-      "href": "https://code.google.com/p/pagedown/",
-      "site": "code.google.com",
-      "anchorText": "Pagedown",
-      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
-    },
-    {
-      "page": "notes/html-is-data-visualization/index.html",
-      "href": "http://d3js.org/",
-      "site": "d3js.org",
-      "anchorText": "D3 library",
-      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
-    },
-    {
-      "page": "notes/html-is-data-visualization/index.html",
-      "href": "https://github.com/mbostock/d3/wiki/Gallery",
-      "site": "github.com",
-      "anchorText": "example of D3 in action",
-      "parentElement": "At Yahoo News, we decided to <a target=\"_blank\" href=\"http://news.yahoo.com/blogs/ticket/benghazi-messages-browse-administration-emails-inbox-153342167.html\">arrange this information as an interactive inbox</a>, in which readers could view the messages in a basic approximation of a standard email client."
-    }
-  ],
-  "notes/synesthesia-test-results/index.html": [
-    {
-      "page": "notes/synesthesia-test-results/index.html",
-      "href": "https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mechascrib-20&creative=9325&linkCode=as2&creativeASIN=0393355640&linkId=6f375b4b66fb5687e0db43d78395ae1f",
-      "site": "www.amazon.com",
-      "anchorText": "\"What Do You Care What Other People Think?\"",
-      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
-    },
-    {
-      "page": "notes/synesthesia-test-results/index.html",
-      "href": "https://www.discovermagazine.com/mind/do-you-see-what-they-see",
-      "site": "www.discovermagazine.com",
-      "anchorText": "article in Discover",
-      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
-    },
-    {
-      "page": "notes/synesthesia-test-results/index.html",
-      "href": "http://en.wikipedia.org/wiki/Grapheme%E2%80%93color_synesthesia",
+      "page": "notes/whats-hypermedia/index.html",
+      "href": "http://en.wikipedia.org/wiki/Literary_Machines",
       "site": "en.wikipedia.org",
-      "anchorText": "grapheme–color synesthesia",
-      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
-    },
-    {
-      "page": "notes/synesthesia-test-results/index.html",
-      "href": "http://www.eaglemanlab.net/",
-      "site": "www.eaglemanlab.net",
-      "anchorText": "David Eagleman",
-      "parentElement": "For as long as I can remember, I have associated specific colors with every number and letter. I first encountered a description of this condition in Richard Feynman&#39;s <a target=\"_blank\" href=\"https://www.amazon.com/gp/product/0393355640/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=mechascrib-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=0393355640&amp;linkId=6f375b4b66fb5687e0db43d78395ae1f\">&quot;What Do You Care What Other People Think?&quot;</a>:"
+      "anchorText": "Literary Machines",
+      "parentElement": "Most people refer to the sort of work you see on Mechanical Scribe as &quot;interactive multimedia&quot; or &quot;interactive graphics.&quot; I&#39;ve always liked the term &quot;hypermedia&quot; for these projects. The term was coined alongside &quot;hypertext&quot; in 1963 by a man named Ted Nelson, but only one would stick. &quot;Hypertext&quot;&mdash;literally &quot;beyond text&quot;&mdash;is etched in the &#39;H&#39; and &#39;T&#39; of HTML, but you don&#39;t often hear the second term. Nelson commented on this in his book <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Literary_Machines\"><em>Literary Machines</em></a>:"
     }
   ],
-  "notes/most-common-two-letter-combinations/index.html": [
+  "notes/wikipedia-music-transcriptions/index.html": [
     {
-      "page": "notes/most-common-two-letter-combinations/index.html",
-      "href": "http://wordlist.sourceforge.net/",
-      "site": "wordlist.sourceforge.net",
-      "anchorText": "Kevin's Word List page",
-      "parentElement": "I was pondering how one would make a premium gibberish generator the other day, which led to a short investigation of which pairings of letters are legal in English and how common each combination is. This diagram shows a basic heat map of letter combinations, using &#39;^&#39; to mark the beginning of a word and &#39;$&#39; to mark the end. The data here is extracted from every item in the &quot;2 of 12&quot; list of dictionary words available on <a target=\"_blank\" href=\"http://wordlist.sourceforge.net/\">Kevin&#39;s Word List page</a>."
+      "page": "notes/wikipedia-music-transcriptions/index.html",
+      "href": "http://vexflow.com",
+      "site": "vexflow.com",
+      "anchorText": "Vexflow",
+      "parentElement": "This makes me wonder if it would be possible to use the WikiMedia framework for a collaborative music transcription project. There appear to already be some impressive tools like <a target=\"_blank\" href=\"http://vexflow.com\">Vexflow</a> for rendering musical notation in Javascript. I don&#39;t know exactly how the process of editing an existing transcription would work. Ideally, the &quot;edit&quot; tab would render the notation in a manipulative form common to most notation software, with instant playback and so forth. (I recommend <a target=\"_blank\" href=\"http://www.schillmania.com/projects/soundmanager2/\">SoundManager 2</a> for JS audio.) "
     },
     {
-      "page": "notes/most-common-two-letter-combinations/index.html",
-      "href": "http://pi.math.cornell.edu/~mec/2003-2004/cryptography/subs/digraphs.html",
-      "site": "pi.math.cornell.edu",
-      "anchorText": "\"th\" usually comes out on top",
-      "parentElement": "I was pondering how one would make a premium gibberish generator the other day, which led to a short investigation of which pairings of letters are legal in English and how common each combination is. This diagram shows a basic heat map of letter combinations, using &#39;^&#39; to mark the beginning of a word and &#39;$&#39; to mark the end. The data here is extracted from every item in the &quot;2 of 12&quot; list of dictionary words available on <a target=\"_blank\" href=\"http://wordlist.sourceforge.net/\">Kevin&#39;s Word List page</a>."
-    }
-  ],
-  "notes/sentences-that-use-every-letter/index.html": [
-    {
-      "page": "notes/sentences-that-use-every-letter/index.html",
-      "href": "http://www.google.com/fonts/",
-      "site": "www.google.com",
-      "anchorText": "Google Webfonts",
-      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
-    },
-    {
-      "page": "notes/sentences-that-use-every-letter/index.html",
-      "href": "http://ejohn.org/blog/revised-javascript-dictionary-search/",
-      "site": "ejohn.org",
-      "anchorText": "tutorial on trie structures",
-      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
-    },
-    {
-      "page": "notes/sentences-that-use-every-letter/index.html",
-      "href": "http://wordlist.sourceforge.net/12dicts-readme-r5.html",
-      "site": "wordlist.sourceforge.net",
-      "anchorText": "Kevin's Word List page",
-      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
-    },
-    {
-      "page": "notes/sentences-that-use-every-letter/index.html",
-      "href": "http://stackoverflow.com/questions/55210/algorithm-to-generate-anagrams",
-      "site": "stackoverflow.com",
-      "anchorText": "anagram algorithms",
-      "parentElement": "I&#39;ve been spending a lot of time with <a target=\"_blank\" href=\"http://www.google.com/fonts/\">Google Webfonts</a> recently, looking for a semi-coherent font ensemble for this site. By default, every font is displayed in the sentence &quot;Grumpy wizards make toxic brew for the evil Queen and Jack.&quot;"
+      "page": "notes/wikipedia-music-transcriptions/index.html",
+      "href": "http://www.schillmania.com/projects/soundmanager2/",
+      "site": "www.schillmania.com",
+      "anchorText": "SoundManager 2",
+      "parentElement": "This makes me wonder if it would be possible to use the WikiMedia framework for a collaborative music transcription project. There appear to already be some impressive tools like <a target=\"_blank\" href=\"http://vexflow.com\">Vexflow</a> for rendering musical notation in Javascript. I don&#39;t know exactly how the process of editing an existing transcription would work. Ideally, the &quot;edit&quot; tab would render the notation in a manipulative form common to most notation software, with instant playback and so forth. (I recommend <a target=\"_blank\" href=\"http://www.schillmania.com/projects/soundmanager2/\">SoundManager 2</a> for JS audio.) "
     }
   ]
 }

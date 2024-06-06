@@ -25,8 +25,8 @@ const MS = {
 	DRAFTS: require("@metalsmith/drafts"),
 	SASS: require("@metalsmith/sass"),
 	EXCERPTS: require("@metalsmith/excerpts"),
-	// COLLECTIONS: require("metalsmith-collections"),
-	LAYOUTS: require("@metalsmith/layouts")
+	// COLLECTIONS: require("@metalsmith/collections"),
+	LAYOUTS: require("metalsmith-layouts")
 }
 
 // FORKED PLUGINS
@@ -40,7 +40,7 @@ const FORKED = {
 
 // Original Plugins
 const ORIGINAL = {
-	VERSIONED: require("./plugins/metalsmith-versioned-posts"),
+	// VERSIONED: require("./plugins/metalsmith-versioned-posts"),
 	BIBLIOGRAPHY: require("./plugins/metalsmith-bibliography")
 }
 
