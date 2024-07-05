@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+$width-standard: 750px;
+$width-break: 680px;
+
+
+$body-bg: #f8f0e3;
+$text-color: #3a3a3a;
+$link-color: #666;
+$link-underline-color: rgba(209, 140, 71, 0.5);
+$highlight-color: #d18c47;
+$font-primary: 'Georgia', serif;
+$font-headline: 'Arial Black', sans-serif;
+
+$font-typewriter: "Nixie One", Courier, monospace;
+// $font-typewriter: "Courier New", Courier, monospace;
+$font-sans: "Roboto", sans-serif;
+// $font-sans: 'Arial', sans-serif;
+
+
+
+body {
+    font-size: 16px;
+    font-family: $font-primary;
+    background-color: $body-bg;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+    a {
+        text-decoration: none !important;
+    }
+}
+
+nav,main,footer {
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: $width-standard;
+}
+
+.section {
+    // max-width: $width-standard;
+    // margin: auto;
+}
+
+
+header {
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 2px dashed $text-color;
+
+    nav {
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        padding: 0 20px;
+    }
+    
+    .logo {
+        font-family: $font-typewriter;
+        font-size: 1.25em;
+        font-weight: 300;
+        // text-align: center;
+    }
+
+    .tagline {
+        font-family: $font-sans;
+        font-weight: 700;
+    }
+
+}
+
+
+
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    font-size: 1.5em;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+footer {
+    color: $highlight-color;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/*
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    header .logo {
+        font-size: 1.5em;
+    }
+}
+*/

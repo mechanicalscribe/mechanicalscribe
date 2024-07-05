@@ -1,0 +1,50 @@
+header {
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 2px dashed $text-color;
+
+    nav {
+        padding: 0 20px;
+    }
+    
+    .logo {
+        font-family: $font-typewriter;
+        font-size: 1.25em;
+        font-weight: 300;
+        text-align: left;
+
+        a,a:visited {
+            text-decoration: none;
+        }
+    }
+
+    .tagline {
+        font-family: $font-sans;
+        font-weight: 700;
+    }
+
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: $link-color;
+    font-size: 1.5em;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+

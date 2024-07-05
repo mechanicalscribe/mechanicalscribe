@@ -5,8 +5,10 @@ const rimraf = require("rimraf");
 
 const SOURCE_DIR="./src";
 const BUILD_DIR="./build";
-
 const SITEMAP_OVERRIDES = require("./sitemap_overrides.json");
+
+const METADATA = require("./metadata.json");
+
 
 const CATEGORIES = [
 	'notes',
@@ -52,18 +54,22 @@ const genericPlugin = function(f) {
   }
 }
 
-Metalsmith(__dirname)
-	.metadata({
-		sitename: "Mechanical Scribe",
-		siteurl: "https://mechanicalscribe.com/",
-		description: "Infrequent posts by Chris Wilson."
-  	})
+Metalsmith(__dirname)	
+	.metadata(METADATA)
   	.source(SOURCE_DIR)			// source directory
   	.destination('./build')		// destination directory
   	.clean(true)				// clean destination before	
-	.use(MS.IGNORE([ ".DS_Store", "**/.DS_Store", "**/**.less", "_posts/_archive/**", "**/node_modules/**", "repos/*/.git*" ]))
+	.use(MS.IGNORE([
+		 ".DS_Store", "**/.DS_Store", "**/**.less",
+		 "_posts/_archive/**", "**/node_modules/**", "repos/*/.git*",
+		 "**/source/**/*.scss"		
+	]))
 	.use(MS.DRAFTS())
-	.use(MS.SASS({}))
+	.use(MS.SASS({
+		// entries: {
+		// 	"css/analog.scss": "css/analog.css"
+		// },
+	}))
 	// .use(ORIGINAL.VERSIONED({
 	// 	"directories": ["_posts"],
 	// 	"override": false
@@ -80,6 +86,7 @@ Metalsmith(__dirname)
 			coding: { category_title: "Coding Tips" },
 			archive: { category_title: "Archive" },
 			clips: { category_title: "Clips" },
+			portfolio: { category_title: "Portfolio" },
 			posts: { category_title: "All Posts" }
 		},
 		order: [ 'notes', 'music', 'clips', 'coding' ]
@@ -109,7 +116,7 @@ Metalsmith(__dirname)
 		externalTarget: "_blank"
 	}))
 	.use(MS.LAYOUTS({
-		"directory": "layouts/swig",
+		"directory": "layouts/analog",
 		"pattern": [ "*.html", "**/*.html" ],
 		"default": "index.swig"
 	}))
@@ -136,6 +143,7 @@ Metalsmith(__dirname)
 		lastmod: true,
 		beautify: false
 	}))
+
 	.build(function(err) {
 		if (err) throw err;
 		rimraf(BUILD_DIR + "/_posts", function() {
