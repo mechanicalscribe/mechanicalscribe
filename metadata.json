@@ -2,5 +2,24 @@
     "sitename": "Mechanical Scribe",
     "siteurl": "https://mechanicalscribe.com/",
     "tagline": "Visualize Anything",
-    "description": "The homepage for freelance journalist and interactive coder Chris Wilson."
+    "description": "The homepage for freelance journalist and interactive coder Chris Wilson.",
+    "author": "Chris Wilson",
+    "navigation": [
+        {
+            "name": "home",
+            "url": "/"
+        },
+        {
+            "name": "portfolio",
+            "url": "/portfolio"
+        },
+        {
+            "name": "notes",
+            "url": "/notes"
+        },
+          {
+            "name": "contact",
+            "url": "/contact"
+        }
+    ]
 }

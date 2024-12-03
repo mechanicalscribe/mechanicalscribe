@@ -7,17 +7,9 @@
 {% block content %}
 
 <article class="main">
+    <div id="{{ id }}" class="thing time-interactive"></div>
     <div class="note">
         <h1 class="headline">{{ title }}</h1>
-        <div class="boilerplate">
-        	<span class="date">{{ date|date('F j, Y') }}</span>
-        	{% if author && false %}
-        	<span class="pipe">|</span><span class="byline">{{ author }}</span>
-        	{% endif %}
-        	{% if github %}
-        	<span class="pipe">|</span><a class="github" href="{{ github }}" target="_blank">Source Code</a></span>
-        	{% endif %}
-        </div>
     	<div class="content">{{ contents | safe }}</div>
     </div>  	
 </article>

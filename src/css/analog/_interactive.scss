@@ -1,0 +1,48 @@
+.thing {
+    background-color: white;
+}
+
+/*
+.interactive-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;    
+    border: 3px solid #EDEDED;
+}
+*/
+
+.interactive-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto 12px auto;
+  
+    .source-tab {
+        z-index: 500;
+        position: relative;
+        top: -20px; // Adjust as needed for the desired distance above the container
+        //right: -10px; // Adjust to make it appear from the upper right
+        background-color: $highlight-color; // Use your highlight color for consistency
+        color: #fff; // White text for readability
+        padding: 5px 10px; // Padding to give it a tab-like appearance
+        border-radius: 5px;
+        text-transform: uppercase; // Uppercase to match a more analog, typewriter look
+        font-family: 'IBM Plex Mono', Courier, monospace; // Maintain the typewriter aesthetic
+        font-size: 0.85em; // Slightly smaller font for the tab text
+        text-decoration: none; // Remove underline from the link
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); // Optional shadow to give a slight lift effect
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+            background-color: darken($highlight-color, 10%); // Darkens on hover for interaction feedback
+        }
+    }
+}
+  
+.scribe-interactive {
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    border-radius: 0.375rem;
+    background-color: #f9f9f9;
+}

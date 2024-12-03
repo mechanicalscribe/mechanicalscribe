@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 $width-standard: 750px;
 $width-break: 680px;
 
 
-$body-bg: #f8f0e3;
+// $body-bg: #f8f0e3;
+$body-bg: #fffaf3;
 $text-color: #3a3a3a;
 $link-color: #666;
+$category-color: #c3fcf1;
+$syd-color: #80aec6;
 $link-underline-color: rgba(209, 140, 71, 0.5);
 $highlight-color: #d18c47;
 $font-primary: 'Georgia', serif;
-$font-headline: 'Arial Black', sans-serif;
+// $font-headline: 'Arial Black', sans-serif;
+$font-headline: "Roboto", sans-serif;
 
+// $font-typewriter: 'IBM Plex Mono', Courier, monospace;
 $font-typewriter: "Nixie One", Courier, monospace;
 // $font-typewriter: "Courier New", Courier, monospace;
+
+// $font-sans: 'Work Sans', sans-serif;
 $font-sans: "Roboto", sans-serif;
 // $font-sans: 'Arial', sans-serif;
 
@@ -29,8 +39,9 @@ body {
     padding: 0;
     line-height: 1.6;
 
-    a {
-        text-decoration: none !important;
+    a, a:hover, a:visited, a:active {
+        color: inherit;
+        text-decoration: none;
     }
 }
 
@@ -44,59 +55,6 @@ nav,main,footer {
     // max-width: $width-standard;
     // margin: auto;
 }
-
-
-header {
-    margin: 0 auto;
-    padding: 10px 0;
-    border-bottom: 2px dashed $text-color;
-
-    nav {
-        // display: flex;
-        // justify-content: space-between;
-        // align-items: center;
-        padding: 0 20px;
-    }
-    
-    .logo {
-        font-family: $font-typewriter;
-        font-size: 1.25em;
-        font-weight: 300;
-        // text-align: center;
-    }
-
-    .tagline {
-        font-family: $font-sans;
-        font-weight: 700;
-    }
-
-}
-
-
-
-
-
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links li {
-    display: inline;
-}
-
-.nav-links a {
-    font-size: 1.5em;
-}
-
-.menu-icon {
-    display: none;
-    font-size: 2em;
-    cursor: pointer;
-}
-
 
 footer {
     color: $highlight-color;

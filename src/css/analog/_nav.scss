@@ -1,10 +1,12 @@
+
+/* Header styling */
 header {
     margin: 0 auto;
     padding: 10px 0;
-    border-bottom: 2px dashed $text-color;
+    border-bottom: 1px dashed $text-color;
 
-    nav {
-        padding: 0 20px;
+    a:visited {
+        color: inherit;
     }
     
     .logo {
@@ -12,10 +14,6 @@ header {
         font-size: 1.25em;
         font-weight: 300;
         text-align: left;
-
-        a,a:visited {
-            text-decoration: none;
-        }
     }
 
     .tagline {
@@ -23,28 +21,73 @@ header {
         font-weight: 700;
     }
 
+    /* Navigation bar layout with flexbox */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    
+    /* Nav links styling (smaller, discreet) */
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        margin: 0;
+        font-family: $font-sans;
+        li {
+            display: inline;
+        }
+
+        a {
+            color: #4a4a4a; // Default link color
+            text-decoration: none; // Remove underline by default
+            position: relative; // Needed for positioning the caret
+            transition: color 0.3s ease;
+    
+            &:hover {
+                color: $highlight-color; // Highlight color on hover
+            }
+    
+            &::after {
+                content: ""; // Initially no content for other links
+            }
+        }
+    
+        a.active {
+            color: $highlight-color; // Use the highlight color for active link
+    
+            &::before {
+                content: "";
+                position: absolute;
+                top: -12px; // Position above the link
+                left: 50%;
+                transform: translateX(-50%); // Centers the caret above the link
+                width: 5px; // Adjust width for caret size
+                height: 5px; // Adjust height for caret size
+                border-right: 2px solid $highlight-color; // Left side of the caret
+                border-bottom: 2px solid $highlight-color; // Right side of the caret
+                border-top: none; // No top border to keep it open
+                border-left: none; // No bottom border for open style
+                transform: translateX(-50%) rotate(45deg); // Rotate to make it an open downward caret
+            }
+        }
+    }
+    
+    /* Mobile responsive: Hide nav links */
+    @media (max-width: 680px) {
+        .nav-links {
+            display: none; /* Hide nav links on small screens */
+        }
+        
+        header nav {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        header .logo {
+            margin-bottom: 10px; /* Add some spacing between logo and nav */
+        }
+    }
 }
-
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links li {
-    display: inline;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: $link-color;
-    font-size: 1.5em;
-}
-
-.menu-icon {
-    display: none;
-    font-size: 2em;
-    cursor: pointer;
-}
-
