@@ -1,0 +1,29 @@
+.aboutme {
+	max-width: 750px;
+	margin: 0 auto;
+
+	.text {
+		overflow: hidden;
+	}
+
+	.photo {
+		float: right; 
+		margin-left: 10px; 
+		.mug {
+			width: 180px;
+			margin-right: 10px;
+		}
+	}
+
+
+	.contactinfo {
+		margin-top: 10px;
+
+		a > img {
+			width: 64px;
+			height: 64px;
+			cursor: pointer;
+		}
+	}
+	
+}

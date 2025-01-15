@@ -10,16 +10,16 @@
             "url": "/"
         },
         {
-            "name": "portfolio",
-            "url": "/portfolio"
+            "name": "gallery",
+            "url": "/gallery"
         },
         {
             "name": "notes",
             "url": "/notes"
         },
-          {
-            "name": "contact",
-            "url": "/contact"
+        {
+            "name": "hire me!",
+            "url": "/about.html"
         }
     ]
 }

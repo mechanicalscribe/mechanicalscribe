@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Work+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 $width-standard: 750px;
 $width-break: 680px;
@@ -21,8 +21,9 @@ $font-primary: 'Georgia', serif;
 $font-headline: "Roboto", sans-serif;
 
 // $font-typewriter: 'IBM Plex Mono', Courier, monospace;
-$font-typewriter: "Nixie One", Courier, monospace;
+// $font-typewriter: "Nixie One", Courier, monospace;
 // $font-typewriter: "Courier New", Courier, monospace;
+$font-typewriter: "Zilla Slab", serif;
 
 // $font-sans: 'Work Sans', sans-serif;
 $font-sans: "Roboto", sans-serif;

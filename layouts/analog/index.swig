@@ -42,7 +42,7 @@
               -->
               <a href='/'>
                 <span class="title">{{ sitename }}</span>
-                <span class="tagline">{{ tagline }}</span>            
+                <span id="tagline" class="tagline">{{ tagline }}</span>            
               </a>
             </div>
 
@@ -74,6 +74,37 @@ if (window.location.hash == "#redirect") {
   redirectNote.innerHTML = `<strong>Note:</strong> Some of the URLs on Mechanical Scribe have changed. You were redirected to this page from <code>${ document.referrer }</code> because we guessed it's what you were looking for.`
 }
     </script>
+    <script>
+// List of taglines in the order you want them to appear
+
+/*
+const taglines = [
+  "Interaction is Everything",  // default
+  "Everything is Data",
+  "Visualize Anything"
+];
+
+let currentIndex = 0;  // start with the default tagline at index 0
+
+// Grab references to your elements
+const taglineEl = document.querySelector('#tagline');
+const logoLink = document.getElementById('logoLink');
+
+// Add a click listener
+taglineEl.addEventListener('click', function (event) {
+  // If you don't want the link to navigate away, uncomment below:
+  // event.preventDefault();
+
+  // Advance to the next tagline
+  currentIndex = (currentIndex + 1) % taglines.length;
+  
+  // Update the text in the tagline <span>
+  taglineEl.textContent = taglines[currentIndex];
+  */
+});
+    </script>    
+
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.5.1/jquery.min.js"><\/script>')</script>
     <script src="/js/vendor/bootstrap-4.6.0/dist/js/bootstrap.bundle.min.js"></script>

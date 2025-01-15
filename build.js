@@ -9,13 +9,14 @@ const SITEMAP_OVERRIDES = require("./sitemap_overrides.json");
 
 const METADATA = require("./metadata.json");
 
+METADATA.chapters = require("./src/chapters.json");
 
 const CATEGORIES = [
 	'notes',
 	'music',
 	'clips',
 	'articles',
-	'portfolio',
+	'gallery',
 	'clips',
 	'ideas',
 	'coding'
@@ -76,6 +77,7 @@ Metalsmith(__dirname)
 	// }))
 	.use(FORKED.COLLECTIONS({
 		generic: 'posts',
+		excludeFromGeneric: ["portfolio"],
 		filter: /_posts\/.*draft.md/,
 		sortBy: 'date',
 		reverse: true,
@@ -86,13 +88,13 @@ Metalsmith(__dirname)
 			coding: { category_title: "Coding Tips" },
 			archive: { category_title: "Archive" },
 			clips: { category_title: "Clips" },
-			portfolio: { category_title: "Portfolio" },
+			gallery: { category_title: "Gallery", landing_page_layout: "gallery_wall.swig" },
 			posts: { category_title: "All Posts" }
 		},
 		order: [ 'notes', 'music', 'clips', 'coding' ]
 	}))
 	.use(FORKED.MARKDOWN({
-		"directories": [".", "_posts"],
+		"directories": [".", "_posts", "_gallery"],
 		"ignore": ["README.md"]
 	}))
 	.use(MS.EXCERPTS({}))

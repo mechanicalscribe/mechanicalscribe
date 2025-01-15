@@ -1,14 +1,20 @@
+{% extends 'index.swig' %}
+
+{% block title %}{% parent %} | {{ title }} {% endblock %}
+
+{% block description %}{{ excerpt|striptags }}{% endblock %}
+
 {% block content %}
 
-    <div class="portfolio-grid">
-    {% for post in collections.portfolio %}
-        <div class="portfolio-item">
-            <a href="{{ post.path }}">
-                <img src="/portfolio/{{ post.id }}/thumbnail.png" alt="Project">
-                <div class="title">{{ post.hed }}</div>
-            </a>
-        </div>        
-    {% endfor %}
-    </div>
+<article class="main">
+    <div class="note">
+        <h1 class="headline">{{ title }}</h1>
+        <div class="interactive-container">
+            <div id="{{ id }}" class="thing time-interactive scribe-interactive"></div>
+            <a href="{{ source_url }}" class="source-tab" target="_blank" rel="noopener noreferrer"><span>Source</span></a>
+        </div>
+    	<div class="content">{{ contents | safe }}</div>
+    </div>  	
+</article>
 
 {% endblock %}

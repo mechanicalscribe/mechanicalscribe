@@ -16,6 +16,8 @@ src/js
 src/img
 src/demos
 
+*/chapters.json
+
 plugins/**2
 
 canopybirds
@@ -23,3 +25,6 @@ canopybirds
 stashed
 test
 src_old
+
+interactives
+repos

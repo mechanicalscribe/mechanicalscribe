@@ -1,76 +1,4 @@
 {
-  "clips/solar-eclipse-simulation/index.html": [
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://time.com/4850807/total-solar-eclipse-where-see/",
-      "site": "time.com",
-      "anchorText": "by our calculation",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://time.com/4882923/total-solar-eclipse-map-places-view/",
-      "site": "time.com",
-      "anchorText": "here",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://threejs.org/",
-      "site": "threejs.org",
-      "anchorText": "THREE.js",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://naif.jpl.nasa.gov/naif/toolkit.html",
-      "site": "naif.jpl.nasa.gov",
-      "anchorText": "SPICE",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://spiceypy.readthedocs.io/en/v4.0.1/installation.html",
-      "site": "spiceypy.readthedocs.io",
-      "anchorText": "SpiceyPy",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://spiceypy.readthedocs.io/en/v4.0.1/exampleone.html",
-      "site": "spiceypy.readthedocs.io",
-      "anchorText": "great tutorial",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://image.gsfc.nasa.gov/poetry/venus/q89.html",
-      "site": "image.gsfc.nasa.gov",
-      "anchorText": "8.3 minutes",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://astronomy.stackexchange.com/",
-      "site": "astronomy.stackexchange.com",
-      "anchorText": "StackExchange astronomy channel",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://en.wikipedia.org/wiki/OpenGL",
-      "site": "en.wikipedia.org",
-      "anchorText": "OpenGL",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    },
-    {
-      "page": "clips/solar-eclipse-simulation/index.html",
-      "href": "https://threejs.org/docs/#api/en/materials/ShaderMaterial",
-      "site": "threejs.org",
-      "anchorText": "ShaderMaterial",
-      "parentElement": "This is one of my all-time favorite projects at TIME: A precisely accurate simulation of the total solar eclipse that traversed the entire continental United States on August 21, 2017, tracing a path in the umbra zone that totaled 174,250 square miles <a target=\"_blank\" href=\"https://time.com/4850807/total-solar-eclipse-where-see/\">by our calculation</a>. It was the event of the summer, and we wanted to reproduce what it would look like from anywhere."
-    }
-  ],
   "coding/fix-dropbox-conflicts-automatically/index.html": [
     {
       "page": "coding/fix-dropbox-conflicts-automatically/index.html",
@@ -897,6 +825,79 @@
       "site": "www.schillmania.com",
       "anchorText": "SoundManager 2",
       "parentElement": "This makes me wonder if it would be possible to use the WikiMedia framework for a collaborative music transcription project. There appear to already be some impressive tools like <a target=\"_blank\" href=\"http://vexflow.com\">Vexflow</a> for rendering musical notation in Javascript. I don&#39;t know exactly how the process of editing an existing transcription would work. Ideally, the &quot;edit&quot; tab would render the notation in a manipulative form common to most notation software, with instant playback and so forth. (I recommend <a target=\"_blank\" href=\"http://www.schillmania.com/projects/soundmanager2/\">SoundManager 2</a> for JS audio.) "
+    }
+  ],
+  "gallery/chatbot_trivia_2023/index.html": [
+    {
+      "page": "gallery/chatbot_trivia_2023/index.html",
+      "href": "https://platform.openai.com/docs/models/gpt-3-5-turbo",
+      "site": "platform.openai.com",
+      "anchorText": "GPT-3.5 Turbo",
+      "parentElement": "For example: When I asked <a target=\"_blank\" href=\"https://platform.openai.com/docs/models/gpt-3-5-turbo\">GPT-3.5 Turbo</a> for a quiz based on this <a target=\"_blank\" href=\"https://time.com/3583129/power-of-taylor-swift-cover/\">2014 interview with Taylor Swift</a>, the first pass was impressively cogent and sensible, with one correct answer and three plausible incorrect ones–something any quiz author will tell you is a lot harder than it looks."
+    },
+    {
+      "page": "gallery/chatbot_trivia_2023/index.html",
+      "href": "https://time.com/3583129/power-of-taylor-swift-cover/",
+      "site": "time.com",
+      "anchorText": "2014 interview with Taylor Swift",
+      "parentElement": "For example: When I asked <a target=\"_blank\" href=\"https://platform.openai.com/docs/models/gpt-3-5-turbo\">GPT-3.5 Turbo</a> for a quiz based on this <a target=\"_blank\" href=\"https://time.com/3583129/power-of-taylor-swift-cover/\">2014 interview with Taylor Swift</a>, the first pass was impressively cogent and sensible, with one correct answer and three plausible incorrect ones–something any quiz author will tell you is a lot harder than it looks."
+    }
+  ],
+  "gallery/harry_potter_house/index.html": [
+    {
+      "page": "gallery/harry_potter_house/index.html",
+      "href": "https://time.com/4921918/harry-potter-hogwarts-sorting-hat-quiz/",
+      "site": "time.com",
+      "anchorText": "map",
+      "parentElement": "When users take the quiz, their answers are piped through the same equations that can correctly assign the fictional characters to the correct house (based on remarkably consistent evaluations of their fictional personalities by non-fictional people). Still, I didn’t really know if it had worked until I made the first <a target=\"_blank\" href=\"https://time.com/4921918/harry-potter-hogwarts-sorting-hat-quiz/\">map</a> of the real-world results."
+    }
+  ],
+  "gallery/identify_the_logo/index.html": [
+    {
+      "page": "gallery/identify_the_logo/index.html",
+      "href": "http://Sketch.js",
+      "site": "sketch.js",
+      "anchorText": "Sketch.js",
+      "parentElement": "I keep a mental list of interactive libraries that I’m just waiting for an excuse to use. For several years, that register included <a target=\"_blank\" href=\"http://Sketch.js\">Sketch.js</a>, which enables MS Paint-style drawing in the browser."
+    },
+    {
+      "page": "gallery/identify_the_logo/index.html",
+      "href": "https://www.medicaldaily.com/apple-logo-ubiquitous-which-explains-why-we-cant-remember-what-it-looks-325486",
+      "site": "www.medicaldaily.com",
+      "anchorText": "this research paper",
+      "parentElement": "I keep a mental list of interactive libraries that I’m just waiting for an excuse to use. For several years, that register included <a target=\"_blank\" href=\"http://Sketch.js\">Sketch.js</a>, which enables MS Paint-style drawing in the browser."
+    }
+  ],
+  "gallery/reopening_space_abm/index.html": [
+    {
+      "page": "gallery/reopening_space_abm/index.html",
+      "href": "https://ccl.northwestern.edu/netlogo/",
+      "site": "ccl.northwestern.edu",
+      "anchorText": "NetLogo",
+      "parentElement": "Here’s a great example of “today’s rabbit hole is tomorrow’s feature.” Six or seven years ago, I was chatting with a social psychologist who mentioned a program called <a target=\"_blank\" href=\"https://ccl.northwestern.edu/netlogo/\">NetLogo</a> that researchers use to simulate group behavior. I downloaded it mainly out of nostalgia for the original <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Logo_(programming_language)\">Logo</a>."
+    },
+    {
+      "page": "gallery/reopening_space_abm/index.html",
+      "href": "https://en.wikipedia.org/wiki/Logo_(programming_language)",
+      "site": "en.wikipedia.org",
+      "anchorText": "Logo",
+      "parentElement": "Here’s a great example of “today’s rabbit hole is tomorrow’s feature.” Six or seven years ago, I was chatting with a social psychologist who mentioned a program called <a target=\"_blank\" href=\"https://ccl.northwestern.edu/netlogo/\">NetLogo</a> that researchers use to simulate group behavior. I downloaded it mainly out of nostalgia for the original <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Logo_(programming_language)\">Logo</a>."
+    },
+    {
+      "page": "gallery/reopening_space_abm/index.html",
+      "href": "https://mathworld.wolfram.com/Rule30.html",
+      "site": "mathworld.wolfram.com",
+      "anchorText": "astounding complexity",
+      "parentElement": "Here’s a great example of “today’s rabbit hole is tomorrow’s feature.” Six or seven years ago, I was chatting with a social psychologist who mentioned a program called <a target=\"_blank\" href=\"https://ccl.northwestern.edu/netlogo/\">NetLogo</a> that researchers use to simulate group behavior. I downloaded it mainly out of nostalgia for the original <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Logo_(programming_language)\">Logo</a>."
+    }
+  ],
+  "gallery/travelling_santa_map/index.html": [
+    {
+      "page": "gallery/travelling_santa_map/index.html",
+      "href": "https://en.wikipedia.org/wiki/Travelling_salesman_problem",
+      "site": "en.wikipedia.org",
+      "anchorText": "Travelling Salesman Problem",
+      "parentElement": "When there’s a math problem you’ve been wanting to play around with for years (the <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Travelling_salesman_problem\">Travelling Salesman Problem</a>), you can always pin it to Santa Claus."
     }
   ]
 }

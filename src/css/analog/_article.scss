@@ -15,7 +15,10 @@ article {
 	}
 	
 	h1,h2 {
-		font-family: $font-headline;
+		font-family: $font-typewriter;
+		font-weight: 400;
+		font-size: 1.6em;
+		margin-block-end: 0.1em;
 	}
 
 	h1.headline {
@@ -40,7 +43,8 @@ article {
 	}
 
 	.boilerplate {
-		color: #CCC;	
+		font-family: $font-sans;
+		color: $link-color;
 	
 		.date {
 			color: $highlight-color;	
@@ -52,7 +56,7 @@ article {
 		}
 	
 		.pipe {
-			color: #CCC;
+			color: $link-color;
 			padding: 0 10px 0 8px;
 		}    
 	}
@@ -210,19 +214,6 @@ article {
 			padding: 6px 13px;
 			border: 1px solid #dfe2e5;
 			font-weight: 700;
-		}
-	}
-
-	.boilerplate {
-		color: #CCC;	
-
-		.date {
-			color: $highlight-color;	
-			margin-bottom: 8px;
-		}
-
-		.byline {
-			color: #999;	
 		}
 	}
 
