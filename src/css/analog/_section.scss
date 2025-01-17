@@ -1,0 +1,74 @@
+/* Content Section - Blueprint Theme */
+.content-section {
+    position: relative;
+    padding: 3rem 2rem;
+    margin-top: 3rem;
+    background-color: #1d2a44; /* Dark blueprint blue */
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: left;
+    border: 2px solid #3b4c69; /* Mechanical, precise lines */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  
+    /* Blueprint background (subtle technical drawing) */
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('/img/site/gears.png'); /* Update this path */
+      background-size: contain; /* Makes the background adjust */
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0.1; /* Keep it subtle */
+      pointer-events: none; /* Don't interfere with content */
+    }
+  
+    /* Title Styling */
+    .title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #f9f9f9;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #4d5c77; /* Underline like a plan */
+      padding-bottom: 0.5rem;
+    }
+  
+    /* Text Styling */
+    .text {
+      font-size: 1.25rem;
+      color: #d5d5d5; /* Lighter text for better readability */
+      line-height: 1.6;
+    }
+  
+    /* Grid and measurement details */
+    .measurement {
+      font-family: 'Monaco', monospace;
+      font-size: 1rem;
+      color: #9da3b4;
+      display: block;
+      margin-top: 1.5rem;
+      font-style: italic;
+    }
+  }
+  
+  /* Adjust the layout for mobile */
+  @media (max-width: 768px) {
+    .content-section {
+      padding: 2rem 1rem;
+      font-size: 1.125rem;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+  }
+  
