@@ -1,15 +1,12 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ sitename }}{% endblock %}</title>
     <meta name="description" content="{% block description %}{{ description }}{% endblock %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<meta name="bitly-verification" content="6503a2f39ad2"/>
-  
     <link rel="stylesheet" href="/css/analog.css">
-
     {% for style in css %}
     <link rel="stylesheet" href="{{ style }}">
     {% endfor %}
@@ -30,39 +27,44 @@
       {% endfor %}
     {% endif %}
   </head>
-
+  {% if path == "index.md" %}
+  <body class="homepage">
+  {% else %}
   <body class="{{ collection }}">
+  {% endif %}
     <header>
-        <nav>
-            <div class="logo">
-              <!--
-              {% if category_title %}
-                <span class="category-title">{{ category_title }}</span>
-              {% endif %}
-              -->
-              <a href='/'>
-                <span class="title">{{ sitename }}</span>
-                <span id="tagline" class="tagline">{{ tagline }}</span>            
-              </a>
-            </div>
+      <nav class="navbar">
+        <div class="logo">
+          <a href='/'>
+            <span class="title">{{ sitename }}</span>
+            <span id="tagline" class="tagline">{{ tagline }}</span>            
+          </a>
+        </div>
 
-            <ul class="nav-links">
-              {% for link in navigation %}
-                {% if link['name'] == collection %}
-                <li><a href="{{ link['url'] }}" class="active">{{ link['name'] }}</a></li>
-                {% else %}
-                <li><a href="{{ link['url'] }}">{{ link['name'] }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-        </nav>
+        <!-- Hamburger Icon (visible on small screens) -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <ul class="nav-links">
+          {% for link in navigation %}
+            {% if link['name'] == collection %}
+            <li><a href="{{ link['url'] }}" class="active">{{ link['name'] }}</a></li>
+            {% else %}
+            <li><a href="{{ link['url'] }}">{{ link['name'] }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="main" class="section">
-          {% block content %}{% endblock %}
-        </section>
+      {% block content %}{% endblock %}
     </main>
     <footer>
+      <p>&copy; 2025 Chris Wilson / Mechanical Scribe LLC. All Rights Reserved.</p>
+    </footer>
       <div id="referring_note"></div>
     </footer>
 
@@ -75,35 +77,20 @@ if (window.location.hash == "#redirect") {
 }
     </script>
     <script>
-// List of taglines in the order you want them to appear
+// Get the hamburger button and nav links
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.querySelector(".nav-links");
 
-/*
-const taglines = [
-  "Interaction is Everything",  // default
-  "Everything is Data",
-  "Visualize Anything"
-];
+// Add click event listener to toggle menu visibility
+hamburger.addEventListener("click", () => {
+  console.log("clicked!")
 
-let currentIndex = 0;  // start with the default tagline at index 0
-
-// Grab references to your elements
-const taglineEl = document.querySelector('#tagline');
-const logoLink = document.getElementById('logoLink');
-
-// Add a click listener
-taglineEl.addEventListener('click', function (event) {
-  // If you don't want the link to navigate away, uncomment below:
-  // event.preventDefault();
-
-  // Advance to the next tagline
-  currentIndex = (currentIndex + 1) % taglines.length;
-  
-  // Update the text in the tagline <span>
-  taglineEl.textContent = taglines[currentIndex];
-  */
+  navLinks.classList.toggle("active");
+  hamburger.classList.toggle("active"); // Animate hamburger into "close" state
 });
-    </script>    
 
+console.log(hamburger, navLinks)
+    </script>    
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.5.1/jquery.min.js"><\/script>')</script>

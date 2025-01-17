@@ -1,13 +1,4 @@
-/* colors */
-$green: #00A30F;
-$blue: #0063c7;
-$lighter-blue: #007cf9;
-$lightgray: #e8e7e9;
-$tomato: #F66;
-
-/* colors */
-
-article {
+article,section {
 	text-align: center;
 
 	p,h1,h2,h3,ul,ol,code,pre,.boilerplate,iframe,img,.category-thumb,.interactive {
@@ -219,7 +210,7 @@ article {
 
 	.details {
 		strong {
-			color: $green;
+			color: $highlight-color;
 		}
 		line-height: 20px;
 	}

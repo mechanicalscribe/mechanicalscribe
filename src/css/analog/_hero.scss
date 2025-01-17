@@ -1,0 +1,115 @@
+/* Hero Section */
+
+.homepage {
+    header {
+        border-bottom: none;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column; /* Allow stacking of title and explanation */;
+        justify-content: center;
+        align-items: center;
+        height: 80vh; /* Adjusted height to accommodate both title and explanation */;
+        padding: 0 2rem; /* Added padding for better spacing */;
+        background-color: $hero-black; /* Dark Slate */;
+        color: white;
+        text-align: center;
+    }
+
+    .title-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: baseline;
+        font-size: 3.5rem;
+        .title {
+            display: inline-block;
+            overflow: hidden;
+            margin: 0;
+            font-size: 1em;
+            font-family: $font-typewriter;
+            font-weight: 300;
+            line-height: 4rem;
+            white-space: nowrap;
+        }
+
+        .tagline {
+            margin: 0 0 20px 0;
+            font-size: 0.8em;
+            font-family: $font-sans;
+            line-height: 4rem;
+            white-space: nowrap;
+        }
+
+        &.animate-title {
+            .title {
+                opacity: 0;
+                animation: typing 3s steps(20) 1s forwards, fadeInOpacity 0s 1s forwards;
+            }
+
+            .tagline {
+                opacity: 0;
+                animation: fadeIn 1.5s 4s forwards;
+            }
+        }
+    }
+
+    /* New Explanation Block */
+    .explanation {
+        max-width: 800px; /* Limits the width for better readability */;
+        margin-top: 20px; /* Adds some space between title and explanation */;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #ecf0f1; /* Lighter text for better contrast on dark background */;
+        text-align: left;
+    }
+
+    /* Animations */
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    @keyframes fadeInOpacity {
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Responsiveness: Stack title, tagline, and explanation on smaller screens */
+    @media (max-width: 768px) {
+        .title-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .title {
+            margin-bottom: 20px;
+            font-size: 4rem;
+        }
+
+        .tagline {
+            margin-left: 0;
+            font-size: 4rem;
+        }
+
+        .explanation {
+            margin-top: 15px;
+            font-size: 1.1rem; /* Slightly smaller text on mobile */;
+        }
+    }
+}
