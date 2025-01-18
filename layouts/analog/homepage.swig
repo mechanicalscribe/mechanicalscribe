@@ -6,7 +6,22 @@
             <h1 class="title">{{ sitename }}</h1>
             <div class="tagline">{{ tagline }}</div>
         </div>
-        <div class="explanation">{{ chapters["What I Do"] | safe  }}</div>
+        <div class="explanation">{{ chapters["Hero Card"] | safe  }}</div>
+    </section>
+
+    <section id="best-of" class="content-section">
+        <h2>Gallery</h2>
+
+        <div class="portfolio-grid">
+        {% for post in collections.gallery %}
+            <div class="portfolio-item">
+                <a href="/{{ post.path }}">
+                    <img src="/gallery/{{ post.id }}/thumbnail.png" alt="Project">
+                    <div class="title">{{ post.hed }}</div>
+                </a>
+            </div>        
+        {% endfor %}
+        </div>
     </section>
 
     <section id="about_me" class="content-section">
@@ -17,6 +32,14 @@
     <section id="what_know" class="content-section">
         <h2>What I Know</h2>
         <div class="description">{{ chapters["What I Know"] | safe  }}</div>
+    </section>
+
+    <section id="book_appt" class="content-section">
+        <h2>Let's Chat!</h2>
+        <div class="description"><!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3dGXc5DBJwGdmv0ED_ZCpR6KyVf_0gHBx0yCRXnAeaNGOvwwAC-VewhUodmuUhzN2cA7IuOYFO?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->
+</div>
     </section>
 
     <section id="recent_posts" class="link-section">

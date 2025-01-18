@@ -1,0 +1,60 @@
+/* Content Section - Parchment Background */
+.content-section {
+    position: relative;
+    padding: 2rem 2rem;
+    margin-top: 3rem;
+    background-color: #f1e4c3; /* Light parchment color */
+    color: #333;
+    font-family: $font-primary;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: left;
+    border: 1px solid #d1c0a1; /* Soft, muted border for subtle contrast */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 10px auto;
+  
+    /* Title Styling */
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #5f4b3b; /* Slightly darker color for a vintage look */
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      border-bottom: 4px solid $highlight-color; /* Underline like a plan */
+      padding-bottom: 0.5rem;
+      font-family: $font-typewriter;
+    }
+  
+    /* Text Styling */
+    p {
+      font-size: 1.25rem;
+      color: #5f4b3b; /* Darker text for readability */
+      line-height: 1.6;
+    }
+  
+    /* Grid and measurement details */
+    .measurement {
+      font-family: 'Monaco', monospace;
+      font-size: 1rem;
+      color: #9da3b4;
+      display: block;
+      margin-top: 1.5rem;
+      font-style: italic;
+    }
+  }
+  
+  /* Adjust the layout for mobile */
+  @media (max-width: 768px) {
+    .content-section {
+      padding: 2rem 1rem;
+      font-size: 1.125rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+  }
+  

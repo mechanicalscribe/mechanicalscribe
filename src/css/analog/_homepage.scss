@@ -12,19 +12,39 @@
         margin: 0 auto;
         max-width: $width-standard;    
     }
-}
 
-/* Content Sections */
-.content-section {
-    padding: 4rem 2rem;
-    margin-top: 2rem;
-    background-color: #ecf0f1;
-    /* Light Gray */
-    text-align: center;
-}
-
-.content-section h2 {
-    font-size: 3rem;
+    /* Content Sections */
+    section.content-section {
+        padding: 2rem;
+        background-color: $body-bg;
+        /* Light Gray */
+        text-align: left;
+        color: $text-color;
+        font-family: $font-primary;
+        font-size: 1.25rem;
+        line-height: 1.6;
+        text-align: left;
+        border: 1px solid #d1c0a1; /* Soft, muted border for subtle contrast */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        margin: 2rem auto;
+    
+        h2 {
+            font-size: 2rem;
+            // font-weight: bold;
+            font-weight: 500;
+            color: #5f4b3b; /* Slightly darker color for a vintage look */
+            // text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+            border-bottom: 4px solid $highlight-color; /* Underline like a plan */
+            padding-bottom: 0.5rem;
+            padding-top: 0;
+            margin-top: 0;
+            font-family: $font-typewriter;
+            
+        }
+    }
 }
 
 .portfolio-grid {
