@@ -14,6 +14,7 @@
         background-color: $hero-black; /* Dark Slate */;
         color: white;
         text-align: center;
+        flex-direction: column; /* Ensure the content is stacked vertically */
     }
 
     .title-container {
@@ -23,6 +24,7 @@
         align-items: baseline;
         font-size: 3.5rem;
         padding-bottom: 1em;
+        width: 100%; /* Ensure the title container stretches across full width */
 
         .title {
             display: inline-block;
@@ -58,21 +60,38 @@
 
     /* New Explanation Block */
     .explanation {
-        max-width: 800px; /* Limits the width for better readability */;
-        margin-top: 20px; /* Adds some space between title and explanation */;
+        margin-top: 20px;
         font-size: 1.2rem;
-        line-height: 1.6;
-        color: #ecf0f1; /* Lighter text for better contrast on dark background */;
+        line-height: 1.8;  /* Increased line height for better readability */
+        max-width: 800px;
         text-align: left;
-
+        color: #ecf0f1;  /* Light text color for contrast on dark background */
+        font-family: "Georgia", serif;
+        padding: 0 10px;  /* Padding on sides for better spacing */
+        position: relative;
+        
+        /* Make the strong words pop */
         strong {
-            color: #fff;
+            // border-bottom: 6px solid #d18c47;  /* A warm, muted accent color for emphasis */
+            // font-weight: 400;  /* Slightly bolder to stand out */
+            // box-shadow: "inset 0 -12px 0 rgb(160 81 0)";
         }
 
+
         .footnote {
-            margin-top: 4em;
+            margin-top: 2em;
             margin-bottom: -4em;
-            font-size: 0.75em;
+            font-size: 0.85em;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -10px; /* Adjust the position to sit above the text */
+                width: 100px;  /* Line width */
+                height: 1px;   /* Thin line */
+                background-color: #ecf0f1;  /* Line color */
+            }
         }
     }
 
@@ -102,7 +121,7 @@
     }
 
     /* Responsiveness: Stack title, tagline, and explanation on smaller screens */
-    @media (max-width: 768px) {
+    @media (max-width: $width-hero) {
         .title-container {
             flex-direction: column;
             text-align: center;
@@ -121,6 +140,32 @@
         .explanation {
             margin-top: 15px;
             font-size: 1.1rem; /* Slightly smaller text on mobile */;
+            padding: 0 5px;  /* Reduce padding on small screens */
+        }
+    }
+
+    @media (max-width: $width-break) {
+        .title-container {
+            flex-direction: column;
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+
+
+    @media (max-width: $width-phone) {
+        .title-container {
+            flex-direction: column;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    }
+
+    @media (max-width: $width-small) {
+        .title-container {
+            flex-direction: column;
+            text-align: center;
+            font-size: 2rem;
         }
     }
 }

@@ -13,11 +13,11 @@
         <h2>Gallery</h2>
 
         <div class="portfolio-grid">
-        {% for post in collections.gallery %}
+        {% for post in gallery_posts %}
             <div class="portfolio-item">
                 <a href="/{{ post.path }}">
-                    <img src="/gallery/{{ post.id }}/thumbnail.png" alt="Project">
-                    <div class="title">{{ post.hed }}</div>
+                    <img src="/gallery/{{ post.id }}/homepage.png" alt="Project">
+                    <div class="title">{{ post.hed | safe }}</div>
                 </a>
             </div>        
         {% endfor %}
