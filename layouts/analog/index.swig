@@ -7,6 +7,8 @@
     <meta name="description" content="{% block description %}{{ description }}{% endblock %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/analog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     {% for style in css %}
     <link rel="stylesheet" href="{{ style }}">
     {% endfor %}
@@ -62,13 +64,14 @@
     <main>
       {% block content %}{% endblock %}
     </main>
-    <footer>
-      <p>&copy; 2025 Chris Wilson / Mechanical Scribe LLC. All Rights Reserved.</p>
-    </footer>
-      <div id="referring_note"></div>
-    </footer>
 
-    <script>
+<footer class="contact-footer">
+  {%include "./contact.swig" %}
+  <p>&copy; 2025 Chris Wilson / Mechanical Scribe LLC. All Rights Reserved.</p>
+  <div id="referring_note"></div>
+</footer>    
+
+<script>
 // note referral
 
 if (window.location.hash == "#redirect") {
@@ -90,11 +93,7 @@ hamburger.addEventListener("click", () => {
 });
 
 console.log(hamburger, navLinks)
-    </script>    
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.5.1/jquery.min.js"><\/script>')</script>
-    <script src="/js/vendor/bootstrap-4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    </script> 
     {% for script in js %}
     <script src="{{ script }}"></script>
     {% endfor %}
@@ -112,5 +111,12 @@ prettyPrint();
     {{ extrajs | safe }}
     </script>
     {% endif %}
+
+    <script>
+    {{ extrajs | safe }}
+    </script>
+
+    {% block extrajs %}{% endblock %}
+
   </body>
 </html>

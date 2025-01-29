@@ -6,20 +6,24 @@
     "author": "Chris Wilson",
     "navigation": [
         {
-            "name": "home",
-            "url": "/"
-        },
-        {
             "name": "gallery",
             "url": "/gallery"
+        },
+        {
+            "name": "services",
+            "url": "/services"
+        },
+        {
+            "name": "faq",
+            "url": "/faq"
         },
         {
             "name": "notes",
             "url": "/notes"
         },
         {
-            "name": "hire me!",
-            "url": "/about.html"
+            "name": "contact",
+            "url": "/contact.html"
         }
     ],
     "gallery": [

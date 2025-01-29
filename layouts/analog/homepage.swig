@@ -24,15 +24,21 @@
         </div>
     </section>
 
-    <section id="about_me" class="content-section">
+    <section id="about_me" class="content-section text-heavy">
         <h2>About Me</h2>
         <div class="description">{{ chapters["About Me"] | safe  }}</div>
     </section>
 
-    <section id="what_know" class="content-section">
-        <h2>What I Know</h2>
-        <div class="description">{{ chapters["What I Know"] | safe  }}</div>
+    <section id="how_help" class="content-section text-heavy">
+        <h2>Skills Of Some Relevance</h2>
+        <div class="description">{{ chapters["Skills Of Some Relevance"] | safe  }}</div>
     </section>
+
+    <section id="c_v" class="content-section text-heavy">
+        <h2>C.V.</h2>
+        <div class="description">{{ chapters["C.V."] | safe  }}</div>
+    </section>
+
 
     <section id="book_appt" class="content-section">
         <h2>Let's Chat!</h2>
@@ -58,7 +64,48 @@
         {% endfor %}
         </div>
     </section>
-
 </article>
 
+{% endblock %}
+
+{% block extrajs %}
+<script>
+const textHeavySections = document.querySelectorAll('.text-heavy');
+
+
+textHeavySections.forEach(section => {
+    const readMoreButton = document.createElement('button');
+    readMoreButton.setAttribute('class', 'read-more-btn');
+
+    const readMoreIcon = document.createElement('span');
+    readMoreIcon.setAttribute('class', 'icon');
+    readMoreIcon.innerHTML = "+";
+    readMoreButton.appendChild(readMoreIcon);
+
+    section.appendChild(readMoreButton);
+
+    console.log(readMoreButton);
+
+  // Add click event listener to each button
+  readMoreButton.addEventListener('click', function() {
+    // Find the paragraphs within the same container as the button
+    const paragraphs = this.closest('.text-heavy').querySelectorAll('p:not(:first-child),ul:not(:first-child)');
+    
+    // Toggle visibility of each paragraph
+    paragraphs.forEach(paragraph => {
+        console.log(paragraph.style.display);
+      paragraph.style.display = paragraph.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Toggle button icon between "+" and "–"
+    if (this.classList.contains('show-less')) {
+      this.classList.remove('show-less');
+      this.querySelector('.icon').textContent = '+'; // Chevron down
+    } else {
+      this.classList.add('show-less');
+      this.querySelector('.icon').textContent = '-'; // Chevron up
+    }
+    });
+});
+</script>
 {% endblock %}

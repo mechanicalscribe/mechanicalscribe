@@ -15,6 +15,12 @@
 		}
 	}
 
+	@media (max-width: $width-break) {
+		.photo {
+			display: none;
+		}
+	}
+
 
 	.contactinfo {
 		margin-top: 10px;
@@ -24,6 +30,19 @@
 			height: 64px;
 			cursor: pointer;
 		}
-	}
+	}	
+}
+
+.contact-me {
+	text-align: left;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
 	
+	a {
+		display: block;
+		svg {
+			vertical-align: top;
+		}
+	}
 }

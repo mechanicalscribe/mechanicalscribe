@@ -123,11 +123,11 @@ header {
 @media (max-width: $width-break) {
   .homepage .navbar,.navbar {
     .nav-links {
+      border-bottom: 1px solid $link-color;
       z-index: 1000;
       display: none; /* Hide nav links by default */
       flex-direction: column;
       width: 100%;
-      background-color: #fff;
       position: absolute;
       top: 60px;
       right: 0;
@@ -195,7 +195,7 @@ header {
   }
 
   a {
-    color: #666;
+    color: $menu-text;
     transition: color 0.3s;
   }
 

@@ -16,6 +16,7 @@ $width-small: 320px;
 
 // $body-bg: #f8f0e3;
 $body-bg: #fffaf3;
+$menu-text: #dedede;
 $text-color: #3a3a3a;
 $link-color: #666;
 $category-color: #c3fcf1;
@@ -53,43 +54,19 @@ body {
     }
 }
 
-main,nav,footer {
+main,nav {
     margin: 0 auto;
-    padding: 10px 20px;
     max-width: $width-standard;
 }
 
-.section {
-    // max-width: $width-standard;
-    // margin: auto;
-}
-
 footer {
+    margin: 2rem auto;
+    padding: 10px 20px;
     color: $highlight-color;
     text-align: center;
     padding: 10px 0;
     width: 100%;
     bottom: 0;
+    max-width: 100%;
 }
 
-/*
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    header .logo {
-        font-size: 1.5em;
-    }
-}
-*/

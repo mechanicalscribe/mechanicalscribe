@@ -1,6 +1,6 @@
 ---
 layout: page.swig
-title: About Me
+title: Contact
 ---
 
 <div class="aboutme">    
@@ -8,11 +8,6 @@ title: About Me
         <img class="mug" src="/img/site/new_headshot_small.jpg" />
     </div>
 </div>
-
-**About Chris Wilson:** I’m a journalist and engineer who specializes in interactive storytelling. I've been a professional journalist for most of my career, most of which has been with _Slate_ and _TIME_.
-
-I live in Washington, D.C. with my wife, son, and our insane menagerie of pets. I'm a mediocre pianist and am writing a novel about an out-of-work data journalist who gets drawn into a Bigfoot conspiracy. It's 480 pages so far.
-
 
 ## Contact
 
@@ -46,3 +41,7 @@ LinkedIn
 @chriswilsondc.bsky.social
 </a>
   </div>
+
+**About Chris Wilson:** I’m a journalist and engineer who specializes in interactive storytelling. I've been a professional journalist for most of my career, most of which has been with _Slate_ and _TIME_.
+
+I live in Washington, D.C. with my wife, son, and our insane menagerie of pets. I'm a mediocre pianist and am writing a novel about an out-of-work data journalist who gets drawn into a Bigfoot conspiracy. It's 480 pages so far.

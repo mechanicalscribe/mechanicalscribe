@@ -1,0 +1,47 @@
+/* Footer styling */
+.contact-footer {
+  font-family: $font-headline;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #d1d1d1; /* Light border at the top */
+  background-color: $body-bg;
+}
+
+.contact-footer .contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center the links */
+  gap: 30px; /* Space out the links */
+}
+
+.contact-footer .contact-links li {
+  display: inline-block;
+}
+
+.contact-footer .contact-links a {
+  color: #333; /* Dark text */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center; /* Center the text and icon */
+  gap: 10px; /* Space between icon and text */
+}
+
+.contact-footer .contact-links a:hover {
+  color: #d18c47; /* Orange color on hover */
+}
+
+.contact-footer .contact-links i {
+  font-size: 1.5rem; /* Icon size */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact-footer .contact-links {
+    flex-direction: column; /* Stack the links vertically */
+    gap: 20px;
+  }
+}

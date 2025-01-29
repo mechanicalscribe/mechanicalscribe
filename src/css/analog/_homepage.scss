@@ -17,7 +17,8 @@
 
     /* Content Sections */
     section.content-section {
-        padding: 2rem;
+        position: relative;
+        padding: 1rem 2rem;
         background-color: $body-bg;
         /* Light Gray */
         text-align: left;
@@ -53,117 +54,116 @@
     }
 }
 
+/* Gallery Wrapper */
 .portfolio-grid {
-    display: flex;
-    flex-wrap: wrap; /* Allows the items to wrap onto new rows */
-    justify-content: space-between; /* Full justification: spread items across the row */
-    gap: 20px; /* Add space between the items */
-    max-width: 1200px; /* Optional: limit the width of the grid */
-    margin: 0 auto;
-}
-
-/* Individual Portfolio Item (Image Container) */
-.portfolio-item {
-    display: inline-block;
-    box-sizing: border-box; /* Include padding in the width/height calculation */
-    margin-bottom: 20px; /* Add space between rows */
-    border-radius: 10px; /* Optional: rounded corners */
-    overflow: hidden;
-
-    img {
-        width: auto;
-        height: 120px; /* Fixed height */    
-    }
-  }
-
-
-
-
-
-
-.portfolio-grid3 {
-    display: inline-block;
-    img {
-        height: 100px;
-    }
-}
-
-.portfolio-item3 {
-    display: inline-block;
-}
-
-
-
-
-
-
-.portfolio-grid2 {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 5 items per row (5 columns) */
-    aspect-ratio: 6 / 2; /* Set aspect ratio to 5:2 */
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    overflow: hidden; /* Hide any content beyond the grid container */
-    height: 100%; /* Let the height adjust based on available space */
-    max-height: calc(2 * 100%); /* Ensure only 2 rows are visible */
-}
-
-@media (max-width: $width-break) {
-    .portfolio-grid2 {
-        grid-template-columns: repeat(4, 1fr); /* 5 items per row (5 columns) */
-        aspect-ratio: 54 / 2; /* Set aspect ratio to 5:2 */
+    grid-template-columns: repeat(6, 1fr); /* Default for larger screens */
+  }
+  
+  /* Default for 6 x 2 grid (larger screens) */
+  @media (min-width: 1500px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(6, 1fr); /* 6 items per row */
     }
-}
 
-
-/* Individual Portfolio Items */
-.portfolio-item2 {
-    position: relative;
-    aspect-ratio: 1 / 1; /* Keeps the items square */
-    overflow: hidden;
+    .portfolio-item {
+        padding-bottom: 50px;
+    }
+  }
+  
+  /* For medium screens (768px - 1199px), 4 x 3 grid */
+  @media (max-width: 1499px) and (min-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    }
+  }
+  
+  /* For small screens (below 768px), 3 x 4 grid */
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    }
+  }
+  
+  /* For very small screens, 2 x 6 grid */
+  @media (max-width: 480px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+      overflow-y: scroll;
+    }
+  }
+  
+  /* Portfolio Item (Image Container) */
+  .portfolio-item {
+    width: 100%;
+    padding-bottom: 30px; /* for title */
+    aspect-ratio: 5 / 3; /* 5:3 aspect ratio for the container */
+    background-color: #f0f0f0;
     border-radius: 10px;
-    margin-bottom: 100%;
+    overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  }
+  
+  /* Image Styling */
+  .portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensure the entire image fits without stretching */
+    display: block; /* Removes space below the image */
+  }
+  
+  /* Title Styling (inside anchor tag) */
+  .portfolio-item .title {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for readability */
+    color: white;
+    padding: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 100%; /* Make sure the caption stretches across the entire width */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+    border-radius: 0 0 10px 10px
+}
+  
 
-    /* Optional Hover Effect */
-    &:hover {
-        transform: scale(1.05);
-    }
-
-    /* Caption Overlay */
-    .title {
-        position: absolute;
-        bottom: 10px;
-        /* Position the caption at the bottom of the image */
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: rgba(0, 0, 0, 0.6);
-        /* Semi-transparent background */
-        color: white;
-        /* White text */
-        padding: 5px 10px;
-        font-size: 0.8rem;
-        font-weight: 700;
-        text-align: center;
-        border-radius: 5px;
-        width: 90%;
-        box-sizing: border-box;
-
-        /* Optional Text Shadow for better legibility */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+/* Initially hide all paragraphs except the first */
+.text-heavy p:not(:first-child),.text-heavy ul:not(:first-child) {
+    display: none;
 }
 
-/* Optional Hover Effect to Focus on Text */
-.portfolio-item2:hover .title {
-    background-color: rgba(0, 0, 0, 0.8);
-    /* Darker background on hover */
-}
+
+/* Style the 'Read more' button */
+.read-more-btn {
+    position: absolute; /* Absolute positioning within the parent div */
+    bottom: -15px; /* 10px from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust the position to be perfectly centered */
+    width: 30px; /* Button width */
+    height: 30px; /* Button height */
+    background-color: $body-bg; /* Same color as the div background */
+    color: $highlight-color; /* Orange stroke color */
+    border: 2px solid $highlight-color; /* Orange border */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  /* Hover effect: Change the background and border color */
+  .read-more-btn:hover {
+    background-color: $highlight-color;
+    border-color: #ecf0f1;
+    color: #fff; /* White arrow when hovered */
+  }
+  
+  /* Arrow inside the button */
+  .read-more-btn .icon {
+    font-size: 24px; /* Adjust arrow size */
+  }
+  
